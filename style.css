@@ -230,3 +230,21 @@ this is card bottiom heading section */
 .align{
     color: blue;
 }
+
+
+
+/* =====this is slik carousel in css with baground-img  ===== */
+
+.bg-1{
+    background-image: url("/img/slid1.svg");
+    background-repeat: no-repeat;
+}
+
+/* this is slik carousel main class and we change the shape of slik */
+
+.your-class{
+    background-color: blue;
+    position: relative;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+}

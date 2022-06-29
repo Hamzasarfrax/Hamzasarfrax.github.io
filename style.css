@@ -1,32 +1,31 @@
-
-
 /* ====to aligbn container center======*/
 
-.container{
+.container {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
 
 
 /* =======this is navlink css part ===========*/
-.link{
+.link {
 
-text-transform: capitalize;
-color: blue;
-padding: 10px;
-text-decoration: none;
+    text-transform: capitalize;
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
 
 }
-.link:hover{
+
+.link:hover {
     text-decoration: none;
 }
 
-#home{
+#home {
     background-color: blue;
     color: aliceblue;
     border-radius: 5px;
@@ -36,64 +35,66 @@ text-decoration: none;
     padding-bottom: 7px;
 }
 
-#home:hover{
+#home:hover {
     background-color: rgb(179, 179, 179);
     color: blue;
 }
 
 /*=====thsi is for text transform====  */
 
-.text{
+.text {
     text-transform: uppercase;
     width: 77%;
     font-weight: bold;
     font-size: larger;
+
 }
 
-.text-color{
- color: blue;
+.text-color {
+    color: blue;
 }
 
-.paragraph{
+.paragraph {
     text-transform: capitalize;
     width: 90%;
 
 }
 
 /*====== this is second coloum background-color==== */
-.background-color{
-/* 
-background-color: rgb(52, 52, 97);
-width: 50rem;
-border-radius:30% 70% 0% 100% / 24% 0% 100% 76%  ;
-height: 100vh; */
-background-image: url("/img/mainrec.svg");
-background-repeat: no-repeat;
-background-size: contain;
-
-padding-bottom: 30rem;
+.background-color {
+   
 position: relative;
+    background-image: url("/img/mainrec.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 
-width: 100vw;
-left: 30%;
+    bottom: 50rem; 
+    position: relative;
+
+    width: 100vw;
+    padding-left: 30%;
+    margin-left: 40%;
 
 }
 
-.img{
- height: 20rem;
- width: 30vw;
+.img {
+    height: 20rem;
+    width: 30vw;
+    padding-top: 5%;
 }
-.searchbar{
+
+.searchbar {
     display: flex;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-bottom: 70vh;
-z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 70vh;
+    z-index: 1;
 
 
 }
-.bg{
+
+.bg {
     border: 3px solid blue;
     height: 60px;
     border-radius: 5px;
@@ -104,30 +105,29 @@ z-index: 1;
 
 /* =====this is button css===== */
 
-.batn
-{
+.batn {
 
     background-color: blue;
     color: white;
-  margin-top: 32px;
-  margin-right: 20px;
-  
+    margin-top: 32px;
+    margin-right: 20px;
+
 }
 
 /* this is for image back slidr type */
-.img-bg{
-background-color: white;
-margin-top: 50px;
-margin-bottom: 30px;
+.img-bg {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
 
 
 }
 
-.background-cont{
+.background-cont {
     background-color: rgb(44, 44, 175);
     border-radius: 30px;
-position: relative;
-bottom: 70vh;
+    position: relative;
+    bottom: 70vh;
 
 
 
@@ -137,82 +137,88 @@ bottom: 70vh;
 /* ====this is third section css=== */
 
 
-.maindiv{
-    background-color: rgb(69, 69, 167);
+.maindiv {
+
     /* border-radius: 0% 100% 97% 3% / 98% 71% 29% 2%  ; */
     width: 80vw;
     height: 130vh;
     position: relative;
     bottom: 70vh;
-    background-image: url("/img/mainrec.svg");
+    background-image: url("/img/main2.svg");
+    background-repeat: no-repeat;
+    background-size: 70rem;
+  
 }
 
 
 /* this is setting heignt and postion of container 3rd secftion */
 
 
-.bg-container-2{
+.bg-container-2 {
     position: relative;
-left: 10%;
-top: 10%;
+    left: 10%;
+    top: 10%;
 
-/* top: 35vh; */
-transform: translate(50% 50%);
+    /* top: 35vh; */
+    transform: translate(50% 50%);
 
 
 }
 
 /* this is sec para which is ceneter in container */
 
-.sec-para{
-    text-align:center; 
-border: 2px solid blue;
-width: 30vw;
-left: 30%;
-position: relative;
-padding-top: 20px;
-text-transform: capitalize;
-font-weight: bolder;
-border-radius: 20px;
-box-shadow: 2px 3px 4px 3px;
+.sec-para {
+    text-align: center;
+    border: 2px solid blue;
+    width: 30vw;
+    left: 30%;
+    position: relative;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 3px;
 
 }
 
 /* ===thsi is container inside col box color===  */
 
-.box{
-background-color: rgb(223, 237, 242);
-width: 25vw;
-border-radius: 20px;
-height: 70vh;
-border: 2px solid blue;
-box-shadow: 2px 2px 2px 2px;
+.box {
+    background-color: rgb(223, 237, 242);
+    width: 25vw;
+    border-radius: 20px;
+    height: 60vh;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px 2px;
 }
 
 /* this is button css */
 
-.btn{
+.btn {
     position: relative;
     text-transform: capitalize;
-  bottom: 25px;
+    bottom: 25px;
 }
+
 /* 
 this is card bottiom heading section */
 
-.third-heading{
+.third-heading {
     position: relative;
-    bottom: 40vh;
+    bottom: 90vh;
     width: 45vw;
     text-transform: capitalize;
 }
 
+
+
 /* =====this is for last text of paragraph center======= */
-.center{
-    text-align-last:center ;
+.center {
+    text-align-last: center;
 }
 
 /* this is 4rt para svg cdircle */
-.third-para{
+.third-para {
 
     position: relative;
     left: 15vw;
@@ -221,30 +227,85 @@ this is card bottiom heading section */
     font-size: larger;
 }
 
-.circle-para{
+.circle-para {
     position: relative;
     left: 28%;
     bottom: 20vh;
 }
 
-.align{
+.align {
     color: blue;
 }
 
+/*====== this is for setting width and height .third-heading =====*/
+
+
+.heading-section {
+    position: relative;
+    top: -80vh;
+}
 
 
 /* =====this is slik carousel in css with baground-img  ===== */
 
-.bg-1{
+.bg-1 {
     background-image: url("/img/slid1.svg");
     background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 50px;
+
 }
+
+
+/*==== this is slik .background-img 2 ====*/
+
+.bg-2 {  background-image: url("/img/silk2.svg");
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 50px;
+
+
+
+}
+
 
 /* this is slik carousel main class and we change the shape of slik */
 
-.your-class{
-    background-color: blue;
+.your-class {
+
     position: relative;
-   border-top-right-radius: 50%;
-   border-bottom-left-radius: 50%;
+    bottom: 80vh;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    background-image: url("/img/silkmain.svg");
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============this is footer css for page========== */
+
+
+.site-footer {
+
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+
 }

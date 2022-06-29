@@ -3014,7 +3014,60 @@
     $('.your-class').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        dots: true,
+        infinite: true,
+        speed: 500,
+    
+        cssEase: 'linear',
+        responsive: [
+            {
+              breakpoint: 1199,
+              settings: {
+                arrows: true,
+              
+                centerPadding: '40px',
+                slidesToShow: 2
+              }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                  arrows: true,
+                
+                  centerPadding: '40px',
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 880,
+                settings: {
+                  arrows: true,
+                
+                  
+                  slidesToShow: 1,
+                  slidesToScroll:1
+                }
+              },
+            {
+                breakpoint: 768,
+                settings: {
+                  arrows: true,
+                
+                  centerPadding: '40px',
+                  slidesToShow: 1
+                }
+              },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: true,
+              
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
       });
 
 

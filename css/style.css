@@ -333,12 +333,117 @@ this is card bottiom heading section */
 
 
 
+/* ==================this is service page styling============= */
+
+
+
+.service-box {
+    background-color: rgb(235, 237, 237);
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.service-box,
+para {
+    font-size: 12px;
+}
+
+/* this is image of svg of service page */
+
+.service-bg {
+    background-image: url("/img/rectangle-64-1@1x.svg");
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: 45vw -7vw;
+}
+
+/* 
+this is box-img of service pager  */
+
+
+.box-img {
+
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 20vh;
+    position: relative;
+    bottom: 70%;
+    right: 4vw;
+    width: 17vw;
+    padding-top: 15px;
+    padding-left: 6px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* this the page of pricig some space from bottom */
+
+.pricing-main{margin-bottom: 10vh;}
+
+
+
+
+
+
+
+
+
 /* this is how its work page csss */
 
 
+.background-image {
+    background-image: url("");
+}
 
 
 
+/* =========this is the how its work page styling============= */
+
+
+.work-image {
+    background-image: url("/img/mainrec.svg");
+    background-repeat: no-repeat;
+    background-position-x: 30vw;
+}
+
+/* this is for image ellipse 37 mouth */
+
+.work-image-2 {
+    background-image: url("/img/ellipse-37@1x.svg");
+    background-repeat: no-repeat;
+    background-position: "";
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    top: 20vh;
+    z-index: -2;
+}
+
+
+/* this is hide image from mobile devices */
+/* and responsive for image */
+@media (max-width:768px) {
+    .work-image {
+        background-image: none;
+    }
+
+    .work-image-2 {
+        background-image: none;
+
+    }
+}
 
 
 
@@ -382,7 +487,7 @@ this is card bottiom heading section */
 
 
 /* this is responsive layouts for our things and data */
-
+/* this is responsive layoyuts of service page botttom */
 @media (max-width:992px) {
     /* this is navbar */
 
@@ -392,18 +497,24 @@ this is card bottiom heading section */
         width: 100%;
         justify-content: center;
     }
+
+
+
+    /* toggler this is hide */
+
+    .navbar-toggler.collapsed {
+
+        border: none;
+        outline: none;
+        box-shadow: none;
+
+    }
 }
 
 
 
 
 @media (min-width:768px)and (max-width:992px) {
-
-
-
-
-
-
     /* this is container third width section */
 
 
@@ -653,4 +764,204 @@ this is first card third section buttions */
     }
 
 
+}
+
+
+
+/* ============this is responsive layoyuts of service page botttom======= */
+
+/* ====my page setting responsive from large screen==== */
+/* this setting second col lefting spacing */
+
+@media (min-width:992px) {
+    .left-spacing {
+        margin-left: 45px;
+    }
+}
+
+
+/* this is marging for button */
+@media (min-width:576px) {
+    .margin-btn {
+        margin-left: 65%;
+        position: relative;
+        bottom: 16.5vh;
+    }
+}
+
+/* this is for work page colum reverse  */
+
+@media (max-width:992px) {
+
+    /* this is for reverse the column */
+    .revert-col {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+}
+
+
+@media (min-width:768px)and (max-width:992px) {
+
+    .service-box {
+        margin-top: 50px;
+    }
+
+
+
+
+    .box-img {
+
+        background-color: white;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 20vh;
+        position: relative;
+        bottom: 120%;
+        right: 4vw;
+        width: 17vw;
+        padding-top: 15px;
+        padding-left: 6px;
+        margin-bottom: 20px;
+    }
+
+    /* thuis is setting image side by side */
+    .service-bg {
+        background-image: url("/img/rectangle-64-1@1x.svg");
+        position: relative;
+
+        background-repeat: no-repeat;
+        background-position: 45vw -9vw;
+    }
+
+
+}
+
+
+@media (min-width:576px)and (max-width:768px) {
+
+    .service-box {
+        margin-top: 50px;
+    }
+
+
+
+
+    .box-img {
+
+        background-color: white;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 20vh;
+        position: relative;
+        bottom: 70%;
+        right: 4vw;
+        width: 28vw;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* thuis is setting image side by side */
+    .service-bg {
+        background-image: url("/img/rectangle-64-1@1x.svg");
+        position: relative;
+
+        background-repeat: no-repeat;
+        background-position: 45vw -7vw;
+    }
+
+
+    /* this is input button */
+
+    .margin-btn {
+        margin-left: 55%;
+        position: relative;
+        bottom: 16.5vh;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .service-box {
+        margin-top: 50px;
+        height: 25vh;
+    }
+
+    /* this is paragraph setting */
+    .service-box,
+    para {
+        z-index: 1;
+    }
+
+
+    .box-img {
+
+        background-color: #efefef;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 20vh;
+        position: relative;
+        bottom: 15%;
+        right: -1vw;
+        width: 30vw;
+        padding-top: 30px;
+        padding-left: 10px;
+
+    }
+
+    /* thuis is setting image side by side */
+    .service-bg {
+        background-image: url("/img/rectangle-64-1@1x.svg");
+        position: relative;
+
+        background-repeat: no-repeat;
+        background-position: 45vw -7vw;
+    }
+
+}
+
+
+/* this is some extra setting of servive page responsive issues */
+
+@media (max-width:440px) {
+    .box-img {
+
+        backface-visibility: hidden;
+        background-color: #efefef;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 20vh;
+        position: relative;
+        bottom: 15%;
+        right: -1vw;
+        width: 60vw;
+        padding-top: 30px;
+        padding-left: 10px;
+
+    }
+}
+
+
+
+/* 
+this is the pricing page responsive layoputs ==============*/
+
+@media (max-width:992px) {
+    /* this is the priicing page setting all  */
+
+    .pricing-main {
+     position: relative;
+     left: 25vw;
+     margin-bottom: 20vh;
+    }
+
+}
+
+@media  (max-width:450px) {
+    .pricing-main {
+        position: relative;
+        left: 5vw;
+       }
 }

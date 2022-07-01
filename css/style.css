@@ -291,9 +291,11 @@ this is card bottiom heading section */
 
 .bg-1 {
     background-image: url("/img/slid1.svg");
+    /* background-image: url("/img/add.svg"); */
     background-repeat: no-repeat;
     height: 100vh;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 40px;
     margin-left: 50px;
 
 }
@@ -306,8 +308,9 @@ this is card bottiom heading section */
 
     background-repeat: no-repeat;
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 50px;
+    width: 100%;
 
 
 
@@ -323,7 +326,8 @@ this is card bottiom heading section */
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
     background-image: url("/img/silkmain.svg");
-    height: 70vh;
+    height: 90vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -447,6 +451,18 @@ this is box-img of service pager  */
 
 
 
+/* =======this is the page of member page box design box-design-members======= */
+
+.box-design-members{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: #efefef;
+    text-transform: capitalize;
+  position: relative;
+
+}
 
 /*============this is footer css for page========== */
 
@@ -474,10 +490,40 @@ this is box-img of service pager  */
     height: 20px;
 }
 
+/* ===this is footer social icobs css=== */
+
+.social-icon{
+
+margin-right: 30px;
+
+border: 2px solid blue;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+padding-top: 18px;
+padding-left: 6%;
 
 
+}
 
 
+.social{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fottre social icons responsive */
+
+@media (max-width:576px) {
+    .social-icon{
+
+        padding-left: 3%;
+        
+        
+        }  
+}
 
 
 

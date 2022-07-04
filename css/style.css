@@ -70,7 +70,7 @@
 .background-color {
 
     position: relative;
-    background-image: url("/img/mainrec.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/mainrec_t5pu7x.svg");
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -290,12 +290,12 @@ this is card bottiom heading section */
 /* =====this is slik carousel in css with baground-img  ===== */
 
 .bg-1 {
-    background-image: url("/img/slid1.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/slid1_yoxwjk.svg");
     /* background-image: url("/img/add.svg"); */
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    margin-top: 40px;
+
     margin-left: 50px;
 
 }
@@ -304,7 +304,7 @@ this is card bottiom heading section */
 /*==== this is slik .background-img 2 ====*/
 
 .bg-2 {
-    background-image: url("/img/silk2.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924352/web-images/img/silk2_td9tro.svg");
 
     background-repeat: no-repeat;
     height: 100vh;
@@ -323,11 +323,11 @@ this is card bottiom heading section */
 
     position: relative;
     bottom: 60vh;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    background-image: url("/img/silkmain.svg");
-    height: 90vh;
-
+     /* border-top-right-radius: 20%; */
+    border-bottom-left-radius: 30%; 
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/silkmain_ru6pg9.svg");
+    height: 100vh;
+padding-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;

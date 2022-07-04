@@ -361,11 +361,23 @@ para {
 /* this is image of svg of service page */
 
 .service-bg {
-    background-image: url("/img/rectangle-64-1@1x.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
     position: relative;
 
     background-repeat: no-repeat;
     background-position: 45vw -7vw;
+}
+
+/* this is  sec image of service page background */
+.service-bg-2{
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+    background-repeat: no-repeat;
+background-position: cover;
+width: 100vw;
+height: 120vh;
+padding-bottom: 20vh;
+z-index: -2;
+ 
 }
 
 /* 
@@ -417,7 +429,7 @@ this is box-img of service pager  */
 
 
 .work-image {
-    background-image: url("/img/mainrec.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/mainrec_gwxmwh.svg");
     background-repeat: no-repeat;
     background-position-x: 30vw;
 }
@@ -425,7 +437,7 @@ this is box-img of service pager  */
 /* this is for image ellipse 37 mouth */
 
 .work-image-2 {
-    background-image: url("/img/ellipse-37@1x.svg");
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
     background-repeat: no-repeat;
     background-position: "";
     position: relative;
@@ -447,6 +459,8 @@ this is box-img of service pager  */
         background-image: none;
 
     }
+
+ 
 }
 
 
@@ -822,6 +836,22 @@ this is first card third section buttions */
 @media (min-width:992px) {
     .left-spacing {
         margin-left: 45px;
+    }
+
+}
+@media (max-width:992px) {
+    .service-bg-2{
+      
+        margin-bottom: 60vh;
+
+    }
+}
+
+@media (max-width:576px) {
+    .service-bg-2{
+      
+        margin-bottom: 100vh;
+
     }
 }
 

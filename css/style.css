@@ -1,6 +1,10 @@
 /* this  is main-section for padding and margin */
 
 /* ====to aligbn container center======*/
+/* to declare a color in variable */
+:root{
+  --main-color:#0388fc;
+}
 
 .container {
   display: flex;
@@ -12,17 +16,41 @@
 /* =======this is navlink css part ===========*/
 .link {
   text-transform: capitalize;
-  color: blue;
+  color: var(--main-color);
   padding: 10px;
   text-decoration: none;
+  font-size: x-large;
+  position: relative;
+}
+
+.link:before{
+content: "";
+position: absolute;
+background-color: var(--main-color);
+width: 0;
+height: 2px;
+border-radius: 3px;
+left: 0;
+top: 100%;
+transition: all 1s ease-in-out;
+}
+
+.link:hover:before{
+  width: 100%;
+}
+
+
+link:active{
+color: blue;
 }
 
 .link:hover {
   text-decoration: none;
+  color: var(--main-color);
 }
 
 #home {
-  background-color: blue;
+  background-color: var(--main-color);
   color: aliceblue;
   border-radius: 5px;
   padding-left: 20px;
@@ -33,25 +61,30 @@
 
 #home:hover {
   background-color: rgb(179, 179, 179);
-  color: blue;
+  color: var(--main-color);
 }
 
 /*=====thsi is for text transform====  */
 
 .text {
   text-transform: uppercase;
-  width: 77%;
-  font-weight: bold;
-  font-size: larger;
+  width: 100%;
+  font-weight: bolder;
+
 }
 
 .text-color {
-  color: blue;
+  color: var(--main-color);
 }
 
 .paragraph {
   text-transform: capitalize;
-  width: 90%;
+  width: 160%;
+
+}
+
+.font{
+font-size: 40px;
 }
 
 /*====== this is second coloum background-color==== */

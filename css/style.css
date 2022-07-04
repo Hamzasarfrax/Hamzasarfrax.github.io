@@ -1,391 +1,837 @@
 /* this  is main-section for padding and margin */
 
-
-.main-section {}
-
-
 /* ====to aligbn container center======*/
 
 .container {
-    display: flex;
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
-
-
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 /* =======this is navlink css part ===========*/
 .link {
-
-    text-transform: capitalize;
-    color: blue;
-    padding: 10px;
-    text-decoration: none;
-
+  text-transform: capitalize;
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #home {
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 7px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 7px;
 }
 
 #home:hover {
-    background-color: rgb(179, 179, 179);
-    color: blue;
+  background-color: rgb(179, 179, 179);
+  color: blue;
 }
 
 /*=====thsi is for text transform====  */
 
 .text {
-    text-transform: uppercase;
-    width: 77%;
-    font-weight: bold;
-    font-size: larger;
-
+  text-transform: uppercase;
+  width: 77%;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .text-color {
-    color: blue;
+  color: blue;
 }
 
 .paragraph {
-    text-transform: capitalize;
-    width: 90%;
-
+  text-transform: capitalize;
+  width: 90%;
 }
 
 /*====== this is second coloum background-color==== */
 .background-color {
+  position: relative;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/mainrec_t5pu7x.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 
-    position: relative;
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/mainrec_t5pu7x.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-
-
-
-    height: 160vh;
-    width: 100vw;
-    padding-left: 30%;
-    margin-left: 20%;
-
+  height: 160vh;
+  width: 100vw;
+  padding-left: 30%;
+  margin-left: 20%;
 }
 
 .img {
-    height: 20rem;
-    width: 40vw;
-
+  height: 20rem;
+  width: 40vw;
 }
 
 .searchbar {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 70vh;
-    z-index: 1;
-
-
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 70vh;
+  z-index: 1;
 }
 
 .bg {
-    border: 3px solid blue;
-    height: 60px;
-    border-radius: 5px;
-    padding-left: 30vw;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+  border: 3px solid blue;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* =====this is button css===== */
 
 .batn {
-
-    background-color: blue;
-    color: white;
-    margin-top: 32px;
-    margin-right: 20px;
-
+  background-color: blue;
+  color: white;
+  margin-top: 32px;
+  margin-right: 20px;
 }
 
 /* this is for image back slidr type */
 .img-bg {
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 30px;
-
-
-
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .img-width {
-    width: 15vw;
+  width: 15vw;
 }
 
 .background-cont {
-    background-color: rgb(44, 44, 175);
-    border-radius: 30px;
-    position: relative;
-    bottom: 70vh;
-
-
-
+  background-color: rgb(44, 44, 175);
+  border-radius: 30px;
+  position: relative;
+  bottom: 70vh;
 }
-
 
 /* ====this is third section css=== */
 
-
 .maindiv {
-
-    /* border-radius: 0% 100% 97% 3% / 98% 71% 29% 2%  ; */
-    width: 80vw;
-    height: 130vh;
-    position: relative;
-    bottom: 70vh;
-    background-image: url("/img/main2.svg");
-    background-repeat: no-repeat;
-    background-size: 70rem;
-
+  /* border-radius: 0% 100% 97% 3% / 98% 71% 29% 2%  ; */
+  width: 80vw;
+  height: 130vh;
+  position: relative;
+  bottom: 70vh;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/main2_qc0ycw.svg");
+  background-repeat: no-repeat;
+  background-size: 70rem;
 }
-
 
 /* this is setting heignt and postion of container 3rd secftion */
 
-
 .bg-container-2 {
-    position: relative;
-    left: 10%;
-    top: 10%;
+  position: relative;
+  left: 10%;
+  top: 10%;
 
-    /* top: 35vh; */
-    transform: translate(50% 50%);
-
-
+  /* top: 35vh; */
+  transform: translate(50% 50%);
 }
-
-
-
 
 /* this is sec para which is ceneter in container */
 
 .sec-para {
-    text-align: center;
-    border: 2px solid blue;
-    width: 30vw;
-    left: 30%;
-    position: relative;
-    padding-top: 20px;
-    text-transform: capitalize;
-    font-weight: bolder;
-    border-radius: 20px;
-    box-shadow: 2px 3px 4px 3px;
-
+  text-align: center;
+  border: 2px solid blue;
+  width: 30vw;
+  left: 30%;
+  position: relative;
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px 3px;
 }
 
 /* ===thsi is container inside col box color===  */
 
 .box {
-    background-color: rgb(223, 237, 242);
-    width: 26vw;
-    border-radius: 20px;
-    height: 80vh;
-    border: 2px solid blue;
-    box-shadow: 2px 2px 2px 2px;
+  background-color: rgb(223, 237, 242);
+  width: 26vw;
+  border-radius: 20px;
+  height: 80vh;
+  border: 2px solid blue;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 /* this is button css */
 
 .btn {
-    position: relative;
-    text-transform: capitalize;
-    bottom: 25px;
+  position: relative;
+  text-transform: capitalize;
+  bottom: 25px;
 }
 
 /* 
 this inside buuton of box */
 
 .butn {
-    margin-top: 15%;
-    width: 15vw;
-    border-radius: 15px;
-    padding: 5px;
-    text-transform: capitalize;
+  margin-top: 15%;
+  width: 15vw;
+  border-radius: 15px;
+  padding: 5px;
+  text-transform: capitalize;
 }
 
 /* this is thirsd card merge button */
 
 .batn-2 {
-    /* border: 2px solid blue;
+  /* border: 2px solid blue;
 padding-top: 20px;
 width:13.6vw;
 height: 6vh;
 padding-bottom: 29px;
 padding-top: 9px;
 border-radius: 10px; */
-
 }
-
-
-
 
 /* 
 this is card bottiom heading section */
 
 .third-heading {
-    position: relative;
-    bottom: 80vh;
-    width: 45vw;
-    text-transform: capitalize;
+  position: relative;
+  bottom: 80vh;
+  width: 45vw;
+  text-transform: capitalize;
 }
-
-
 
 /* =====this is for last text of paragraph center======= */
 .center {
-    text-align-last: center;
+  text-align-last: center;
 }
 
 /* this is 4rt para svg cdircle */
 .third-para {
-
-    position: relative;
-    left: 15vw;
-    color: blue;
-    font-weight: bolder;
-    font-size: larger;
+  position: relative;
+  left: 15vw;
+  color: blue;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .circle-para {
-    position: relative;
-    left: 28%;
-    bottom: 20vh;
+  position: relative;
+  left: 28%;
+  bottom: 20vh;
 }
 
 .align {
-    color: blue;
+  color: blue;
 }
 
 /*====== this is for setting width and height .third-heading =====*/
 
-
 .heading-section {
-    position: relative;
-    top: -80vh;
+  position: relative;
+  top: -80vh;
 }
-
 
 /* =====this is slik carousel in css with baground-img  ===== */
 
 .bg-1 {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/slid1_yoxwjk.svg");
-    /* background-image: url("/img/add.svg"); */
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/slid1_yoxwjk.svg");
+  /* background-image: url("/img/add.svg"); */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 70%;
 
-    margin-left: 50px;
-
+  margin-left: 50px;
 }
 
+/* this is slick dots */
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 56px;
+  line-height: 0px;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  width: 80px;
+  content: "•";
+  text-align: center;
+}
+
+.slick-dots li button {
+  font-family: "slick";
+  font-size: 56px;
+  line-height: 0px;
+  position: absolute;
+  top: -100%;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+  width: 50vw;
+  content: "•";
+  text-align: center;
+
+  border-radius: 2px;
+}
+
+.slick-prev:before {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/vector-23_2x_tz3hdk.svg");
+
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.slick-next:before {
+  /* content: '→'; */
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924356/web-images/img/vector-24_2x_uysuha.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: blue;
+  background-color: blue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  left: 50%;
+  z-index: 2;
+}
+
+.slick-next {
+  position: relative;
+  left: -40%;
+  margin-bottom: 5vh;
+}
+
+.slick-prev {
+  position: relative;
+  left: 40%;
+  margin-bottom: 5vh;
+  z-index: 10;
+}
+
+/* this is responsive layouts of slick carousel  */
+
+@media (max-width: 992px) {
+  .slick-prev:before,
+  .slick-next:before {
+    margin-top: 30px;
+    margin-left: 18px;
+  }
+
+  .slick-dots li button {
+    padding-bottom: 20px;
+  }
+}
 
 /*==== this is slik .background-img 2 ====*/
 
 .bg-2 {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924352/web-images/img/silk2_td9tro.svg");
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924352/web-images/img/silk2_td9tro.svg");
 
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 100%;
-
-
-
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 100%;
 }
-
 
 /* this is slik carousel main class and we change the shape of slik */
 
 .your-class {
-
-    position: relative;
-    bottom: 60vh;
-     /* border-top-right-radius: 20%; */
-    border-bottom-left-radius: 30%; 
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/silkmain_ru6pg9.svg");
-    height: 100vh;
-padding-top: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  position: relative;
+  bottom: 60vh;
+  /* border-top-right-radius: 20%; */
+  border-bottom-left-radius: 30%;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/silkmain_ru6pg9.svg");
+  height: 100vh;
+  padding-top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
 
 /* ==================this is service page styling============= */
 
-
-
 .service-box {
-    background-color: rgb(235, 237, 237);
-    height: 18vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 8%;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(235, 237, 237);
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 .service-box,
 para {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 /* this is image of svg of service page */
 
 .service-bg {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
-    position: relative;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
+  position: relative;
 
-    background-repeat: no-repeat;
-    background-position: 45vw -7vw;
+  background-repeat: no-repeat;
+  background-position: 45vw -7vw;
 }
 
 /* this is  sec image of service page background */
-.service-bg-2{
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-    background-repeat: no-repeat;
-background-position: cover;
-width: 100vw;
-height: 120vh;
-padding-bottom: 20vh;
-z-index: -2;
- 
+.service-bg-2 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 100vw;
+  height: 120vh;
+  padding-bottom: 20vh;
+  z-index: -2;
 }
 
 /* 
 this is box-img of service pager  */
 
-
 .box-img {
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 20vh;
+  position: relative;
+  bottom: 70%;
+  right: 4vw;
+  width: 17vw;
+  padding-top: 15px;
+  padding-left: 6px;
+  margin-bottom: 20px;
+}
 
+/* this the page of pricig some space from bottom */
+
+.pricing-main {
+  margin-bottom: 10vh;
+}
+
+/* this is how its work page csss */
+/* =========this is the how its work page styling============= */
+
+.work-image {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/mainrec_gwxmwh.svg");
+  background-repeat: no-repeat;
+  background-position-x: 30vw;
+}
+
+/* this is for image ellipse 37 mouth */
+
+.work-image-2 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
+  background-repeat: no-repeat;
+  background-position: "";
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  top: 20vh;
+  z-index: -2;
+}
+
+/* this is hide image from mobile devices */
+/* and responsive for image */
+@media (max-width: 768px) {
+  .work-image {
+    background-image: none;
+  }
+
+  .work-image-2 {
+    background-image: none;
+  }
+}
+
+/* =======this is the page of member page box design box-design-members======= */
+
+.box-design-members {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: #efefef;
+  text-transform: capitalize;
+  position: relative;
+}
+
+/*============this is footer css for page========== */
+
+.site-footer {
+  font-size: 15px;
+
+  color: #737373;
+  background-color: #efefef;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* this is firsst col of footer */
+.nav-footer {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.hr {
+  background-color: aqua;
+  height: 20px;
+}
+
+/* ===this is footer social icobs css=== */
+
+.social-icon {
+  margin-right: 30px;
+
+  border: 2px solid blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 18px;
+  padding-left: 6%;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fottre social icons responsive */
+
+@media (max-width: 576px) {
+  .social-icon {
+    padding-left: 3%;
+  }
+}
+
+/* this is responsive layouts for our things and data */
+/* this is responsive layoyuts of service page botttom */
+@media (max-width: 992px) {
+  /* this is navbar */
+
+  .nav-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* toggler this is hide */
+
+  .navbar-toggler.collapsed {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* this is container third width section */
+
+  /* this is main first svgt img left side */
+  .img {
+    height: 20rem;
+    width: 30vw;
+  }
+
+  /* 
+this is socials card section  ==========*/
+
+  .bg-container-2 {
+    position: relative;
+    left: 40%;
+    top: 10%;
+
+    /* top: 35vh; */
+    transform: translate(50% 50%);
+  }
+
+  .box {
+    margin-top: 25px;
+    width: 32vw;
+  }
+
+  /* this is setting position: top; */
+
+  .large-response {
+    margin-top: 190vh;
+  }
+}
+
+/* medium devices responsive */
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* this is container third width section */
+
+  /* this is main first svgt img left side */
+  .img {
+    height: 14rem;
+    width: 30rem;
+    margin-right: 100%;
+    position: relative;
+    left: -25%;
+  }
+
+  /* 
+    this is socials card section  ==========*/
+
+  .bg-container-2 {
+    position: relative;
+    left: 30%;
+    top: 10%;
+
+    /* top: 35vh; */
+    transform: translate(50% 50%);
+  }
+
+  .box {
+    margin-top: 25px;
+    width: 40vw;
+  }
+
+  /* this is setting position: top; */
+
+  .large-response {
+    margin-top: 190vh;
+  }
+
+  /* this is card button response */
+
+  .butn {
+    margin-top: 15px;
+    width: 26vw;
+  }
+
+  /* this is radius rectangle response */
+  .circle-para {
+  }
+
+  .third-para {
+    position: relative;
+    bottom: 25px;
+  }
+}
+
+/* this is small sixe respomse */
+
+@media (min-width: 100px) and (max-width: 576px) {
+  /* this is main first svgt img left side */
+
+  .background-color {
+    width: 100vw;
+    height: 180vh;
+    width: 100vw;
+    padding-left: 30%;
+    margin-left: 1%;
+  }
+
+  .img {
+    width: 20vw;
+    height: 10rem;
+  }
+
+  /* this is container third width section */
+
+  /* this is sec para start your cpmpaung */
+
+  .sec-para {
+    width: 60vw;
+    margin-right: 60vw;
+  }
+
+  /* this is main first svgt img left side */
+  .img {
+    height: 30rem;
+    width: 40rem;
+    margin-right: 90%;
+    position: relative;
+    left: -50%;
+  }
+
+  /* 
+        this is socials card section  ==========*/
+
+  .bg-container-2 {
+    position: relative;
+    left: 15%;
+    top: 10%;
+
+    /* top: 35vh; */
+    transform: translate(50% 50%);
+  }
+
+  .box {
+    margin-top: 40px;
+    width: 52vw;
+  }
+
+  /* this is setting position: top; */
+
+  .large-response {
+    margin-top: 190vh;
+  }
+
+  /* this is card button response */
+
+  .butn {
+    margin-top: 15px;
+    width: 30vw;
+  }
+
+  /* this is radius rectangle response */
+  .circle-para {
+  }
+
+  .third-para {
+    position: relative;
+    bottom: 25px;
+    left: 13rem;
+    font-weight: bolder;
+  }
+}
+
+.batn-third {
+  background-color: aqua;
+}
+
+/* this is responsvieness for box card width */
+
+@media (max-width: 450px) {
+  .box {
+    width: 80vw;
+  }
+
+  .third-para {
+    position: relative;
+    bottom: 25px;
+    left: 35vw;
+    font-weight: bolder;
+  }
+
+  /* 
+this is first card third section buttions */
+
+  .butn {
+    margin-top: 15px;
+    width: 40vw;
+  }
+
+  /* this is main first svgt img left side */
+
+  .background-color {
+    width: 100vw;
+    height: 180vh;
+    width: 100vw;
+    padding-left: 30%;
+    margin-left: 1%;
+  }
+
+  .img {
+    width: 80vw;
+    height: 2rem;
+    margin-left: 5vw;
+  }
+}
+
+/* ============this is responsive layoyuts of service page botttom======= */
+
+/* ====my page setting responsive from large screen==== */
+/* this setting second col lefting spacing */
+
+@media (min-width: 992px) {
+  .left-spacing {
+    margin-left: 45px;
+  }
+}
+
+@media (max-width: 992px) {
+  .service-bg-2 {
+    margin-bottom: 60vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-bg-2 {
+    margin-bottom: 100vh;
+  }
+}
+
+/* this is marging for button */
+@media (min-width: 576px) {
+  .margin-btn {
+    margin-left: 65%;
+    position: relative;
+    bottom: 16.5vh;
+  }
+}
+
+/* this is for work page colum reverse  */
+
+@media (max-width: 992px) {
+  /* this is for reverse the column */
+  .revert-col {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .service-box {
+    margin-top: 50px;
+  }
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 20vh;
+    position: relative;
+    bottom: 120%;
+    right: 4vw;
+    width: 17vw;
+    padding-top: 15px;
+    padding-left: 6px;
+    margin-bottom: 20px;
+  }
+
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: 45vw -9vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .service-box {
+    margin-top: 50px;
+  }
+
+  .box-img {
     background-color: white;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -393,651 +839,99 @@ this is box-img of service pager  */
     position: relative;
     bottom: 70%;
     right: 4vw;
-    width: 17vw;
-    padding-top: 15px;
-    padding-left: 6px;
-    margin-bottom: 20px;
-}
-
-
-
-
-
-
-/* this the page of pricig some space from bottom */
-
-.pricing-main{margin-bottom: 10vh;}
-
-
-
-
-
-
-
-
-
-/* this is how its work page csss */
-
-
-.background-image {
-    background-image: url("");
-}
-
-
-
-/* =========this is the how its work page styling============= */
-
-
-.work-image {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/mainrec_gwxmwh.svg");
-    background-repeat: no-repeat;
-    background-position-x: 30vw;
-}
-
-/* this is for image ellipse 37 mouth */
-
-.work-image-2 {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
-    background-repeat: no-repeat;
-    background-position: "";
-    position: relative;
-    width: 100%;
-    height: 120vh;
-    top: 20vh;
-    z-index: -2;
-}
-
-
-/* this is hide image from mobile devices */
-/* and responsive for image */
-@media (max-width:768px) {
-    .work-image {
-        background-image: none;
-    }
-
-    .work-image-2 {
-        background-image: none;
-
-    }
-
- 
-}
-
-
-
-/* =======this is the page of member page box design box-design-members======= */
-
-.box-design-members{
-    background-color: blue;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 40px;
-    color: #efefef;
-    text-transform: capitalize;
-  position: relative;
-
-}
-
-/*============this is footer css for page========== */
-
-
-.site-footer {
-
-
-    font-size: 15px;
-
-    color: #737373;
-    background-color: #efefef;
-    padding-bottom: 20px;
+    width: 28vw;
     padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
 
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: 45vw -7vw;
+  }
+
+  /* this is input button */
+
+  .margin-btn {
+    margin-left: 55%;
+    position: relative;
+    bottom: 16.5vh;
+  }
 }
 
-/* this is firsst col of footer */
-.nav-footer {
-    text-decoration: none;
-    text-transform: capitalize;
+@media (max-width: 576px) {
+  .service-box {
+    margin-top: 50px;
+    height: 25vh;
+  }
+
+  /* this is paragraph setting */
+  .service-box,
+  para {
+    z-index: 1;
+  }
+
+  .box-img {
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 20vh;
+    position: relative;
+    bottom: 15%;
+    right: -1vw;
+    width: 30vw;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: 45vw -7vw;
+  }
 }
-
-.hr {
-    background-color: aqua;
-    height: 20px;
-}
-
-/* ===this is footer social icobs css=== */
-
-.social-icon{
-
-margin-right: 30px;
-
-border: 2px solid blue;
-height: 50px;
-width: 50px;
-border-radius: 50%;
-padding-top: 18px;
-padding-left: 6%;
-
-
-}
-
-
-.social{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-/* fottre social icons responsive */
-
-@media (max-width:576px) {
-    .social-icon{
-
-        padding-left: 3%;
-        
-        
-        }  
-}
-
-
-
-
-
-
-
-
-/* this is responsive layouts for our things and data */
-/* this is responsive layoyuts of service page botttom */
-@media (max-width:992px) {
-    /* this is navbar */
-
-
-    .nav-item {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-
-    /* toggler this is hide */
-
-    .navbar-toggler.collapsed {
-
-        border: none;
-        outline: none;
-        box-shadow: none;
-
-    }
-}
-
-
-
-
-@media (min-width:768px)and (max-width:992px) {
-    /* this is container third width section */
-
-
-
-    /* this is main first svgt img left side */
-    .img {
-        height: 20rem;
-        width: 30vw;
-    }
-
-    /* 
-this is socials card section  ==========*/
-
-
-    .bg-container-2 {
-        position: relative;
-        left: 40%;
-        top: 10%;
-
-
-        /* top: 35vh; */
-        transform: translate(50% 50%);
-    }
-
-
-    .box {
-
-        margin-top: 25px;
-        width: 32vw;
-    }
-
-
-    /* this is setting position: top; */
-
-    .large-response {
-        margin-top: 190vh;
-    }
-
-
-}
-
-
-
-
-
-/* medium devices responsive */
-
-
-
-@media (min-width:576px)and (max-width:768px) {
-
-    /* this is container third width section */
-
-
-
-    /* this is main first svgt img left side */
-    .img {
-        height: 14rem;
-        width: 30rem;
-        margin-right: 100%;
-        position: relative;
-        left: -25%;
-    }
-
-    /* 
-    this is socials card section  ==========*/
-
-
-    .bg-container-2 {
-        position: relative;
-        left: 30%;
-        top: 10%;
-
-
-        /* top: 35vh; */
-        transform: translate(50% 50%);
-    }
-
-
-    .box {
-
-        margin-top: 25px;
-        width: 40vw;
-    }
-
-
-    /* this is setting position: top; */
-
-    .large-response {
-        margin-top: 190vh;
-    }
-
-    /* this is card button response */
-
-    .butn {
-        margin-top: 15px;
-        width: 26vw;
-    }
-
-
-    /* this is radius rectangle response */
-    .circle-para {}
-
-    .third-para {
-        position: relative;
-        bottom: 25px;
-    }
-
-}
-
-
-
-
-
-/* this is small sixe respomse */
-
-
-@media (min-width:100px)and (max-width:576px) {
-
-
-    /* this is main first svgt img left side */
-
-
-    .background-color {
-        width: 100vw;
-        height: 180vh;
-        width: 100vw;
-        padding-left: 30%;
-        margin-left: 1%;
-    }
-
-    .img {
-        width: 20vw;
-        height: 10rem;
-    }
-
-    /* this is container third width section */
-
-    /* this is sec para start your cpmpaung */
-
-    .sec-para {
-        width: 60vw;
-        margin-right: 60vw;
-    }
-
-    /* this is main first svgt img left side */
-    .img {
-        height: 30rem;
-        width: 40rem;
-        margin-right: 90%;
-        position: relative;
-        left: -50%;
-    }
-
-    /* 
-        this is socials card section  ==========*/
-
-
-    .bg-container-2 {
-        position: relative;
-        left: 15%;
-        top: 10%;
-
-
-        /* top: 35vh; */
-        transform: translate(50% 50%);
-    }
-
-
-    .box {
-
-        margin-top: 40px;
-        width: 52vw;
-    }
-
-
-    /* this is setting position: top; */
-
-    .large-response {
-        margin-top: 190vh;
-    }
-
-    /* this is card button response */
-
-    .butn {
-        margin-top: 15px;
-        width: 30vw;
-    }
-
-
-    /* this is radius rectangle response */
-    .circle-para {}
-
-    .third-para {
-        position: relative;
-        bottom: 25px;
-        left: 13rem;
-        font-weight: bolder;
-    }
-
-}
-
-.batn-third {
-
-    background-color: aqua;
-}
-
-/* this is responsvieness for box card width */
-
-@media (max-width:450px) {
-    .box {
-        width: 80vw;
-    }
-
-    .third-para {
-        position: relative;
-        bottom: 25px;
-        left: 35vw;
-        font-weight: bolder;
-    }
-
-    /* 
-this is first card third section buttions */
-
-
-    .butn {
-        margin-top: 15px;
-        width: 40vw;
-    }
-
-
-    /* this is main first svgt img left side */
-
-
-    .background-color {
-        width: 100vw;
-        height: 180vh;
-        width: 100vw;
-        padding-left: 30%;
-        margin-left: 1%;
-    }
-
-    .img {
-        width: 80vw;
-        height: 2rem;
-        margin-left: 5vw;
-    }
-
-
-}
-
-
-
-/* ============this is responsive layoyuts of service page botttom======= */
-
-/* ====my page setting responsive from large screen==== */
-/* this setting second col lefting spacing */
-
-@media (min-width:992px) {
-    .left-spacing {
-        margin-left: 45px;
-    }
-
-}
-@media (max-width:992px) {
-    .service-bg-2{
-      
-        margin-bottom: 60vh;
-
-    }
-}
-
-@media (max-width:576px) {
-    .service-bg-2{
-      
-        margin-bottom: 100vh;
-
-    }
-}
-
-
-/* this is marging for button */
-@media (min-width:576px) {
-    .margin-btn {
-        margin-left: 65%;
-        position: relative;
-        bottom: 16.5vh;
-    }
-}
-
-/* this is for work page colum reverse  */
-
-@media (max-width:992px) {
-
-    /* this is for reverse the column */
-    .revert-col {
-        display: flex;
-        flex-flow: column-reverse;
-    }
-}
-
-
-@media (min-width:768px)and (max-width:992px) {
-
-    .service-box {
-        margin-top: 50px;
-    }
-
-
-
-
-    .box-img {
-
-        background-color: white;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        height: 20vh;
-        position: relative;
-        bottom: 120%;
-        right: 4vw;
-        width: 17vw;
-        padding-top: 15px;
-        padding-left: 6px;
-        margin-bottom: 20px;
-    }
-
-    /* thuis is setting image side by side */
-    .service-bg {
-        background-image: url("/img/rectangle-64-1@1x.svg");
-        position: relative;
-
-        background-repeat: no-repeat;
-        background-position: 45vw -9vw;
-    }
-
-
-}
-
-
-@media (min-width:576px)and (max-width:768px) {
-
-    .service-box {
-        margin-top: 50px;
-    }
-
-
-
-
-    .box-img {
-
-        background-color: white;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        height: 20vh;
-        position: relative;
-        bottom: 70%;
-        right: 4vw;
-        width: 28vw;
-        padding-top: 20px;
-        padding-left: 10px;
-        margin-bottom: 20px;
-    }
-
-    /* thuis is setting image side by side */
-    .service-bg {
-        background-image: url("/img/rectangle-64-1@1x.svg");
-        position: relative;
-
-        background-repeat: no-repeat;
-        background-position: 45vw -7vw;
-    }
-
-
-    /* this is input button */
-
-    .margin-btn {
-        margin-left: 55%;
-        position: relative;
-        bottom: 16.5vh;
-    }
-
-}
-
-
-@media (max-width:576px) {
-    .service-box {
-        margin-top: 50px;
-        height: 25vh;
-    }
-
-    /* this is paragraph setting */
-    .service-box,
-    para {
-        z-index: 1;
-    }
-
-
-    .box-img {
-
-        background-color: #efefef;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        height: 20vh;
-        position: relative;
-        bottom: 15%;
-        right: -1vw;
-        width: 30vw;
-        padding-top: 30px;
-        padding-left: 10px;
-
-    }
-
-    /* thuis is setting image side by side */
-    .service-bg {
-        background-image: url("/img/rectangle-64-1@1x.svg");
-        position: relative;
-
-        background-repeat: no-repeat;
-        background-position: 45vw -7vw;
-    }
-
-}
-
 
 /* this is some extra setting of servive page responsive issues */
 
-@media (max-width:440px) {
-    .box-img {
-
-        backface-visibility: hidden;
-        background-color: #efefef;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        height: 20vh;
-        position: relative;
-        bottom: 15%;
-        right: -1vw;
-        width: 60vw;
-        padding-top: 30px;
-        padding-left: 10px;
-
-    }
+@media (max-width: 440px) {
+  .box-img {
+    backface-visibility: hidden;
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 20vh;
+    position: relative;
+    bottom: 15%;
+    right: -1vw;
+    width: 60vw;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
 }
-
-
 
 /* 
 this is the pricing page responsive layoputs ==============*/
 
-@media (max-width:992px) {
-    /* this is the priicing page setting all  */
+@media (max-width: 992px) {
+  /* this is the priicing page setting all  */
 
-    .pricing-main {
-     position: relative;
-     left: 25vw;
-     margin-bottom: 20vh;
-    }
-
+  .pricing-main {
+    position: relative;
+    left: 25vw;
+    margin-bottom: 20vh;
+  }
 }
 
-@media  (max-width:450px) {
-    .pricing-main {
-        position: relative;
-        left: 5vw;
-       }
+@media (max-width: 450px) {
+  .pricing-main {
+    position: relative;
+    left: 5vw;
+  }
 }

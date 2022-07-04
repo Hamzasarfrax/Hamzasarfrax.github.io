@@ -3018,6 +3018,7 @@
         dots: true,
         infinite: true,
         speed: 500,
+ 
     
         cssEase: 'linear',
         responsive: [
@@ -3046,7 +3047,8 @@
                 
                   
                   slidesToShow: 1,
-                  slidesToScroll:1
+                  slidesToShow: 2,
+                  slidesToScroll:1,
                 }
               },
             {
@@ -3055,7 +3057,8 @@
                   arrows: true,
                 
                   centerPadding: '40px',
-                  slidesToShow: 1
+                  slidesToShow: 1,
+                  slidesToScroll:1,
                 }
               },
             {
@@ -3064,7 +3067,8 @@
                 arrows: true,
               
                 centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                slidesToScroll:1,
               }
             }
           ]

@@ -4,7 +4,37 @@
 /* to declare a color in variable */
 :root {
   --main-color: #0388fc;
-  --color-two:#051ab5;
+  --color-two: #1b46ba;
+  --text-color:#efefef;
+}
+
+.btn:hover{
+  background-color: var(--main-color);
+  color:var(--text-color) ;
+}
+
+.btn{
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+}
+.btn:before{
+  content: "";
+  position: absolute;
+  background-color: var(--color-two);
+  color: var(--main-color);
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  transition: all 2s ease-in-out;
+z-index: -10;
+}
+
+.btn:hover:before{
+  width: 100%;
+ 
 }
 
 .container {
@@ -61,8 +91,8 @@ link:active {
 }
 
 #home:hover {
-  background-color: rgb(179, 179, 179);
-  color: var(--main-color);
+  /* background-color: rgb(179, 179, 179);
+  color: var(--main-color); */
 }
 
 /*=====thsi is for text transform====  */
@@ -71,6 +101,7 @@ link:active {
   text-transform: uppercase;
   width: 100%;
   font-weight: bolder;
+  font-size: 40px;
 
 }
 
@@ -80,33 +111,32 @@ link:active {
 
 .paragraph {
   text-transform: capitalize;
-  width: 160%;
+  width: 130%;
+  font-size: 35px;
 
 }
 
 .font {
-  font-size: 30px;
+  font-size: 28px;
+  padding-top: 30%;
 }
 
 /*====== this is second coloum background-color==== */
-.background-color {
-  position: relative;
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/mainrec_t5pu7x.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+.background {
+position: relative;
+left: 70px;
 
-  height: 100vh;
-  width: 100vw;
-  padding-left: 30%;
-  margin-left: 20%;
 }
 
+
+
 .img {
-  height: 60%;
-  width: 40vw;
- position: relative;
- left: -10%;
- top: -10%;
+position: absolute;
+bottom: 60vh;
+margin-left: 25vw;
+width: 100%;
+height: 100vh;
+
 }
 
 .searchbar {
@@ -120,9 +150,10 @@ link:active {
 
 .bg {
   border: 4px solid var(--color-two);
-  height: 60px;
+  height: 90px;
   border-radius: 10px;
-  padding-left: 60vw;
+  outline: none;
+  box-shadow: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 80vw;
 }
@@ -130,48 +161,60 @@ link:active {
 /* =====this is button css===== */
 
 .batn {
+  position: relative;
+  left: 60vw;
+top: -13vh;
   background-color: var(--color-two);
   color: white;
-  margin-top: 32px;
+
   margin-right: 20px;
+  width: 10vw;
+  height: 8vh;
+
 }
 
 /* this is for image back slidr type */
 .img-bg {
-width: 14vw;
-border-radius: 10px;
-background-color: white;
-margin-left: auto;
-margin-right: auto;
-margin-top: 15px;
-margin-bottom: 25px;
+  width: 14vw;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .img-width {
   width: 12vw;
   margin-left: auto;
-margin-right: auto;
-display: flex;
+  margin-right: auto;
+  display: flex;
 }
 
 .background-cont {
   background-color: var(--color-two);
   border-radius: 30px;
   position: relative;
-  bottom: 28vh;
+  bottom: 45vh;
 }
 
 /* ====this is third section css=== */
 
 .maindiv {
   /* border-radius: 0% 100% 97% 3% / 98% 71% 29% 2%  ; */
-  width: 80vw;
+  /* width: 80vw;
   height: 130vh;
   position: relative;
   bottom: 30vh;
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/main2_qc0ycw.svg");
   background-repeat: no-repeat;
-  background-size: 70rem;
+  background-size: 70rem; */
+}
+
+.aroow-img{
+position: relative;
+bottom: 20vh;
+margin-left: -20vw;
 }
 
 /* this is setting heignt and postion of container 3rd secftion */
@@ -416,20 +459,30 @@ this is card bottiom heading section */
 
 /* ==================this is service page styling============= */
 
+
+/* this is the main div of service page  */
+
+
 .service-box {
-  background-color: rgb(235, 237, 237);
+  background-color: white;
   height: 18vh;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
-  padding-top: 8%;
+padding: 20px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .service-box,
 para {
-  font-size: 12px;
+  font-size: 13px;
+
+
+}
+
+.para{
+
 }
 
 /* this is image of svg of service page */
@@ -439,19 +492,28 @@ para {
   position: relative;
 
   background-repeat: no-repeat;
-  background-position: 45vw -7vw;
+  /* background-position: 40vw -10vw; */
+/* background-position-x: 48vw;
+background-position-y:  -17vh; */
+background-position: 130% 100%;
+background-position-y:-1vh ;
+/* background-position-x: right center; */
+z-index: 10;
+margin-top: 10vh;
+
+
 }
 
 /* this is  sec image of service page background */
 .service-bg-2 {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-  background-repeat: no-repeat;
-  background-position: cover;
-  width: 100vw;
-  height: 120vh;
-  padding-bottom: 20vh;
-  z-index: -2;
+background-repeat: no-repeat;
+background-position: -15%  -90%;
+position: relative;
+padding-bottom: 15vh;
+
 }
+
 
 /* 
 this is box-img of service pager  */
@@ -459,15 +521,16 @@ this is box-img of service pager  */
 .box-img {
   background-color: white;
   background-repeat: no-repeat;
-  border-radius: 50%;
-  height: 20vh;
+  border-radius: 100%;
+  height: 18vh;
   position: relative;
   bottom: 70%;
   right: 4vw;
-  width: 17vw;
-  padding-top: 15px;
-  padding-left: 6px;
-  margin-bottom: 20px;
+  width: 18rem;
+  padding-top: 20px;
+  padding-left: 20px;
+margin-top: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* this the page of pricig some space from bottom */
@@ -476,13 +539,411 @@ this is box-img of service pager  */
   margin-bottom: 10vh;
 }
 
+
+btn{
+  outline: none;
+  box-shadow: none;
+  color: var(--main-color);
+}
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.margin-btn{
+
+}
+.input{
+  width: 70vw;
+  height: 12vh;
+  border: 4px solid blue;
+position: relative;
+bottom: 7vh;
+  border-radius: 14px;
+}
+
+
+/* service responsive all thing for 992px  */
+
+@media (min-width:992px) and  (max-width:1200px){
+
+
+
+  .service-box {
+    background-color: white;
+    height: 18vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .service-box,
+  para {
+    font-size: 13px;
+  
+  
+  }
+  
+  .why-us{
+    font-weight:bolder ; font-size:30px;
+
+   color:white;
+  }
+  
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
+    position: relative;
+  
+    background-repeat: no-repeat;
+    /* background-position: 40vw -10vw; */
+  /* background-position-x: 48vw;
+  background-position-y:  -17vh; */
+  background-position: 30rem 100%;
+  background-position-y:-1vh ;
+  /* background-position-x: right center; */
+  z-index: 10;
+  margin-top: 10vh;
+  
+  
+  }
+  
+  /* this is  sec image of service page background */
+  .service-bg-2 {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+  background-repeat: no-repeat;
+  background-position: -15%  -90%;
+  position: relative;
+  padding-bottom: 15vh;
+  
+  }
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 7rem;
+    position: relative;
+    bottom: 67%;
+    right: 5vw;
+    width: 20rem;
+    padding-top: 20px;
+    padding-left: 20px;
+  margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* this the page of pricig some space from bottom */
+  
+  .pricing-main {
+    margin-bottom: 10vh;
+  }
+  
+  
+  btn{
+    outline: none;
+    box-shadow: none;
+    color: var(--main-color);
+  }
+  .btn:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .margin-btn{
+position: relative;
+left: -10vw;
+  }
+  .input{
+    width: 70vw;
+    height: 12vh;
+    border: 4px solid blue;
+  position: relative;
+  bottom: 7vh;
+    border-radius: 14px;
+  }
+.service-col-spacing{
+  padding-left: -50%;
+}
+  
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .service-box {
+    margin-top: 90px;
+    margin-left: 45px;
+  }
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 8rem;
+    position: relative;
+    bottom: 80%;
+    right: 8vw;
+    width: 15rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+.para{
+  padding-top: 5%;
+}
+
+.why-us{
+  color: white;
+}
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
+    background-position: 100% -10vh;
+   
+
+  }
+
+.service-bg-2{
+
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+  background-repeat: no-repeat;
+background-position: -10% 100vh;
+}
+
+.input{
+position: relative;
+bottom: 7vh;
+width: 60vw;
+}
+
+.margin-btn{
+  position: relative;
+top: -17vh;
+left: -15VW;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .service-box {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 8rem;
+    position: relative;
+    bottom: 3.5rem;
+    right: 8vw;
+    width: 20rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
+    background-repeat: no-repeat;
+    background-position: -1rem 1rem;
+    background-size: 40rem;
+   
+  }
+
+  .service-bg-2{
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100vh;
+    background-size: 30rem;
+
+  }
+
+  .why-us{
+    color: var(--main-color);
+  }
+
+  /* this is input button */
+
+  .margin-btn {
+    margin-left: 75%;
+    position: relative;
+    bottom: 16.5vh;
+    left: -7vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-box {
+    margin-top: 50px;
+    height: 25vh;
+    margin-left: 40px;
+    width: 80%;
+    height: 50%;
+  }
+
+  .service-col-set{
+
+  height: 15rem;
+  }
+
+  /* this is paragraph setting */
+ 
+  para {
+    z-index: 1;
+  }
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 8rem;
+    position: relative;
+    bottom: 3.5rem;
+    right: 9vw;
+    width: 20rem;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  /* thuis is setting image side by side */
+  /* thuis is setting image side by side */
+  .service-bg {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
+    background-repeat: no-repeat;
+    background-position: -1rem 1rem;
+    background-size: 35rem;
+   
+  }
+
+  .service-bg-2{
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 120vh;
+    background-size: 25rem;
+
+  }
+
+
+  .why-us{
+    color: var(--main-color);
+  }
+  .display-mobile{
+display: none;
+  }
+
+
+}
+
+/* this is some extra setting of servive page responsive issues */
+
+@media (max-width: 440px) {
+  .box-img {
+    backface-visibility: hidden;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 8rem;
+    position: relative;
+    bottom: 3.5rem;
+    right: 5vw;
+    width: 80vw;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+}
+
+/* ============this is responsive layoyuts of service page botttom======= */
+
+/* ====my page setting responsive from large screen==== */
+/* this setting second col lefting spacing */
+
+@media (min-width: 992px) {
+  .left-spacing {
+    /* margin-left: 45px; */
+  }
+.why-us{
+  color: white;
+}
+
+}
+
+@media (min-width: 768px) {
+
+
+  
+}
+
+
+@media (max-width: 992px) {
+  .service-bg-2 {
+    /* margin-bottom: 60vh; */
+  }
+}
+
+@media (max-width: 576px) {
+  .service-bg-2 {
+    /* margin-bottom: 100vh; */
+  }
+}
+
+/* this is marging for button */
+@media (min-width: 576px) {
+  .margin-btn {
+    margin-left: 65%;
+    position: relative;
+    bottom: 16.5vh;
+  }
+}
+
+/* this is for work page colum reverse  */
+
+@media (max-width: 992px) {
+
+  /* this is for reverse the column */
+  .revert-col {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+
+
+/* ALL RESPONSIVE LAYOUTAS OF SER VISE PAGE TOP */
+
+
+
 /* this is how its work page csss */
 /* =========this is the how its work page styling============= */
+/* 
+this is how its work heading line hr */
+
+.line{
+  position: relative;
+  width: 100%;
+
+}
+.line::before{
+  content: "";
+  position: absolute;
+  background-color: var(--color-two);
+  width: 50%;
+  height: 2px;
+  left: 25%;
+  top: 100%;
+
+}
+
+
 
 .work-image {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/mainrec_gwxmwh.svg");
   background-repeat: no-repeat;
-  background-position-x: 30vw;
+background-position: 100% 10vh;
+background-size: 40rem;
+
 }
 
 /* this is for image ellipse 37 mouth */
@@ -490,13 +951,37 @@ this is box-img of service pager  */
 .work-image-2 {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
   background-repeat: no-repeat;
-  background-position: "";
-  position: relative;
-  width: 100%;
-  height: 120vh;
-  top: 20vh;
+ background-position: -1% 0vh;
+ background-size: 20rem;
   z-index: -2;
 }
+
+.work-input{
+
+
+width: 80vw;
+padding-left: 2vw;
+border: 4px solid var(--color-two);
+border-radius: 14px;
+height: 12vh;
+position: relative;
+bottom: 10vh;
+}
+
+.work-batn{
+  width: 15vw;
+  position: relative;
+  bottom: 25.5vh;
+  margin-left: 30rem;
+}
+/* this is end of  how its work page csss */
+/* =========this is the how its work page styling============= */
+
+
+
+
+
+
 
 /* this is hide image from mobile devices */
 /* and responsive for image */
@@ -508,20 +993,98 @@ this is box-img of service pager  */
   .work-image-2 {
     background-image: none;
   }
+  .work-input{
+    margin-top: 5rem;
+  }
+.work-batn{
+  margin-left: 40vw;
+  width: 8rem;
 }
+
+.marging{
+  padding-top: 90px;
+}
+ 
+}
+
+@media (max-width: 992px) {
+  .img-hide{
+    background-image: none;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
 
 /* =======this is the page of member page box design box-design-members======= */
 
 .box-design-members {
-  background-color: blue;
+  background-color:var(--color-two);
   padding: 20px;
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: 15px;
   color: #efefef;
   text-transform: capitalize;
   position: relative;
 }
 
+
+/* button css + */
+
+.butan-member{
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+  border-radius: 20px;
+}
+.butan-member:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.para-text-member{
+  text-align:left;
+  width: 70vw;
+}
+
+.read-batn{
+  background-color: var(--color-two);
+  border-radius: 10px;
+  width: 15rem;
+  height: 3rem;
+  text-transform: uppercase;
+}
+
+/* responsive layouts of members page  */
+
+@media (max-width:768px) {
+  .postion-btn{
+    position: relative;
+  top: -11rem;
+
+  }
+.width-para{
+  width: 35vw;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  text-align: justify;
+}
+
+}
+
+
+
+
+
+
+/* =======this is the page of member page box design box-design-members======= */
 /*============this is footer css for page========== */
 
 .site-footer {
@@ -798,167 +1361,9 @@ this is first card third section buttions */
   }
 }
 
-/* ============this is responsive layoyuts of service page botttom======= */
 
-/* ====my page setting responsive from large screen==== */
-/* this setting second col lefting spacing */
 
-@media (min-width: 992px) {
-  .left-spacing {
-    margin-left: 45px;
-  }
-}
 
-@media (max-width: 992px) {
-  .service-bg-2 {
-    margin-bottom: 60vh;
-  }
-}
-
-@media (max-width: 576px) {
-  .service-bg-2 {
-    margin-bottom: 100vh;
-  }
-}
-
-/* this is marging for button */
-@media (min-width: 576px) {
-  .margin-btn {
-    margin-left: 65%;
-    position: relative;
-    bottom: 16.5vh;
-  }
-}
-
-/* this is for work page colum reverse  */
-
-@media (max-width: 992px) {
-
-  /* this is for reverse the column */
-  .revert-col {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .service-box {
-    margin-top: 50px;
-  }
-
-  .box-img {
-    background-color: white;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 20vh;
-    position: relative;
-    bottom: 120%;
-    right: 4vw;
-    width: 17vw;
-    padding-top: 15px;
-    padding-left: 6px;
-    margin-bottom: 20px;
-  }
-
-  /* thuis is setting image side by side */
-  .service-bg {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
-    position: relative;
-
-    background-repeat: no-repeat;
-    background-position: 45vw -9vw;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .service-box {
-    margin-top: 50px;
-  }
-
-  .box-img {
-    background-color: white;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 20vh;
-    position: relative;
-    bottom: 70%;
-    right: 4vw;
-    width: 28vw;
-    padding-top: 20px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-  }
-
-  /* thuis is setting image side by side */
-  .service-bg {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
-    position: relative;
-
-    background-repeat: no-repeat;
-    background-position: 45vw -7vw;
-  }
-
-  /* this is input button */
-
-  .margin-btn {
-    margin-left: 55%;
-    position: relative;
-    bottom: 16.5vh;
-  }
-}
-
-@media (max-width: 576px) {
-  .service-box {
-    margin-top: 50px;
-    height: 25vh;
-  }
-
-  /* this is paragraph setting */
-  .service-box,
-  para {
-    z-index: 1;
-  }
-
-  .box-img {
-    background-color: #efefef;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 20vh;
-    position: relative;
-    bottom: 15%;
-    right: -1vw;
-    width: 30vw;
-    padding-top: 30px;
-    padding-left: 10px;
-  }
-
-  /* thuis is setting image side by side */
-  .service-bg {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924351/web-images/img/rectangle-64-2_1x_s6xsbf.svg");
-    position: relative;
-
-    background-repeat: no-repeat;
-    background-position: 45vw -7vw;
-  }
-}
-
-/* this is some extra setting of servive page responsive issues */
-
-@media (max-width: 440px) {
-  .box-img {
-    backface-visibility: hidden;
-    background-color: #efefef;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 20vh;
-    position: relative;
-    bottom: 15%;
-    right: -1vw;
-    width: 60vw;
-    padding-top: 30px;
-    padding-left: 10px;
-  }
-}
 
 /* 
 this is the pricing page responsive layoputs ==============*/

@@ -5,20 +5,24 @@
 :root {
   --main-color: #0388fc;
   --color-two: #1b46ba;
-  --text-color:#efefef;
+  --text-color: #efefef;
+  --foter-color:#1f2120;
 }
 
-.btn:hover{
+.button:hover {
   background-color: var(--main-color);
-  color:var(--text-color) ;
+  color: var(--text-color);
 }
 
-.btn{
+.button {
   position: relative;
   z-index: 10;
-  border-radius: 5px;
+  border-radius: 10px;
+ background-color: var(--color-two);
+ color: var(--text-color);
 }
-.btn:before{
+
+.button::before {
   content: "";
   position: absolute;
   background-color: var(--color-two);
@@ -27,19 +31,18 @@
   height: 100%;
   left: 0;
   top: 0;
-  border-radius: 5px;
-  transition: all 2s ease-in-out;
-z-index: -10;
+  border-radius: 10px;
+  transition: all 2s ease-out;
+  z-index: -10;
 }
 
-.btn:hover:before{
+.btn:hover:before {
   width: 100%;
- 
+
 }
 
 .container {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -47,7 +50,7 @@ z-index: -10;
 /* =======this is navlink css part ===========*/
 .link {
   text-transform: capitalize;
-  color: var(--main-color);
+  color: var(--color-two);
   padding: 10px;
   text-decoration: none;
   font-size: x-large;
@@ -71,8 +74,14 @@ z-index: -10;
 }
 
 
+
 link:active {
-  color: blue;
+  color: var(--color-two);
+}
+
+a:visited {
+  color: var(--color-two);
+
 }
 
 .link:hover {
@@ -81,8 +90,8 @@ link:active {
 }
 
 #home {
-  background-color: var(--main-color);
-  color: aliceblue;
+  background-color: var(--color-two);
+  color: var(--text-color);
   border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -97,280 +106,261 @@ link:active {
 
 /*=====thsi is for text transform====  */
 
-.text {
-  text-transform: uppercase;
-  width: 100%;
-  font-weight: bolder;
-  font-size: 40px;
 
-}
 
-.text-color {
-  color: var(--main-color);
-}
 
-.paragraph {
-  text-transform: capitalize;
-  width: 130%;
-  font-size: 35px;
 
-}
 
-.font {
-  font-size: 28px;
-  padding-top: 30%;
-}
 
-/*====== this is second coloum background-color==== */
-.background {
+
+
+
+
+
+
+
+
+
+/* --------home page css wprking from here --------*/
+
+
+.main-recimg{
 position: relative;
-left: 70px;
+z-index: -20;
+left: 15%;
+height: 60rem;
+  
+}
+
+.main-bg-img{
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mask-group-5_2x_akqy91.svg ");
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-position-x: 20vw;
+    background-size: 65%;
 
 }
 
-
-
-.img {
-position: absolute;
-bottom: 60vh;
-margin-left: 25vw;
-width: 100%;
-height: 100vh;
-
+.img-arrow{
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924625/web-images/img/vector-15_1x_hfpuea.svg");
+  background-repeat: no-repeat;
+  background-position: 30% 66vh;
+z-index: -40;
+  padding-top: 5vh;
+ background-size: 15%;
 }
 
-.searchbar {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom: 30vh;
-  z-index: 1;
+.text-home{
+  text-transform: uppercase;
+    padding-top: 60%;
+    font-size: 50px;
+    width: 30vw;
 }
 
-.bg {
-  border: 4px solid var(--color-two);
-  height: 90px;
-  border-radius: 10px;
-  outline: none;
-  box-shadow: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 80vw;
+.text-home-2{ 
+  text-transform: capitalize;
+    padding-top: 20%;
+    width: 30vw;
+    font-size: 35px;
+}
+.color-text{
+  color: var(--color-two);
 }
 
-/* =====this is button css===== */
 
-.batn {
-  position: relative;
-  left: 60vw;
-top: -13vh;
-  background-color: var(--color-two);
-  color: white;
-
-  margin-right: 20px;
-  width: 10vw;
-  height: 8vh;
-
+.input-home{
+width: 80vw;
+height: 6rem;
+border: 4px solid var(--color-two);
+border-radius: 15px;
 }
 
-/* this is for image back slidr type */
-.img-bg {
-  width: 14vw;
-  border-radius: 10px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 25px;
+.home-btn{
+position: relative;
+left: 60vw;
+top: -4.5rem;
+z-index: 50;
+width: 10vw;
+height: 3rem;
+background-color: var(--color-two);
+color: var(--text-color);
+text-transform: capitalize;
 }
-
-.img-width {
-  width: 12vw;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-
-.background-cont {
-  background-color: var(--color-two);
-  border-radius: 30px;
+.input-1{
   position: relative;
   bottom: 45vh;
 }
 
-/* ====this is third section css=== */
 
-.maindiv {
-  /* border-radius: 0% 100% 97% 3% / 98% 71% 29% 2%  ; */
-  /* width: 80vw;
-  height: 130vh;
+
+.contain-color{
+  background-color: var(--color-two);
+  border-radius: 30px;
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  bottom: 30vh;
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924327/web-images/img/main2_qc0ycw.svg");
-  background-repeat: no-repeat;
-  background-size: 70rem; */
+  bottom: 40vh;
 }
 
-.aroow-img{
+.box-home-contain{
+  background-color: var(--text-color);
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+  
+ width: 12rem;
+  
+}
+
+
+.contain-text-color{
+  text-transform: uppercase;
+  color: red;
+}
+
+
+
+/* this is card section css */
+
+.big-img{
+width: 90vw;
+/* height: 150vh; */
 position: relative;
-bottom: 20vh;
-margin-left: -20vw;
+bottom: 35vh;
+z-index: -20;
+
 }
 
-/* this is setting heignt and postion of container 3rd secftion */
 
-.bg-container-2 {
-  position: relative;
-  left: 10%;
-  top: 10%;
-
-  /* top: 35vh; */
-  transform: translate(50% 50%);
-}
-
-/* this is sec para which is ceneter in container */
-
-.sec-para {
-  text-align: center;
-  border: 2px solid blue;
-  width: 30vw;
-  left: 30%;
-  position: relative;
-  top: 10vh;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.home-start{
   text-transform: capitalize;
   font-weight: bolder;
-  border-radius: 20px;
-  box-shadow: 2px 3px 4px 3px;
+  border: 4px solid var(--color-two);
+ padding: 20px;
+ border-radius: 20px;
+ position: relative;
+ bottom: 82rem;
+margin-top: 5vh;
+background-color: var(--text-color);
 }
 
-/* ===thsi is container inside col box color===  */
-
-.box {
-  background-color: rgb(223, 237, 242);
-  width: 26vw;
-  border-radius: 20px;
-  height: 80vh;
-  border: 2px solid blue;
-  box-shadow: 2px 2px 2px 2px;
-}
-
-/* this is button css */
-
-.btn {
+.card-section{
   position: relative;
-  text-transform: capitalize;
-  bottom: 25px;
+top: -80rem;
+
 }
 
-/* 
-this inside buuton of box */
+.card-box{
+  background-color: var(--text-color);
+  border: 4px solid var(--color-two);
+  border-radius: 20px;
+  padding: 20px;
+  width: 22vw;
+  height: 60vh;
+}
 
-.butn {
-  margin-top: 15%;
-  width: 15vw;
+.btn-home{
+  background-color: var(--color-two);
+  color: var(--text-color);
+  width: 10vw;
+}
+
+.img-btn{
+  margin-top: 3px;
+}
+
+.batns{
+
+text-transform: capitalize;
+width: 12vw;
+border-radius: 10px;
+border: 2px solid var(--color-two);
+margin-top: 20px;
+font-weight: bolder;
+padding: 10px;
+
+}
+
+.input-col-2{
+  border: 3px solid var(--color-two);
   border-radius: 15px;
-  padding: 5px;
-  text-transform: capitalize;
+  width: 17vw;
+  height: 3rem;
+  padding-left: 20px;
 }
 
-/* this is thirsd card merge button */
-
-.batn-2 {
-  /* border: 2px solid blue;
-padding-top: 20px;
-width:13.6vw;
-height: 6vh;
-padding-bottom: 29px;
-padding-top: 9px;
-border-radius: 10px; */
+.btn-target{
+  background-color: var(--color-two);
+  color: var(--text-color);
+  width: 6vw;
+  outline: none;
+box-shadow: none;
 }
 
-/* 
-this is card bottiom heading section */
-
-.third-heading {
-  position: relative;
-  bottom: 80vh;
-  width: 45vw;
-  text-transform: capitalize;
+.border-target{
+  border: 2px solid var(--color-two);
+  border-radius: 8px;
 }
 
-/* =====this is for last text of paragraph center======= */
-.center {
-  text-align-last: center;
+.btn-target:hover{
+  background-color: var(--text-color);
+  color: var(--color-two);
+
 }
 
-/* this is 4rt para svg cdircle */
-.third-para {
-  position: relative;
-  left: 15vw;
-  color: blue;
-  font-weight: bolder;
-  font-size: larger;
+.btn-target-1{
+  background-color: var(--text-color);
+  color:var(--foter-color);
+  width: 6vw;
+  outline: none;
+box-shadow: none;
 }
 
-.circle-para {
-  position: relative;
-  left: 28%;
-  bottom: 20vh;
+.btn-target-1:hover{
+  background-color: var(--main-color);
+  color: var(--text-color);
+
 }
 
-.align {
-  color: blue;
+.btn-target-1:focus{
+background-color: var(--text-color);
+color: var(--main-color);
+outline: none;
+box-shadow: none;
 }
 
-/*====== this is for setting width and height .third-heading =====*/
-
-.heading-section {
-  position: relative;
-  top: -80vh;
+.text-home-img{
+font-size: 50px;
+ width: 45vw;
+ text-align: center;
 }
 
-/* =====this is slik carousel in css with baground-img  ===== */
-
-.bg-1 {
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/slid1_yoxwjk.svg");
-  /* background-image: url("/img/add.svg"); */
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 70%;
-
-  margin-left: 50px;
+.circle-img{
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924331/web-images/img/ellipse-33-1_1x_x5ibfa.svg");
 }
 
-/* this is slick dots */
-.slick-dots li button:before {
-  font-family: "slick";
-  font-size: 56px;
-  line-height: 0px;
-  position: absolute;
-  top: -100%;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  width: 80px;
-  content: "•";
-  text-align: center;
+
+.text-circle-img{
+position: relative;
+bottom: 25vh;
+font-size: 20px;
+font-weight: bold;
+color: var(--color-two);
 }
 
-.slick-dots li button {
-  font-family: "slick";
-  font-size: 56px;
-  line-height: 0px;
-  position: absolute;
-  top: -100%;
-  left: 0;
 
-  width: 20px;
-  height: 20px;
-  width: 50vw;
-  content: "•";
-  text-align: center;
 
-  border-radius: 2px;
-}
+
+
+/* this is slick css of home page */
 
 .slick-prev:before {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/vector-23_2x_tz3hdk.svg");
@@ -465,25 +455,25 @@ this is card bottiom heading section */
 
 .service-box {
   background-color: white;
-  height: 18vh;
+  height: 8rem;
   width: 80%;
   display: flex;
   justify-content: center;
-padding: 20px;
+  padding: 20px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .service-box,
 para {
   font-size: 13px;
+  margin-top: 10px;
 
 
 }
 
-.para{
-
-}
+.para {}
 
 /* this is image of svg of service page */
 
@@ -493,13 +483,13 @@ para {
 
   background-repeat: no-repeat;
   /* background-position: 40vw -10vw; */
-/* background-position-x: 48vw;
+  /* background-position-x: 48vw;
 background-position-y:  -17vh; */
-background-position: 130% 100%;
-background-position-y:-1vh ;
-/* background-position-x: right center; */
-z-index: 10;
-margin-top: 10vh;
+  background-position: 130% 100%;
+  background-position-y: -1vh;
+  /* background-position-x: right center; */
+  z-index: 10;
+  margin-top: 10vh;
 
 
 }
@@ -507,10 +497,10 @@ margin-top: 10vh;
 /* this is  sec image of service page background */
 .service-bg-2 {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-background-repeat: no-repeat;
-background-position: -15%  -90%;
-position: relative;
-padding-bottom: 15vh;
+  background-repeat: no-repeat;
+  background-position: -15% -90%;
+  position: relative;
+  padding-bottom: 15vh;
 
 }
 
@@ -522,14 +512,14 @@ this is box-img of service pager  */
   background-color: white;
   background-repeat: no-repeat;
   border-radius: 100%;
-  height: 18vh;
+  height: 8rem;
   position: relative;
-  bottom: 70%;
+  bottom: 3.5rem;
   right: 4vw;
   width: 18rem;
   padding-top: 20px;
   padding-left: 20px;
-margin-top: 35px;
+  margin-top: 35px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -540,32 +530,32 @@ margin-top: 35px;
 }
 
 
-btn{
+btn {
   outline: none;
   box-shadow: none;
   color: var(--main-color);
 }
-.btn:focus{
+
+.btn:focus {
   outline: none;
   box-shadow: none;
 }
 
-.margin-btn{
+.margin-btn {}
 
-}
-.input{
+.input {
   width: 70vw;
   height: 12vh;
   border: 4px solid blue;
-position: relative;
-bottom: 7vh;
+  position: relative;
+  bottom: 7vh;
   border-radius: 14px;
 }
 
 
 /* service responsive all thing for 992px  */
 
-@media (min-width:992px) and  (max-width:1200px){
+@media (min-width:992px) and (max-width:1200px) {
 
 
 
@@ -575,50 +565,52 @@ bottom: 7vh;
     width: 80%;
     display: flex;
     justify-content: center;
-  padding: 20px;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-  
+
   .service-box,
   para {
     font-size: 10px;
-  
-  
-  }
-  
-  .why-us{
-    font-weight:bolder ; font-size:30px;
 
-   color:white;
+
   }
-  
+
+  .why-us {
+    font-weight: bolder;
+    font-size: 30px;
+
+    color: white;
+  }
+
   .service-bg {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
     position: relative;
-  
+
     background-repeat: no-repeat;
     /* background-position: 40vw -10vw; */
-  /* background-position-x: 48vw;
+    /* background-position-x: 48vw;
   background-position-y:  -17vh; */
-  background-position: 30rem 100%;
-  background-position-y:-1vh ;
-  /* background-position-x: right center; */
-  z-index: 10;
-  margin-top: 10vh;
-  
-  
+    background-position: 30rem 100%;
+    background-position-y: -1vh;
+    /* background-position-x: right center; */
+    z-index: 10;
+    margin-top: 10vh;
+
+
   }
-  
+
   /* this is  sec image of service page background */
   .service-bg-2 {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-  background-repeat: no-repeat;
-  background-position: -15%  -90%;
-  position: relative;
-  padding-bottom: 15vh;
-  
+    background-repeat: no-repeat;
+    background-position: -15% -90%;
+    position: relative;
+    padding-bottom: 15vh;
+
   }
+
   .box-img {
     background-color: white;
     background-repeat: no-repeat;
@@ -630,44 +622,53 @@ bottom: 7vh;
     width: 10rem;
     padding-top: 20px;
     padding-left: 20px;
-  margin-top: 35px;
+    margin-top: 35px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-  
+
+
+
+
+
+
   /* this the page of pricig some space from bottom */
-  
+
   .pricing-main {
     margin-bottom: 10vh;
   }
-  
-  
-  btn{
+
+
+  .btn {
     outline: none;
     box-shadow: none;
     color: var(--main-color);
   }
-  .btn:focus{
+
+  .btn:focus {
     outline: none;
     box-shadow: none;
   }
-  
-  .margin-btn{
-position: relative;
-left: -10vw;
+
+  .margin-btn {
+    position: relative;
+    left: -10vw;
   }
-  .input{
+
+  .input {
     width: 70vw;
     height: 12vh;
     border: 4px solid blue;
-  position: relative;
-  bottom: 7vh;
+    position: relative;
+    bottom: 7vh;
     border-radius: 14px;
   }
-.service-col-spacing{
-  padding-left: -50%;
+
+  .service-col-spacing {
+    padding-left: -50%;
+  }
+
 }
-  
-}
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   .service-box {
@@ -688,39 +689,41 @@ left: -10vw;
     padding-left: 10px;
     margin-bottom: 20px;
   }
-.para{
-  padding-top: 5%;
-}
 
-.why-us{
-  color: white;
-}
+  .para {
+    padding-top: 5%;
+  }
+
+  .why-us {
+    color: white;
+  }
+
   /* thuis is setting image side by side */
   .service-bg {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924350/web-images/img/rectangle-64-1_1x_x48j2g.svg");
     background-position: 100% -10vh;
-   
+
 
   }
 
-.service-bg-2{
+  .service-bg-2 {
 
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-  background-repeat: no-repeat;
-background-position: -10% 100vh;
-}
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+    background-repeat: no-repeat;
+    background-position: -10% 100vh;
+  }
 
-.input{
-position: relative;
-bottom: 7vh;
-width: 60vw;
-}
+  .input {
+    position: relative;
+    bottom: 7vh;
+    width: 60vw;
+  }
 
-.margin-btn{
-  position: relative;
-top: -17vh;
-left: -15VW;
-}
+  .margin-btn {
+    position: relative;
+    top: -17vh;
+    left: -15VW;
+  }
 
 }
 
@@ -750,10 +753,10 @@ left: -15VW;
     background-repeat: no-repeat;
     background-position: -1rem 1rem;
     background-size: 40rem;
-   
+
   }
 
-  .service-bg-2{
+  .service-bg-2 {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
     background-repeat: no-repeat;
     background-position: 100% 100vh;
@@ -761,7 +764,7 @@ left: -15VW;
 
   }
 
-  .why-us{
+  .why-us {
     color: var(--main-color);
   }
 
@@ -774,13 +777,13 @@ left: -15VW;
     left: -10vw;
   }
 
-  .input{
+  .input {
     position: relative;
     bottom: 7vh;
     width: 80vw;
-    }
-    
-    
+  }
+
+
 
 }
 
@@ -793,13 +796,13 @@ left: -15VW;
     height: 50%;
   }
 
-  .service-col-set{
+  .service-col-set {
 
-  height: 15rem;
+    height: 15rem;
   }
 
   /* this is paragraph setting */
- 
+
   para {
     z-index: 1;
   }
@@ -824,10 +827,10 @@ left: -15VW;
     background-repeat: no-repeat;
     background-position: -1rem 1rem;
     background-size: 35rem;
-   
+
   }
 
-  .service-bg-2{
+  .service-bg-2 {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
     background-repeat: no-repeat;
     background-position: 100% 120vh;
@@ -836,11 +839,12 @@ left: -15VW;
   }
 
 
-  .why-us{
+  .why-us {
     color: var(--main-color);
   }
-  .display-mobile{
-display: none;
+
+  .display-mobile {
+    display: none;
   }
 
 
@@ -873,9 +877,10 @@ display: none;
   .left-spacing {
     /* margin-left: 45px; */
   }
-.why-us{
-  color: white;
-}
+
+  .why-us {
+    color: white;
+  }
 
 }
 
@@ -903,600 +908,99 @@ display: none;
   }
 }
 
-/* this is for work page colum reverse  */
-
-@media (max-width: 992px) {
-
-  /* this is for reverse the column */
-  .revert-col {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-}
 
 
 
-/* ALL RESPONSIVE LAYOUTAS OF SER VISE PAGE TOP */
 
 
 
-/* this is how its work page csss */
-/* =========this is the how its work page styling============= */
-/* 
-this is how its work heading line hr */
-
-.line{
-  position: relative;
-  width: 100%;
-
-}
-.line::before{
-  content: "";
-  position: absolute;
-  background-color: var(--color-two);
-  width: 50%;
-  height: 2px;
-  left: 25%;
-  top: 100%;
-
-}
 
 
 
-.work-image {
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924610/web-images/img/rectangle-1-1_1x_lddovm.svg");
-  background-repeat: no-repeat;
-background-position: 120% 10vh;
-background-size: 60rem;
 
-}
 
-/* this is for image ellipse 37 mouth */
 
-.work-image-2 {
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
-  background-repeat: no-repeat;
- background-position: -2% 40vh;
- background-size: 30rem;
-  z-index: -2;
-padding-top: 10rem;
-padding-bottom: 10rem;
+
+
+
+
+
+
+
+
+
+
+/*------------ this is styling of  of pricing page ----- */
+
+
+.pricing-tea-box{
+  background-color: #a6cce0;
+  display: flex;
+
  
 }
 
-.work-input{
+.pricing-col-top{
+  margin-top: 30%;
+}
 
-
-width: 80vw;
-padding-left: 2vw;
+.input-pricing{
 border: 4px solid var(--color-two);
-border-radius: 14px;
-height: 12vh;
-position: relative;
-bottom: 20vh;
+height: 8rem;
+border-radius: 15px;
+outline: none;
+box-shadow: none;
 }
 
-.work-batn{
-  width: 15vw;
+.input-pricing:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+/* teax box */
+
+
+.tea-img{
+padding-top: 20px;
+padding-bottom: 20px;
+width: 25vw;
+}
+
+.btn-pricing{
   position: relative;
-  bottom: 36vh;
-  height: 3rem;
-  margin-left: 45rem;
-}
-/* this is end of  how its work page csss */
-/* =========this is the how its work page styling============= */
+top: 5rem;
+font-size: 22px;
+text-align: center;
+width: 12rem;
+height: 3.5rem;
+left: -4rem;
 
-
-
-
-
-
-
-/* this is hide image from mobile devices */
-/* and responsive for image */
-@media (max-width: 768px) {
-  .work-image {
-    background-image: none;
-  }
-
-  .work-image-2 {
-    background-image: none;
-  }
-  .work-input{
-    margin-top: 5rem;
-  }
-.work-batn{
-  margin-left: 40vw;
-  width: 8rem;
+/* width: 10vw; */
 }
 
-.marging{
-  padding-top: 90px;
+.bg-pricng-url{
+background-color: var(--text-color);
+/* padding-top: 5px;
+padding-bottom: 5px; */
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 10px;
 }
 
-.work-input{
+.pricing-text{
+font-weight: bolder;
+}
 
-
-  width: 80vw;
-  padding-left: 2vw;
+.start-pricing{
   border: 4px solid var(--color-two);
-  border-radius: 14px;
-  height: 12vh;
-  position: relative;
-  bottom: 20vh;
-  }
-  
-  .work-batn{
-    width: 30vw;
-    position: relative;
-margin-left: auto;
-margin-right: auto;
-top: -90px;
-  }
- 
-}
-@media (min-width: 768px) and (max-width: 992px) {
-
-  .work-image {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924610/web-images/img/rectangle-1-1_1x_lddovm.svg");
-    background-repeat: no-repeat;
-  background-position: 100% 10vh;
-  background-size: 40rem;
-  
-  }
-  
-
- 
-  /* this is for image ellipse 37 mouth */
-  
-  .work-image-2 {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
-    background-repeat: no-repeat;
-   background-position: -2% 60vh;
-   /* background-size: 20rem; */
-    z-index: -2;
-
-   
-  }
-
-.work-batn{
-  position: relative;
-  left: -20vw;
-}
-
-}
-
-
-@media (min-width: 576px) and (max-width: 768px) {
-.marging-4{
-padding-top: 10%;
-}
-
-.marging-1{
-  padding-left: 20px;
-
-  position: relative;
-  left: -20%;
-}
-.marging-5{
-position: relative;
-top: 100px;
-
-}
-.line::before{
-  content: "";
-  position: absolute;
-  background-color: var(--color-two);
-  width: 70%;
-  height: 2px;
-  left: 15%;
-  top: 100%;
-
-}
-
-}
-
-@media (max-width: 992px) {
-  .img-hide{
-    background-image: none;
-    display: none;
-  }
-}
-
-
-@media (max-width: 576px) {
-.marging-1{
-  display: flex;
-position: relative;
-left: -80px;
-top: 10px;
-
-width: 20rem;
-height: 20rem;
-}
-.line::before{
-  content: "";
-  position: absolute;
-  background-color: var(--color-two);
-  width: 70%;
-  height: 2px;
-  left: 15%;
-  top: 100%;
-
-}
-.marging-5{
-
-  margin-top: 80px;
-}
-.marging-4{
-  margin-top: 40px;
-}
-
-.font-work{
-  font-size: 12px;
-
-}
-
-.col-1{
-
-}
-.col-1{
-  
-}
-.col-1{
-  
-}
-
-}
-
-/* this is done service page */
-
-
-
-
-
-
-/* =======this is the page of member page box design box-design-members======= */
-
-.box-design-members {
-  background-color:var(--color-two);
-  padding: 20px;
-  border-radius: 20px;
-  margin-top: 15px;
-  color: #efefef;
-  text-transform: capitalize;
-  position: relative;
-}
-
-
-/* button css + */
-
-.butan-member{
-  background-color: white;
-  outline: none;
-  box-shadow: none;
-  border-radius: 20px;
-}
-.butan-member:focus{
-  outline: none;
-  box-shadow: none;
-}
-
-.para-text-member{
-  text-align:left;
-  width: 70vw;
-}
-
-.read-batn{
-  background-color: var(--color-two);
-  border-radius: 10px;
-  width: 15rem;
-  height: 3rem;
-  text-transform: uppercase;
-}
-
-/* responsive layouts of members page  */
-
-@media (max-width:768px) {
-  .postion-btn{
-    position: relative;
-  top: -11rem;
-
-  }
-.width-para{
-  width: 35vw;
- 
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 25px;
-  text-align: justify;
-}
-
-}
-
-
-
-
-
-
-/* =======this is the page of member page box design box-design-members======= */
-/*============this is footer css for page========== */
-
-.site-footer {
-  font-size: 15px;
-
-  color: #737373;
-  background-color: #efefef;
-  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
 }
-
-/* this is firsst col of footer */
-.nav-footer {
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.hr {
-  background-color: aqua;
-  height: 20px;
-}
-
-/* ===this is footer social icobs css=== */
-
-.social-icon {
-  margin-right: 30px;
-
-  border: 2px solid blue;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  padding-top: 18px;
-  padding-left: 6%;
-}
-
-.social {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-/* fottre social icons responsive */
-
-@media (max-width: 576px) {
-  .social-icon {
-    padding-left: 3%;
-  }
-}
-
-/* this is responsive layouts for our things and data */
-/* this is responsive layoyuts of service page botttom */
-@media (max-width: 992px) {
-  /* this is navbar */
-
-  .nav-item {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* toggler this is hide */
-
-  .navbar-toggler.collapsed {
-    border: none;
-    outline: none;
-    box-shadow: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  /* this is container third width section */
-
-  /* this is main first svgt img left side */
-  .img {
-    height: 20rem;
-    width: 30vw;
-  }
-
-  /* 
-this is socials card section  ==========*/
-
-  .bg-container-2 {
-    position: relative;
-    left: 40%;
-    top: 10%;
-
-    /* top: 35vh; */
-    transform: translate(50% 50%);
-  }
-
-  .box {
-    margin-top: 25px;
-    width: 32vw;
-  }
-
-  /* this is setting position: top; */
-
-  .large-response {
-    margin-top: 190vh;
-  }
-}
-
-/* medium devices responsive */
-
-@media (min-width: 576px) and (max-width: 768px) {
-  /* this is container third width section */
-
-  /* this is main first svgt img left side */
-  .img {
-    height: 14rem;
-    width: 30rem;
-    margin-right: 100%;
-    position: relative;
-    left: -25%;
-  }
-
-  /* 
-    this is socials card section  ==========*/
-
-  .bg-container-2 {
-    position: relative;
-    left: 30%;
-    top: 10%;
-
-    /* top: 35vh; */
-    transform: translate(50% 50%);
-  }
-
-  .box {
-    margin-top: 25px;
-    width: 40vw;
-  }
-
-  /* this is setting position: top; */
-
-  .large-response {
-    margin-top: 190vh;
-  }
-
-  /* this is card button response */
-
-  .butn {
-    margin-top: 15px;
-    width: 26vw;
-  }
-
-  /* this is radius rectangle response */
-  .circle-para {}
-
-  .third-para {
-    position: relative;
-    bottom: 25px;
-  }
-}
-
-/* this is small sixe respomse */
-
-@media (min-width: 100px) and (max-width: 576px) {
-  /* this is main first svgt img left side */
-
-  .background-color {
-    width: 100vw;
-    height: 180vh;
-    width: 100vw;
-    padding-left: 30%;
-    margin-left: 1%;
-  }
-
-  .img {
-    width: 20vw;
-    height: 10rem;
-  }
-
-  /* this is container third width section */
-
-  /* this is sec para start your cpmpaung */
-
-  .sec-para {
-    width: 60vw;
-    margin-right: 60vw;
-  }
-
-  /* this is main first svgt img left side */
-  .img {
-    height: 30rem;
-    width: 40rem;
-    margin-right: 90%;
-    position: relative;
-    left: -50%;
-  }
-
-  /* 
-        this is socials card section  ==========*/
-
-  .bg-container-2 {
-    position: relative;
-    left: 15%;
-    top: 10%;
-
-    /* top: 35vh; */
-    transform: translate(50% 50%);
-  }
-
-  .box {
-    margin-top: 40px;
-    width: 52vw;
-  }
-
-  /* this is setting position: top; */
-
-  .large-response {
-    margin-top: 190vh;
-  }
-
-  /* this is card button response */
-
-  .butn {
-    margin-top: 15px;
-    width: 30vw;
-  }
-
-  /* this is radius rectangle response */
-  .circle-para {}
-
-  .third-para {
-    position: relative;
-    bottom: 25px;
-    left: 13rem;
-    font-weight: bolder;
-  }
-}
-
-.batn-third {
-  background-color: aqua;
-}
-
-/* this is responsvieness for box card width */
-
-@media (max-width: 450px) {
-  .box {
-    width: 80vw;
-  }
-
-  .third-para {
-    position: relative;
-    bottom: 25px;
-    left: 35vw;
-    font-weight: bolder;
-  }
-
-  /* 
-this is first card third section buttions */
-
-  .butn {
-    margin-top: 15px;
-    width: 40vw;
-  }
-
-  /* this is main first svgt img left side */
-
-  .background-color {
-    width: 100vw;
-    height: 180vh;
-    width: 100vw;
-    padding-left: 30%;
-    margin-left: 1%;
-  }
-
-  .img {
-    width: 80vw;
-    height: 2rem;
-    margin-left: 5vw;
-  }
-}
-
-
 
 
 
@@ -1519,3 +1023,830 @@ this is the pricing page responsive layoputs ==============*/
     left: 5vw;
   }
 }
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .btn-pricing{
+    position: relative;
+    top: 2vh;
+    left: -5rem;
+      }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+  .main-text-width{
+
+font-size: 20px;
+width: 100%;
+
+}
+
+.img-pricing{
+padding-top: 20%;
+}
+
+.input-pricing{
+height: 4rem;
+}
+.pricing-btn{
+  height: 3rem;
+
+}
+
+
+.tea-img{
+  width: 30vw;
+}
+
+.bg-pricng-url{
+  background-color: var(--text-color);
+width: 40px;
+  }
+
+  .btn-pricing{
+position: relative;
+top: 2vh;
+  }
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+  .main-text-width{
+
+    font-size: 20px;
+    width: 100%;
+    
+    }
+
+  .input-pricing{
+    height: 3rem;
+    }
+    .img-pricing{
+      padding-top: 30%;
+      }
+
+
+  .bg-pricng-url{
+    background-color: var(--text-color);
+  width: 40px;
+    }
+  
+    .tea-img{
+      width: 40vw;
+
+    }
+
+  .btn-pricing{
+    position: relative;
+    top: 2vh;
+      }
+
+}
+
+
+@media (min-width:0px ) and (max-width: 576px) {
+
+  .main-text-width{
+
+    font-size: 15px;
+    width: 100%;
+    
+    }
+
+  .input-pricing{
+    height: 3rem;
+    }
+    .img-pricing{
+      padding-top: 30%;
+      }
+
+
+  .bg-pricng-url{
+    background-color: var(--text-color);
+  width: 40px;
+    }
+  
+    .tea-img{
+      width: 45vw;
+
+    }
+
+  .btn-pricing{
+    position: relative;
+    top: 2vh;
+      }
+
+}
+
+
+
+@media (max-width:440px) {
+  .main-text-width{
+
+    font-size: 12px;
+    width: 100%;
+    
+    }
+}
+
+/* ----------done with pricing page----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is how its work page csss */
+/* =========this is the how its work page styling============= */
+/* 
+this is how its work heading line hr */
+
+.line {
+  position: relative;
+  width: 100%;
+
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-two);
+  width: 50%;
+  height: 2px;
+  left: 25%;
+  top: 100%;
+
+}
+
+
+
+.work-image {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924610/web-images/img/rectangle-1-1_1x_lddovm.svg");
+  background-repeat: no-repeat;
+  background-position: 120% 10vh;
+  background-size: 60rem;
+
+}
+
+/* this is for image ellipse 37 mouth */
+
+.work-image-2 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
+  background-repeat: no-repeat;
+  background-position: -2% 40vh;
+  background-size: 30rem;
+  z-index: -2;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+
+}
+
+.work-input {
+
+
+  width: 80vw;
+  padding-left: 2vw;
+  border: 4px solid var(--color-two);
+  border-radius: 14px;
+  height: 12vh;
+  position: relative;
+  bottom: 20vh;
+}
+
+.work-batn {
+  width: 15vw;
+  position: relative;
+  bottom: 36vh;
+  height: 3rem;
+  margin-left: 45rem;
+}
+
+/* this is end of  how its work page csss */
+/* =========this is the how its work page styling============= */
+
+/* this is hide image from mobile devices */
+/* and responsive for image */
+@media (max-width: 768px) {
+  .work-image {
+    background-image: none;
+  }
+
+  .work-image-2 {
+    background-image: none;
+  }
+
+  .work-input {
+    margin-top: 5rem;
+  }
+
+  .work-batn {
+    margin-left: 40vw;
+    width: 8rem;
+  }
+
+  .marging {
+    padding-top: 90px;
+  }
+
+  .work-input {
+
+
+    width: 80vw;
+    padding-left: 2vw;
+    border: 4px solid var(--color-two);
+    border-radius: 14px;
+    height: 12vh;
+    position: relative;
+    bottom: 20vh;
+  }
+
+  .work-batn {
+    width: 30vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -90px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .work-image {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924610/web-images/img/rectangle-1-1_1x_lddovm.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 10vh;
+    background-size: 40rem;
+
+  }
+
+
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924338/web-images/img/ellipse-37_1x_vbx5qd.svg");
+    background-repeat: no-repeat;
+    background-position: -2% 60vh;
+    /* background-size: 20rem; */
+    z-index: -2;
+
+
+  }
+
+  .work-batn {
+    position: relative;
+    left: -20vw;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .marging-4 {
+    padding-top: 10%;
+  }
+
+  .marging-1 {
+    padding-left: 20px;
+
+    position: relative;
+    left: -20%;
+  }
+
+  .marging-5 {
+    position: relative;
+    top: 100px;
+
+  }
+
+  .line::before {
+    content: "";
+    position: absolute;
+    background-color: var(--color-two);
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    top: 100%;
+
+  }
+
+}
+
+@media (max-width: 992px) {
+  .img-hide {
+    background-image: none;
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .marging-1 {
+    display: flex;
+    position: relative;
+    left: -80px;
+    top: 10px;
+
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .line::before {
+    content: "";
+    position: absolute;
+    background-color: var(--color-two);
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    top: 100%;
+
+  }
+
+  .marging-5 {
+
+    margin-top: 80px;
+  }
+
+  .marging-4 {
+    margin-top: 40px;
+  }
+
+  .font-work {
+    font-size: 12px;
+
+  }
+
+  .col-1 {}
+
+  .col-1 {}
+
+  .col-1 {}
+
+}
+
+
+
+
+/* this is for work page colum reverse  */
+
+@media (max-width: 992px) {
+
+  /* this is for reverse the column */
+  .revert-col {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+
+
+/* ALL RESPONSIVE LAYOUTAS OF SER VISE PAGE TOP */
+
+/* this is done service page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======this is the page of member page box design box-design-members======= */
+
+.box-design-members {
+  background-color: var(--color-two);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  color: #efefef;
+  text-transform: capitalize;
+  position: relative;
+}
+
+
+/* button css + */
+
+.butan-member {
+  background-color: white;
+  color: var(--foter-color);
+  outline: none;
+  box-shadow: none;
+  border-radius: 20px;
+}
+
+.butan-member:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.para-text-member {
+  text-align: left;
+  width: 70vw;
+}
+
+.read-batn {
+  background-color: var(--color-two);
+  border-radius: 10px;
+  width: 15rem;
+  height: 3rem;
+  text-transform: uppercase;
+}
+
+/* responsive layouts of members page  */
+
+@media (max-width:768px) {
+  .postion-btn {
+    position: relative;
+    top: -11rem;
+
+  }
+
+  .width-para {
+    width: 35vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+}
+
+/* done member page  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======this is the page of member page box design box-design-members======= */
+/*============this is footer css for page========== */
+
+footer ,p{
+ 
+}
+
+.site-footer {
+  font-size: 15px;
+
+
+
+  padding-bottom: 40vh;
+  padding-top: 20px;
+}
+
+/* this is firsst col of footer */
+.nav-footer {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--foter-color);
+  font-size: 20px;
+}
+
+.footer-link{
+  color: var(--foter-color);
+
+}
+.footer-link:hover{
+  color: var(--main-color);
+  text-decoration: none;
+
+}
+
+.footer-link:active{
+  color: var(--foter-color);
+}
+.footer-link:visited{
+  color: var(--foter-color);
+}
+
+.footer-fag{
+  display: flex;
+  flex-direction: column;
+  color: var(--foter-color);
+  font-weight: bold;
+padding-top: 20px;
+font-size: 20px;
+  text-transform: uppercase;
+
+}
+.footer-fag:active{
+  color: var(--foter-color);
+}
+.footer-fag:hover{
+  color: var(--main-color);
+  text-decoration: none;
+
+}
+
+.footer-input{
+  border: 3px solid var(--color-two);
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+}
+.footer-fag:focus{
+  outline: none;
+  box-shadow: none;
+}
+.btn-footer{
+  background-color: var(--color-two);
+  color: var(--text-color);
+  width: 3rem;
+  height: 2.5rem;
+  left: 68%;
+  border-radius: 6px;
+  bottom: 58%;
+  position: absolute;
+}
+
+
+.hr-footer{
+  position: relative;
+  content: "";
+  background-color: var(--color-two);
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+}
+/* ===this is footer social icobs css=== */
+
+.social-icon {
+  margin-right: 30px;
+
+  border: 2px solid var(--color-two);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 18px;
+  padding-left: 5%;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  width: 30rem;
+}
+
+.footer-logo{
+  width: 10vw;
+}
+
+/* footer done */
+
+
+
+/* fottre social icons responsive */
+
+@media (max-width: 576px) {
+  .social-icon {
+    padding-left: 3%;
+  }
+}
+
+/* this is responsive layouts for our things and data */
+
+@media (max-width: 992px) {
+  /* this is navbar */
+
+  .nav-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* toggler this is hide */
+
+  .navbar-toggler.collapsed {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-logo{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 20vw;
+
+  }
+.social-icon {
+  margin-right: 30px;
+
+  border: 2px solid var(--color-two);
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 50%;
+  padding-top: 11px;
+  padding-left: 6%;
+
+}
+
+.hr-footer{
+  position: relative;
+  content: "";
+  background-color: var(--color-two);
+  width: 90%;
+  height: 3px;
+  border-radius: 5px;
+}
+.copyright{
+  width: 20rem;
+}
+
+.btn-footer{
+position: absolute;
+top: 48px;
+left: 11rem;
+}
+
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .footer-logo{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 20vw;
+
+  }
+.social-icon {
+  margin-right: 30px;
+position: relative;
+left: 1rem;
+  border: 2px solid var(--color-two);
+  height: 3rem;
+  width: 8rem;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-left: 7%;
+
+}
+
+.hr-footer{
+  position: relative;
+  content: "";
+  background-color: var(--color-two);
+  width: 90%;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.copyright{
+  width: 12rem;
+  margin-left: 6rem;
+}
+
+.btn-footer{
+  position: relative;
+  top: -40px;
+  left: 96px;
+}
+
+
+.footer-input{
+height: 2.8rem;
+}
+
+}
+
+
+@media (max-width: 576px) {
+  .footer-logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    
+      }
+    .social-icon {
+      padding-left: 18px;
+    
+    }
+    
+    .hr-footer{
+      position: relative;
+      content: "";
+      background-color: var(--color-two);
+      width: 95%;
+      height: 3px;
+      border-radius: 5px;
+    }
+    
+    .copyright{
+      width: 12rem; 
+    margin-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+     
+    }
+    
+    .btn-footer{
+      position: relative;
+      top: -2.5rem;
+      right: 4rem;
+      width: 10vw;
+    }
+    
+    
+    .footer-input{
+    height: 2.8rem;
+    } 
+}
+
+/*---------- footer done ------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

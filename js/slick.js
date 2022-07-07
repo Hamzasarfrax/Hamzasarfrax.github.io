@@ -3026,9 +3026,9 @@
               breakpoint: 1199,
               settings: {
                 arrows: true,
-              
                 centerPadding: '40px',
-                slidesToShow: 2
+               slidesToScroll:1,
+                slidesToShow: 3
               }
             },
             {
@@ -3037,22 +3037,23 @@
                   arrows: true,
                 
                   centerPadding: '40px',
-                  slidesToShow: 2
+                  slidesToShow: 2,
+                  slidesToScroll:1,
                 }
               },
               {
-                breakpoint: 880,
+                breakpoint: 768,
                 settings: {
                   arrows: true,
                 
-                  
-                  slidesToShow: 1,
+                  centerPadding: '40px',
+               
                   slidesToShow: 2,
                   slidesToScroll:1,
                 }
               },
             {
-                breakpoint: 768,
+                breakpoint: 576,
                 settings: {
                   arrows: true,
                 

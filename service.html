@@ -1,306 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this is style of page -->
+    <link rel="stylesheet" href="/css/work.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" type="text/css" href="slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- this is fontt awesome css link -->
+    <link rel="stylesheet" type="text/css" href="/all.css" />
+    <link rel="stylesheet" type="text/css" href="/all.min.css" />
+    <!-- this is the style link -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Home</title>
+  </head>
 
-  <!-- this is style of page -->
-  <link rel="stylesheet" href="/css/work.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="slick.css" />
-  <link rel="stylesheet" type="text/css" href="slick-theme.css" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
-  <!-- this is fontt awesome css link -->
-  <link rel="stylesheet" type="text/css" href="/all.css" />
-  <link rel="stylesheet" type="text/css" href="/all.min.css" />
-  <!-- this is the style link -->
-  <link rel="stylesheet" href="css/style.css" type="text/css" />
-  <title>Home</title>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          src=" https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/logo-1_2x_iikcwd.png "
+          class="img-fluid w-50"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse align-items-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="link" id="home" href="home.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="link" href="work.html">How its work</a>
+          </li>
+          <li class="nav-item">
+            <a class="link" href="member.html">members</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img
-        src=" https://res.cloudinary.com/the-super-soul/image/upload/v1656924605/web-images/img/logo-1_2x_iikcwd.png "
-        class="img-fluid w-50" /></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse align-items-right" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="link" id="home" href="home.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="link" href="service.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="link" href="pricing.html">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="link" href="work.html">How its work</a>
-        </li>
-        <li class="nav-item">
-          <a class="link" href="member.html">members</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- this is service section -->
-  <div class="service-section">
-  <div class="service-bg ">
-    <div class="service-bg-2">
-      <div class="container my-5" style="padding-top:10% ;">
-        <div class="row revert-col">
-          <div class="col-xxl-6 col-lg-6 col-md-12 ">
-            <div class="service-col-set">
-            <div class="service-box">
-            
-              <div class="box-img">
-                
-                <img
-                  src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924594/web-images/img/girl-saving-coins-1_2x_laehge.png"
-                  class="w-75" /> 
-                 
+    <!-- this is service section -->
+    <div class="service-section">
+      <div class="service-bg">
+        <div class="service-bg-2">
+          <div class="container my-5" style="padding-top: 10%">
+            <div class="row revert-col">
+              <div class="col-xxl-6 col-lg-6 col-md-12">
+                <div class="service-col-set">
+                  <div class="service-box">
+                    <div class="box-img">
+                      <img
+                        src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924594/web-images/img/girl-saving-coins-1_2x_laehge.png"
+                        class="w-75"
+                      />
+                    </div>
+                    <p class="text-center text-uppercase para">
+                      we provide best price for highest quality. just set your
+                      confortable budget and our smart algorithims
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p class="text-center text-uppercase  para ">
-                we provide best price for highest quality. just set your
-                confortable budget and our smart algorithims
-              </p>
-            </div>
-          </div>
-        </div>
-          <div class="col-xxl-6 col-lg-6 col-md-6 ">
-            <div class="text-center service-col-spacing">
-            
-              <img
-              src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/tv-1_2x_yzphzw.png "
-              class="" />
-      <small class=" text-capitalize ml-3 why-us" style="font-weight:bolder ; font-size:30px;" >  why us</small>
-    
-           
-             
-            
-            </div>
-          </div>
-          <!-- <div class="col-xxl-4 col-lg-1 col-md-6">
+              <div class="col-xxl-6 col-lg-6 col-md-6">
+                <div class="text-center service-col-spacing">
+                  <img
+                    src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/tv-1_2x_yzphzw.png "
+                    class=""
+                  />
+                  <small
+                    class="text-capitalize ml-3 why-us"
+                    style="font-weight: bolder; font-size: 30px"
+                  >
+                    why us</small
+                  >
+                </div>
+              </div>
+              <!-- <div class="col-xxl-4 col-lg-1 col-md-6">
 
             <p class="text-capitalize my-5 text-white" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 18px;"  >why us</p>
 
           </div> -->
+            </div>
+          </div>
 
+          <!-- this is second container  -->
+
+          <div class="container my-5">
+            <div class="row">
+              <div class="col-xxl-6 col-lg-6 col-md-12">
+                <div class="service-box">
+                  <div class="box-img">
+                    <img
+                      src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924622/web-images/img/side-view-of-binoculars-1_2x_gmvghm.png"
+                      class="w-75 py-3"
+                    />
+                  </div>
+                  <p class="text-center text-uppercase para">
+                    we provide best price for highest quality. just set your
+                    confortable budget and our smart algorithims
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xxl-6 col-lg-6 col-md">
+                <div class="service-box left-spacing">
+                  <div class="box-img">
+                    <img
+                      src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924624/web-images/img/team-development-of-the-project-1_2x_jomfyf.png"
+                      class="w-75"
+                    />
+                  </div>
+                  <p class="text-center text-uppercase para">
+                    we provide best price for highest quality. just set your
+                    confortable budget and our smart algorithims
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- this is third col -->
+
+          <div class="container my-5">
+            <div class="row">
+              <div class="col-xxl-6 col-lg-6 col-md-12">
+                <div class="service-box">
+                  <div class="box-img">
+                    <img
+                      src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924584/web-images/img/ai-labirint-1_2x_anhuvi.png"
+                      class="w-75 py-1"
+                    />
+                  </div>
+                  <p class="text-center text-uppercase para">
+                    we provide best price for highest quality. just set your
+                    confortable budget and our smart algorithims
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xxl-6 col-lg-6 col-md">
+                <div class="service-box left-spacing">
+                  <div class="box-img">
+                    <img
+                      src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/man-studying-financial-analytics-1_2x_pqie8n.png"
+                      class="w-75"
+                    />
+                  </div>
+                  <p class="text-center text-uppercase para">
+                    we provide best price for highest quality. just set your
+                    confortable budget and our smart algorithims
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <!-- this is second container  -->
-      
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-xxl-6 col-lg-6 col-md-12">
-            <div class="service-box">
-              <div class="box-img">
-                <img
-                  src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924622/web-images/img/side-view-of-binoculars-1_2x_gmvghm.png"
-                  class="w-75 py-3" />
+        <!-- this is service input box with container -->
+        <div class="display-mobile">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="" style="">
+                  <input type="text" class="form-control-lg input" "
+                  placeholder=" Input Link To Start Promotion" />
+                  <button class="btn btn-primary mt-1 margin-btn">
+                    Make Me Famous
+                  </button>
+                </div>
               </div>
-              <p class="text-center text-uppercase  para">
-                we provide best price for highest quality. just set your
-                confortable budget and our smart algorithims
-              </p>
-            </div>
-          </div>
-
-          <div class="col-xxl-6 col-lg-6 col-md">
-            <div class="service-box left-spacing">
-              <div class="box-img">
-                <img
-                  src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924624/web-images/img/team-development-of-the-project-1_2x_jomfyf.png"
-                  class="w-75 " />
-              </div>
-              <p class="text-center text-uppercase  para">
-                we provide best price for highest quality. just set your
-                confortable budget and our smart algorithims
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- this is third col -->
-
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-xxl-6 col-lg-6 col-md-12">
-            <div class="service-box">
-              <div class="box-img">
-                <img
-                  src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924584/web-images/img/ai-labirint-1_2x_anhuvi.png"
-                  class="w-75 py-1" />
-              </div>
-              <p class="text-center text-uppercase  para">
-                we provide best price for highest quality. just set your
-                confortable budget and our smart algorithims
-              </p>
-            </div>
-          </div>
-
-          <div class="col-xxl-6 col-lg-6 col-md">
-            <div class="service-box left-spacing">
-              <div class="box-img">
-                <img
-                  src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/man-studying-financial-analytics-1_2x_pqie8n.png"
-                  class="w-75" />
-              </div>
-              <p class="text-center text-uppercase  para">
-                we provide best price for highest quality. just set your
-                confortable budget and our smart algorithims
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- ====this is footer section of page===== -->
 
-    <!-- this is service input box with container -->
-<div class="display-mobile">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="" style="">
-            <input type="text" class="form-control-lg input" 
-                " placeholder="Input Link To Start Promotion" />
-            <button class="btn btn-primary mt-1 margin-btn">
-              Make Me Famous
-            </button>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="">
+              <img
+                src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924326/web-images/img/logo-1_2x_qyztjx.png"
+                class="footer-logo"
+              />
+              <p class="my-3">(347) 875-0972</p>
+              <p href="mail:to">info@supply.com</p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
+            <h6 class="text-capitalize font-weight-bold">quick links</h6>
+            <div class="text-capitalize">
+              <nav class="nav-footer">
+                <a href="" class="footer-link">instagram followers</a>
+                <br />
+                <a href="" class="footer-link">youtube views</a>
+                <br />
+                <a href="" class="footer-link">tiktok followers</a>
+                <br />
+                <a href="" class="footer-link">twitter followers </a>
+                <br />
+                <a href="" class="footer-link">facebook likes</a>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
+            <div class="text-capitalize">
+              <nav class="nav-footer footer-fag">
+                <a href="" class="my-2 text-dark">faq</a>
+
+                <a href="" class="my-2 text-dark">blogo</a>
+
+                <a href="" class="my-2 text-dark">about us</a>
+
+                <a href="" class="my-2 text-dark"> contract info </a>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
+            <h2>Subscribe</h2>
+            <div class="footer-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Get Updates"
+              /><button class="btn-footer">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  </div>
-</div>
-  <!-- ====this is footer section of page===== -->
+      <hr class="hr-footer" />
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4 col-sm-6 col">
+            <div class="social">
+              <i class="fa-brands fa-linkedin-in social-icon"></i>
+              <i class="fa-brands fa-twitter social-icon"></i>
+              <i class="fa-brands fa-facebook-f social-icon"></i>
+            </div>
+          </div>
 
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
-          <div class="">
-            <img
-              src="https://res.cloudinary.com/the-super-soul/image/upload/v1656924326/web-images/img/logo-1_2x_qyztjx.png"
-              class=" footer-logo" />
-            <p class="my-3"> (347) 875-0972 </p>
-            <p href="mail:to">
-              info@supply.com
+          <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col">
+            <p class="copyright">
+              @ 2022 views.supply media.All rights reserved
             </p>
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-
-
-          <h6 class="text-capitalize font-weight-bold">quick links</h6>
-          <div class="text-capitalize">
-            <nav class="nav-footer">
-              <a href="" class="footer-link">instagram followers</a>
-              <br />
-              <a href="" class="footer-link">youtube views</a>
-              <br />
-              <a href="" class="footer-link">tiktok followers</a>
-              <br />
-              <a href="" class="footer-link">twitter followers </a>
-              <br />
-              <a href="" class="footer-link">facebook likes</a>
-            </nav>
-          </div>
-        </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
-          <div class=" text-capitalize " >
-        
-          
-            <nav class="nav-footer footer-fag" >
-              <a href=""  class="my-2 text-dark" >faq</a>
-             
-              <a href="" class="my-2 text-dark"  >blogo</a>
-              
-           
-              <a href=""  class="my-2 text-dark" >about us</a>
-           
-               <a href=""class="my-2 text-dark">   contract info </a>
-            </nav>
-          </div>
-        </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
-          <h2>Subscribe</h2>
-          <div class="footer-input">
-            <input type="text" class="form-control" placeholder="Get Updates" /><button class="btn-footer"> <i class="fa-solid fa-arrow-right"></i></button>
-          </div>
-        </div>
-
       </div>
-    </div>
-    <hr class="hr-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4 col-sm-6 col ">
-          <div class="social">
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- this is slik js file -->
 
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script type="text/javascript" src="slick.js"></script>
+    <!-- this is slik js file -->
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- this is slik carousels -->
+    <!-- this is fontr aqwesom cdn link -->
 
-
-            <i class="fa-brands fa-linkedin-in social-icon"></i>
-            <i class="fa-brands fa-twitter social-icon"></i>
-            <i class="fa-brands fa-facebook-f social-icon"></i>
-
-
-
-          </div>
-        </div>
-
-   
-
-        <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col ">
-
-          <p class="copyright">
-            @ 2022 views.supply
-            media.All rights reserved
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Bootstrap JS -->
-  <!-- this is slik js file -->
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick.min.js"></script>
-  <script type="text/javascript" src="slick.js"></script>
-  <!-- this is slik js file -->
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-  <!-- this is slik carousels -->
-  <!-- this is fontr aqwesom cdn link -->
-
-  <script src="https://kit.fontawesome.com/bdd05ded02.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/bdd05ded02.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

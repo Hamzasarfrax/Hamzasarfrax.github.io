@@ -9,6 +9,22 @@
   --foter-color:#1f2120;
 }
 
+
+
+/* this is batn bac and col */
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+
+.batn{
+  background-color: var(--color-two);
+  color: var(--text-color);
+
+}
+
 .button:hover {
   background-color: var(--main-color);
   color: var(--text-color);
@@ -36,7 +52,7 @@
   z-index: -10;
 }
 
-.btn:hover:before {
+.button:hover:before {
   width: 100%;
 
 }
@@ -79,7 +95,7 @@ link:active {
   color: var(--color-two);
 }
 
-a:visited {
+link:visited {
   color: var(--color-two);
 
 }
@@ -105,6 +121,13 @@ a:visited {
 }
 
 /*=====thsi is for text transform====  */
+
+
+
+
+
+
+
 
 
 
@@ -411,18 +434,17 @@ color: var(--color-two);
 
 
 .your-class {
-  position: relative;
 
-  /* border-top-right-radius: 20%; */
-  border-bottom-left-radius: 30%;
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924353/web-images/img/silkmain_ru6pg9.svg");
-  height: 100vh;
-  padding-top: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+
+.image-slick{
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924623/web-images/img/silkmain_pfnfye.svg");
+  background-repeat: no-repeat;
+ background-position-x: 100%;
+ background-position-y: 100vh;
+  background-size: 100rem;
+}
 
 
 .slick-prev:before {
@@ -470,7 +492,7 @@ color: var(--color-two);
 
 /* this is responsive layouts of slick carousel  */
 
-@media (max-width: 992px) {
+
 
   .slick-prev:before,
   .slick-next:before {
@@ -481,10 +503,10 @@ color: var(--color-two);
   .slick-dots li button {
     padding-bottom: 20px;
   }
-}
 
 
-/* alll devices xcheck responsive layouts of home  */
+
+/* alll devices check responsive layouts of home  */
 
 
 @media (min-width:992px)  and (max-width:1200px)  {
@@ -1547,44 +1569,67 @@ transform: translate(-50%, -50%);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==================this is service page styling============= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* this is the main div of service page  */
-
 
 .service-box {
   background-color: white;
@@ -2079,6 +2124,21 @@ btn {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------ this is styling of  of pricing page ----- */
 
 
@@ -2409,6 +2469,19 @@ width: 40px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* this is how its work page csss */
 /* =========this is the how its work page styling============= */
 /* 
@@ -2681,6 +2754,34 @@ this is how its work heading line hr */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =======this is the page of member page box design box-design-members======= */
 
 .box-design-members {
@@ -2749,27 +2850,69 @@ this is how its work heading line hr */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =======this is the page of member page box design box-design-members======= */
-/*============this is footer css for page========== */
-
-footer ,p{
+@media 
+(min-width:992px) and (max-width:1200px) {
+  
  
 }
+/* =======this is the page of member page box design box-design-members======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============this is footer css for page========== */
+
+
 
 .site-footer {
   font-size: 15px;

@@ -12,7 +12,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--main-color);
+  background:var(--color-two);
   border-radius: 10px;
 }
 
@@ -26,7 +26,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-two);
+  background: var(--main-color);
   cursor: pointer;
 }
 
@@ -39,8 +39,9 @@ body {
 :root {
   --main-color: #0388fc;
   --color-two: #1b46ba;
-  --text-color: #efefef;
+  --text-color: white;
   --foter-color: #1f2120;
+  --white-color:white;
 }
 
 
@@ -98,34 +99,38 @@ body {
 }
 
 /* =======this is navlink css part ===========*/
-@media (min-width:992px) and (max-width:1100px) {
-nav ul li a {
-    color: red;
 
-  }
-#home{
-  background-color: red;
+
+
+.navbar{
+  z-index: 1000;
 }
 
-}
 
-nav ul li a:active{
+
+.nav-item , a:active{
  color: red;
-
-}
-
-nav ul li a:visited {
+ 
 
 
 }
+
+.nav-item , a:visited {
+
+
+color: var(--main-color);
+}
+
+
+
 
 
 .link {
   text-transform: capitalize;
   color: var(--color-two);
-  padding: 25px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   position: relative;
 }
 
@@ -134,7 +139,8 @@ nav ul li a:visited {
   position: absolute;
   background-color: var(--main-color);
   width: 0;
-  left: 15px;
+  left: 10%;
+  right: 0;
   height: 2px;
   border-radius: 3px;
 
@@ -153,6 +159,10 @@ nav ul li a:visited {
 .link:hover {
   text-decoration: none;
   color: var(--main-color);
+}
+
+.link:focus{
+  color: red;
 }
 
 #home {
@@ -248,7 +258,7 @@ width: 40%;
 height: 80%;
 position: relative;
 left: 7rem;
-top: -6rem;
+top: -4rem;
 
 }
 
@@ -263,7 +273,7 @@ top: -50px;
   text-transform: uppercase;
   margin-top: 5rem;
 position: relative;
-left: -10rem;
+left: -7rem;
 }
 
 .color-blue{
@@ -283,28 +293,14 @@ inline-size: 610px;
 text-align: center;
 }
 
-
-
-
-
-
-.text-home {
-  text-transform: uppercase;
-
-  font-size: 50px;
-  width: 30vw;
+.close-space-home{
+  position: absolute;
+  top: 35rem;
 }
 
-.text-home-2 {
-  text-transform: capitalize;
-  padding-top: 20%;
-  width: 30vw;
-  font-size: 35px;
-}
 
-.color-text {
-  color: var(--color-two);
-}
+
+
 
 
 .input-home {
@@ -316,17 +312,19 @@ text-align: center;
 
 .home-btn {
   position: relative;
-  left: 60vw;
+  left: 65vw;
   top: -4.5rem;
   z-index: 50;
   width: 10vw;
   height: 3rem;
+  border-radius: 10px;
   background-color: var(--color-two);
   color: var(--text-color);
   text-transform: capitalize;
 }
 
 .input-1 {
+
 
 }
 
@@ -373,7 +371,7 @@ text-align: center;
   width: 90vw;
   /* height: 150vh; */
   position: relative;
-
+bottom: 90px;
   z-index: -20;
 
 }
@@ -386,14 +384,14 @@ text-align: center;
   padding: 20px;
   border-radius: 20px;
   position: relative;
-  bottom: 72rem;
+bottom: 60rem;
   margin-top: 5vh;
   background-color: var(--text-color);
 }
 
 .card-section {
   position: relative;
-  top: -50rem;
+  top: -55rem;
 
 }
 
@@ -402,8 +400,8 @@ text-align: center;
   border: 4px solid var(--color-two);
   border-radius: 20px;
   padding: 20px;
-  width: 22vw;
-  height: 60vh;
+  width: 25vw;
+height: 100%;
 }
 
 .btn-home {
@@ -419,12 +417,13 @@ text-align: center;
 .batns {
 
   text-transform: capitalize;
-  width: 12vw;
+  width: 12rem;
   border-radius: 10px;
   border: 2px solid var(--color-two);
   margin-top: 20px;
   font-weight: bolder;
   padding: 10px;
+  background-color: var(--text-color);
 
 }
 
@@ -434,6 +433,12 @@ text-align: center;
   width: 17vw;
   height: 3rem;
   padding-left: 20px;
+}
+
+.white-input-targeting-box{
+  border: 5px solid rgb(244, 238, 228);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-target {
@@ -450,8 +455,7 @@ text-align: center;
 }
 
 .btn-target:hover {
-  background-color: var(--text-color);
-  color: var(--color-two);
+ 
 
 }
 
@@ -526,7 +530,7 @@ text-align: center;
 
 .home-top-margin {
   position: relative;
-  bottom: 80rem;
+  bottom: 55rem;
 }
 
 
@@ -539,8 +543,13 @@ text-align: center;
 .your-class {
   position: relative;
   bottom: 40rem;
+  margin-top: 5rem;
+
 }
 
+.slick{
+
+}
 
 .image-slick {
   width: 100vw;
@@ -625,28 +634,40 @@ text-align: center;
 
 }
 
-.slick-prev:before {
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/vector-23_2x_tz3hdk.svg");
+.slick-client-heading{
+position: relative;
+bottom: 40rem;
+color: var(--text-color);
+}
 
+
+.slick-prev:before {
+  content: "<";
+  /* background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924355/web-images/img/vector-23_2x_tz3hdk.svg");
+  background-size: 100% 100%; */
   background-repeat: no-repeat;
   z-index: 10;
+  color: green;
+  background-color: #1b46;
+
 }
 
 .slick-next:before {
-  /* content: '→'; */
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924356/web-images/img/vector-24_2x_uysuha.svg");
-  background-repeat: no-repeat;
+  content: '>';
+  /* background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924356/web-images/img/vector-24_2x_uysuha.svg");
+  background-repeat: no-repeat; */
   background-size: 100% 100%;
   z-index: 10;
 }
 
 .slick-prev:before,
 .slick-next:before {
+ 
   font-family: "slick";
   font-size: 20px;
   line-height: 1;
   opacity: 1;
-  color: var(--text-color);
+  
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -661,16 +682,21 @@ text-align: center;
 
 .slick-next {
   position: relative;
-  right: 880px;
-  margin-bottom: 10vh;
+  left: 75%; 
+  top: -33rem;
   z-index: 10;
+
+ 
 }
 
 .slick-prev {
   position: relative;
-  left: 50%;
-  margin-bottom: 10vh;
+  top: -6rem;
+  left: 20%;
+
   z-index: 10;
+
+
 }
 
 /* this is responsive layouts of slick carousel  */
@@ -679,8 +705,11 @@ text-align: center;
 
 .slick-prev:before,
 .slick-next:before {
-  position: relative;
-  left: -340px;
+background-color:var(--text-color);
+color: var(--color-two);
+font-size: 30px;
+font-weight: bolder;
+padding: 0px 10px 0px 10px ;
 
 }
 
@@ -699,7 +728,7 @@ text-align: center;
   font-size: 6px;
   line-height: 20px;
   position: absolute;
-  top: 0;
+  top: -32rem;
   left: 0;
   width: 20px;
   height: 20px;
@@ -716,69 +745,503 @@ text-align: center;
 /* alll devices check responsive layouts of home  */
 
 
-@media (min-width:992px) and (max-width:1199px) {
-
-
-  .main-recimg {
-    position: relative;
-    z-index: -20;
-    left: 15%;
-    height: 60rem;
-
+@media (min-width:1500px) and (max-width:2200px)  {
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:60rem ;
+  
+  height: 65rem;
+  margin-top: 20px;
   }
-
-  .main-bg-img {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mask-group-5_2x_akqy91.svg ");
-    background-repeat: no-repeat;
-    z-index: 10;
-    background-position-x: 20vw;
-    background-size: 65%;
-
+  
+  .arrow-img{
+  width: 40%;
+  height: 80%;
+  position: relative;
+  left: 10.5rem;
+  top: -4rem;
+  
   }
-
-  .img-arrow {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924625/web-images/img/vector-15_1x_hfpuea.svg");
-    background-repeat: no-repeat;
-    background-position: 30% 66vh;
-    z-index: -40;
-    padding-top: 5vh;
-    background-size: 18%;
+  
+  .girl-img{
+  position: relative;
+  left: 80%;
+  width: 60%;
+  top: -50px;
   }
-
-  .text-home {
+  
+  .text-first{
     text-transform: uppercase;
-    padding-top: 60%;
-    font-size: 50px;
-    width: 30vw;
+    margin-top: 5rem;
+  position: relative;
+  left: -7rem;
   }
+  
+  .color-blue{
+    color: var(--color-two);
+  }
+  .grow{
+  inline-size: 40rem;
+  font-weight: bolder;
+  font-size: 70px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 25px;
+  
+  inline-size: 610px;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 35rem;
+  }
+  
+  
+  
+  
+  
+  
+  .input-home {
+    width: 70vw;
+    height: 6rem;
+    border: 4px solid var(--color-two);
+    border-radius: 15px;
+  }
+  
+  .home-btn {
+    position: relative;
+    left: 58vw;
+    top: -4.5rem;
+  
 
 
+  }
+.contain-color{
+  margin-top: 6rem;
+}
+
+.big-img{
+  width: 90rem;
+bottom: 10rem;
+}
+.card-box{
+  width: 15vw;
+}
+.input-col-2{
+  width: 10vw;
+}
+
+.home-start{
+position: relative;
+top: -72rem;
+}
+.card-section{
+  position: relative;
+ top: -67rem;
+}
+.home-top-margin{
+  top: -67rem;
+}
+
+.your-class{
+  bottom: 66rem;
+}
+
+.image-slick{
+height: 70vh;
+width: 100vw;
+}
+.slick-client-heading{
+  margin-bottom: 30rem;
+}
+/* the slides */
+.slick-bg-img-1 {
+  position: relative;
+padding:  -90px;
+
+}
+
+.blue-img {
+  position: absolute;
+  left: 30px;
+}
+
+.text-slick {
+  position: absolute;
+
+  top: 90px;
+  left: 90px;
+  text-align: justify;
+
+}
+
+.font-size {
+  font-size: 15px;
+  width: 15rem;
+  text-align: justify;
+  position: absolute;
+  left: -20px;
+}
+
+.quotes {
+  position: relative;
+  left: 40%;
+  top: -10px;
+}
+
+.designer-img {
+  position: absolute;
+  top: 1px;
+  left: 40%;
+}
+
+
+.blue-img-3 {
+  position: absolute;
+  left: 14px;
+}
+
+.text-slick-2 {
+  position: absolute;
+
+  top: 90px;
+  left: 70px;
+  text-align: justify;
+}
+
+.designer-img-2 {
+  position: absolute;
+  top: 1px;
+  left: 35%;
+}
+
+.blue-img-3 {
+  padding-right: 30px;
+
+}
+
+.bg-slick-blue {
+  height: 50%;
+  width: 90%;
+  padding-left: 30px;
+}
+
+.designer-img-3 {
+  position: absolute;
+  left: 35%;
+  top: 1px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px) and (max-width:1500px)  {
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:50rem ;
+  
+  height: 65rem;
+  margin-top: 20px;
+  }
+  
+  .arrow-img{
+  width: 40%;
+  height: 80%;
+  position: relative;
+  left: 6rem;
+  top: -4rem;
+  
+  }
+  
+  .girl-img{
+  position: relative;
+  left: 50%;
+  width: 60%;
+  top: -50px;
+  }
+  
+  .text-first{
+    text-transform: uppercase;
+    margin-top: 5rem;
+  position: relative;
+  left: -7rem;
+  }
+  
+  .color-blue{
+    color: var(--color-two);
+  }
+  .grow{
+  inline-size: 40rem;
+  font-weight: bolder;
+  font-size: 70px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 25px;
+  
+  inline-size: 610px;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 35rem;
+  }
+  
+  
+  
+  
+  
+  
+  .input-home {
+    width: 70vw;
+    height: 6rem;
+    border: 4px solid var(--color-two);
+    border-radius: 15px;
+  }
+  
+  .home-btn {
+    position: relative;
+    left: 58vw;
+    top: -4.5rem;
+  
+
+
+  }
+.contain-color{
+  margin-top: 6rem;
+}
+
+.big-img{
+  width: 90rem;
+bottom: 10rem;
+}
+.card-box{
+  width: 20rem;
+}
+.input-col-2{
+  width: 10vw;
+}
+
+.home-start{
+position: relative;
+top: -72rem;
+}
+.card-section{
+  position: relative;
+ top: -67rem;
+}
+.home-top-margin{
+  top: -67rem;
+}
+
+.your-class{
+  bottom: 66rem;
+}
+
+.image-slick{
+margin-left: 2%;
+}
+.slick-client-heading{
+  margin-bottom: 30rem;
+}
+/* the slides */
+.slick-bg-img-1 {
+  position: relative;
+padding:  -90px;
+
+}
+
+.blue-img {
+  position: absolute;
+  left: 30px;
+}
+
+.text-slick {
+  position: absolute;
+
+  top: 90px;
+  left: 90px;
+  text-align: justify;
+
+}
+
+.font-size {
+  font-size: 10px;
+  width: 15rem;
+  text-align: justify;
+  position: absolute;
+  left: -20px;
+}
+
+.quotes {
+  position: relative;
+  left: 40%;
+  top: -10px;
+}
+
+.designer-img {
+  position: absolute;
+  top: 1px;
+  left: 40%;
+}
+
+
+.blue-img-3 {
+  position: absolute;
+  left: 14px;
+}
+
+.text-slick-2 {
+  position: absolute;
+
+  top: 90px;
+  left: 70px;
+  text-align: justify;
+}
+
+.designer-img-2 {
+  position: absolute;
+  top: 1px;
+  left: 35%;
+}
+
+.blue-img-3 {
+  padding-right: 30px;
+
+}
+
+.bg-slick-blue {
+  height: 50%;
+  width: 90%;
+  padding-left: 30px;
+}
+
+.designer-img-3 {
+  position: absolute;
+  left: 35%;
+  top: 1px;
+  
+
+}
+
+}
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1280px) {
+
+
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:40rem ;
+  position: relative;
+  /* left: 15rem; */
+  height: 65rem;
+  margin-top: 20px;
+  }
+  
+  .arrow-img{
+  width: 40%;
+  height: 80%;
+  position: relative;
+  left: 6rem;
+  top: -2rem;
+  z-index: -30;
+  
+  }
+  
+  .girl-img{
+  position: relative;
+  left: 50%;
+  width: 60%;
+  top: -50px;
+  }
+  
+  .text-first{
+    text-transform: uppercase;
+    margin-top: 5rem;
+  position: relative;
+  left: -50px;
+  }
+  
+  .color-blue{
+    color: var(--color-two);
+  }
+  .grow{
+  inline-size: 30rem;
+  font-weight: bolder;
+  font-size: 50px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 15px;
+  
+  inline-size: 35vw;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 35rem;
+  }
 
 
   .contain-color {
     background-color: var(--color-two);
     border-radius: 30px;
     display: flex;
-    width: 70vw;
+    width: 55rem;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 48vh;
+    bottom: -4rem;
   }
 
+
+  .input-home {
+    width: 70vw;
+    height: 6rem;
+    border: 4px solid var(--color-two);
+    border-radius: 15px;
+    position: relative;
+left: -0rem;
+  }
+  
+  .home-btn {
+    position: absolute;
+    left: 80%;
+    top: 1.5rem;
+  
+
+
+  }
+
+
   .box-home-contain {
-    background-color: var(--text-color);
-
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 35px;
-    margin-right: 20px;
-    margin-bottom: 5vh;
-    margin-top: 2vh;
-
-    width: 12rem;
+ width: 10rem;
+ height: 12rem;
+position: relative;
+left: -25px;
 
   }
 
@@ -788,13 +1251,10 @@ text-align: center;
 
 
   /* this is card section css */
-
-  .big-img {
-
-
-    width: 70rem;
-
-
+  .big-img{
+    width: 60rem;
+ 
+top: -3rem;
   }
 
 
@@ -805,14 +1265,14 @@ text-align: center;
     padding: 20px;
     border-radius: 20px;
     position: relative;
-    bottom: 78rem;
+    bottom: 42rem;
 
     background-color: var(--text-color);
   }
 
   .card-section {
     position: relative;
-    top: -75rem;
+    top: -40rem;
 
   }
 
@@ -837,7 +1297,7 @@ text-align: center;
   .batns {
 
 
-    width: 17vw;
+    width: 12rem;
     cursor: pointer;
 
   }
@@ -926,7 +1386,7 @@ text-align: center;
 
   .home-top-margin {
     position: relative;
-    bottom: 79rem;
+    bottom: 44rem;
   }
 
 
@@ -1139,6 +1599,58 @@ text-align: center;
 @media (min-width:768px) and (max-width:992px) {
 
 
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:30rem ;
+  position: relative;
+  /* left: 15rem; */
+  height: 50rem;
+  margin-top: 20px;
+  }
+  
+  .arrow-img{
+display: none;
+  
+  }
+  
+  .girl-img{
+  position: relative;
+  left: 50%;
+  width: 60%;
+  top: -20px;
+  }
+  
+  .text-first{
+    text-transform: uppercase;
+    margin-top: 5rem;
+  position: relative;
+  left: -50px;
+  }
+  
+  .color-blue{
+    color: var(--color-two);
+  }
+  .grow{
+  inline-size: 30rem;
+  font-weight: bolder;
+  font-size: 50px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 15px;
+  
+  inline-size: 35vw;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 55rem;
+  }
+
+
 
   .text-home {
 
@@ -1183,6 +1695,7 @@ text-align: center;
   .home-btn {
     position: relative;
     width: 15vw;
+    left: 75%;
   }
 
   .input-1 {
@@ -1218,14 +1731,14 @@ text-align: center;
     padding: 20px;
     border-radius: 20px;
     position: relative;
-    bottom: 60rem;
+    bottom: 67rem;
 
 
   }
 
   .card-section {
     position: relative;
-    top: -55rem;
+    top: -65rem;
 
 
   }
@@ -1542,62 +2055,61 @@ text-align: center;
 /* this is mobile devise with large screen */
 @media (min-width:576px) and (max-width:768px) {
 
-
-
-  .main-recimg {
-    position: relative;
-    z-index: -20;
-    left: -10%;
-    height: 45rem;
-    margin-top: 23%;
-
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:25rem ;
+  position: relative;
+  /* left: 15rem; */
+  height: 50rem;
+  margin-top: 20px;
   }
-
-  .main-bg-img {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mask-group-5_2x_akqy91.svg ");
-    background-repeat: no-repeat;
-    z-index: 10;
-    background-position-y: 20rem;
-    background-position-x: -4rem;
-    background-size: 75%;
-
+  
+  .arrow-img{
+display: none;
+  
   }
-
-  .img-arrow {
-    background-image: none;
+  
+  .girl-img{
+  position: relative;
+  left: 50%;
+  width: 60%;
+  top: -20px;
   }
-
-
-
-  .text-home {
-
-    position: relative;
-    left: 7rem;
-    font-size: 55px;
-    width: 55vw;
-
+  
+  .text-first{
+    text-transform: uppercase;
+    margin-top: 5rem;
+  position: relative;
+  left: -50px;
   }
-
-  .text-home-2 {
-    text-transform: capitalize;
-    padding-top: 20%;
-    width: 55vw;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    left: 4rem;
-
-
-  }
-
-  .color-text {
+  
+  .color-blue{
     color: var(--color-two);
+  }
+  .grow{
+  inline-size: 20rem;
+  font-weight: bolder;
+  font-size: 40px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 12px;
+  
+  inline-size: 35vw;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 40rem;
   }
 
 
   .home-top-margin {
     position: relative;
-    bottom: 58rem;
+    bottom: 26rem;
   }
 
 
@@ -1665,7 +2177,7 @@ text-align: center;
     padding: 10px;
     border-radius: 20px;
     position: relative;
-    bottom: 60rem;
+    bottom: 27rem;
     font-size: 1px;
 
 
@@ -1673,7 +2185,7 @@ text-align: center;
 
   .card-section {
     position: relative;
-    top: -60rem;
+    top: -27rem;
 
 
   }
@@ -1683,7 +2195,7 @@ text-align: center;
     border: 4px solid var(--color-two);
     border-radius: 20px;
     padding: 20px;
-    width: 40vw;
+    width: 25rem;
     height: 65vh;
     margin-left: auto;
     margin-right: auto;
@@ -1721,25 +2233,22 @@ text-align: center;
   }
 
   .big-img {
-    width: 80rem;
+    width: 35rem;
+top: 4px;
 
-    /* height: 150vh; */
-    position: relative;
-    bottom: 35vh;
-    z-index: -20;
 
   }
 
   .input-col-2 {
-    width: 30vw;
+    width: 50vw;
   }
 
   .border-target {
-    width: 20vw;
+    width: 28vw;
   }
 
   .btn-target {
-    width: 10vw;
+    width: 15vw;
   }
 
   .btn-target-1 {
@@ -1768,7 +2277,7 @@ text-align: center;
   .text-circle-img {
     position: relative;
 
-    top: -35vh;
+    top: -15rem;
   }
 
   .text-circle {
@@ -1996,28 +2505,58 @@ text-align: center;
 @media (min-width:0px) and (max-width:576px) {
 
 
-  .main-recimg {
-    position: relative;
-    z-index: -20;
-    left: -10%;
-    height: 45rem;
-    margin-top: 23%;
-
+  .main-img{
+ 
+    background-position: 100% 0vh;
+    background-size:25rem ;
+  position: relative;
+  /* left: 15rem; */
+  height: 50rem;
+  margin-top: 20px;
+  }
+  
+  .arrow-img{
+display: none;
+  
+  }
+  
+  .girl-img{
+  position: relative;
+  left: 50%;
+  width: 60%;
+  top: -20px;
+  }
+  
+  .text-first{
+    text-transform: uppercase;
+    margin-top: 5rem;
+  position: relative;
+  left: -50px;
+  }
+  
+  .color-blue{
+    color: var(--color-two);
+  }
+  .grow{
+  inline-size: 20rem;
+  font-weight: bolder;
+  font-size: 40px;
+  }
+  
+  .grow-para{
+    font-weight: bold;
+  font-size: 12px;
+  
+  inline-size: 35vw;
+  text-align: center;
+  }
+  
+  .close-space-home{
+    position: absolute;
+    top: 40rem;
   }
 
-  .main-bg-img {
-    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mask-group-5_2x_akqy91.svg ");
-    background-repeat: no-repeat;
-    z-index: 10;
-    background-position-y: 21rem;
-    background-position-x: -4rem;
-    background-size: 75%;
 
-  }
-
-  .img-arrow {
-    background-image: none;
-  }
 
 
 
@@ -3447,7 +3986,7 @@ this is box-img of service pager  */
 
 position: absolute;
 right: 60px;
-top: -59px;
+top: -45px;
 
 }
 
@@ -3603,7 +4142,7 @@ left: 20%; */
     .margin-btn {
     
     width: 10vw;
-    height: 4rem;
+    height: 3rem;
     position: relative;
     top: -14.5rem;
     left: 75%;
@@ -3615,7 +4154,7 @@ left: 20%; */
       height: 8rem;
       border: 5px solid var(--color-two);
       position: relative;
-      bottom: 10vh;
+      bottom: 9rem;
       left: 1rem;
       border-radius: 25px;
       padding-left: 20px;
@@ -3758,26 +4297,19 @@ left: 20%; */
     box-shadow: none;
   }
   
+
+  .display-mobile{
+    position: relative;
+    bottom: 25rem;
+  }
   .margin-btn {
   
-  width: 12vw;
-  height: 3rem;
-  position: relative;
-  top: -13.5rem;
-  left: 80%;
-  z-index: 30;
+
   }
   
   .input {
-    width: 70rem;
-    height: 7rem;
-    border: 5px solid var(--color-two);
-    position: relative;
-    bottom: 10vh;
-    left: 1rem;
-    border-radius: 25px;
-    padding-left: 20px;
-    z-index: 20;
+  border: 5px solid var(--color-two);
+  
   }
   
   
@@ -3814,7 +4346,7 @@ left: 20%; */
 }
 /* service responsive all thing for 992px  */
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width:992px) and (max-width:1199px) {
 
 
   .service-box {
@@ -3828,7 +4360,7 @@ left: 20%; */
     padding: 20px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
 
@@ -3911,9 +4443,8 @@ background-size: 30%;
 
 .display-mobile{
   position: relative;
-  bottom: 3rem;
+top: -1rem;
 }
-
   .margin-btn {
     position: relative;
     left: -8rem;
@@ -3992,7 +4523,7 @@ left: 40%;
   /* thuis is setting image side by side */
   .service-bg {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
-    background-position: 1%  10vh;
+    background-position: 1%  0vh;
 background-repeat: no-repeat;
 background-size: 60%;
 
@@ -4001,7 +4532,7 @@ background-size: 60%;
     .service-bg-2 {
       background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
       background-repeat: no-repeat;
-      background-position: 100% 30vh;
+      background-position: 100% 35vh;
       background-size: 30rem;
   
     }
@@ -4019,7 +4550,7 @@ border-radius: 20px;
     .margin-btn {
       position: relative;
  left: 65%;
-top: -10rem;
+top: -9rem;
       z-index: 20;
     }
 
@@ -4027,7 +4558,7 @@ top: -10rem;
 
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .service-box {
     /* margin-top: 50px; */
     margin-left: auto;
@@ -4654,16 +5185,20 @@ this is the pricing page responsive layoputs ==============*/
   }
 
   .table-col{
-    top: -2rem;
+  padding-bottom: 20px;
+   
   }
 .btn-price{
  
-  margin-top: 30px;
+
 }
   .text-pricing {
     font-size: 18px;
   }
+.pricing-col-top{
+  margin-top: 30%;
 
+}
 
 
 }
@@ -4747,7 +5282,9 @@ this is the pricing page responsive layoputs ==============*/
     top: -10px;
 
   }
-
+.btn-price{
+  margin-bottom: 20px;
+}
 
 }
 
@@ -4814,13 +5351,14 @@ this is the pricing page responsive layoputs ==============*/
 .pricing-tea-box{
 width: 90%;
 position: relative;
-bottom: 14rem;
+bottom: 6rem;
 }
 
 
-.table-col{
-  position: relative;
-  bottom: 60%;
+.table-col
+{
+position: relative;
+margin-top: -40px;
 }
 .pricing-text{
 
@@ -4837,15 +5375,21 @@ font-size: 10px;
 
     font-size: 15px;
     width: 100%;
+    font-weight: bold;
 
   }
 
   .input-pricing {
     height: 3rem;
+
+  }
+
+  .pricing-col-top {
+    margin-top: -1%;
   }
 
   .img-pricing {
-    padding-top: 30%;
+   
   }
 
 
@@ -4855,7 +5399,8 @@ font-size: 10px;
   }
 
   .tea-img {
-    width: 60vw;
+    width: 15rem;
+
 
   }
 
@@ -4869,9 +5414,10 @@ font-size: 10px;
   }
 
   .btn-price {
-    width: 8rem;
+    width: 6rem;
+    height: 40px;
 position: relative;
-top: -2rem;
+top: 10px;
 font-size: 10px;
   }
 
@@ -4884,6 +5430,14 @@ font-size: 10px;
 
     font-size: 12px;
     width: 100%;
+
+  }
+}
+
+
+@media (max-width:480px) {
+  .tea-img {
+    width: 15rem;
 
   }
 }
@@ -6028,22 +6582,6 @@ padding-right: 20px;
 
 
 
-/* this is navbar toggler */
-@media (max-width:420px) {
-  .navbar-toggler {
-    border: none;
-    position: relative;
-    left: 90%;
-    bottom: 40px;
-    font-size: 15px;
-  }
-
-
-
-  .navbar-brand {}
-
-
-}
 
 /*============this is footer css for page========== */
 
@@ -6052,6 +6590,7 @@ padding-right: 20px;
 .site-footer {
   font-size: 15px;
   padding-top: 20px;
+  margin-bottom: 2rem;
 }
 
 /* this is firsst col of footer */
@@ -6118,10 +6657,11 @@ padding-right: 20px;
   background-color: var(--color-two);
   color: var(--text-color);
   width: 3rem;
-  height: 2.5rem;
+  border: 2px solid  red;
+  height: 2.7rem;
   left: 68%;
   border-radius: 6px;
-  bottom: 58%;
+  bottom: 56%;
   position: absolute;
 }
 
@@ -6164,6 +6704,21 @@ padding-right: 20px;
 }
 
 /* footer done */
+
+
+
+
+
+@media (min-width: 1200px) {
+.footer-logo{
+  width: 80%;
+}
+
+.btn-footer{
+  margin-left: 12px;
+}
+
+}
 
 
 

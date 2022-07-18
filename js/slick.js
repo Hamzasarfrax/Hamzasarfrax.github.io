@@ -3023,6 +3023,22 @@
 
         cssEase: 'linear',
         responsive: [
+           
+           
+             {
+                breakpoint: 2199,
+                settings: {
+                    arrows: true,
+                    centerPadding: '40px',
+                    slidesToScroll: 1,
+                    slidesToShow: 3
+                }
+            },
+           
+           
+           
+           
+           
             {
                 breakpoint: 1199,
                 settings: {

@@ -3011,7 +3011,7 @@
 
 
 
-    $('.your-class').slick({
+    $('.slick-class').slick({
         infinite: true,
      
         slidesToShow: 3,

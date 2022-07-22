@@ -3059,7 +3059,7 @@
                 }
             },
             {
-                breakpoint: 730,
+                breakpoint: 768,
                 settings: {
                     arrows: true,
 

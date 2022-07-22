@@ -12,25 +12,20 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:var(--color-two);
+  background: var(--color-two);
   border-radius: 10px;
 }
 
 body {
- 
   margin: 0;
   padding: 0;
-
 }
-
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--main-color);
   cursor: pointer;
 }
-
-
 
 /* this  is main-section for padding and margin */
 
@@ -41,10 +36,8 @@ body {
   --color-two: #1b46ba;
   --text-color: white;
   --foter-color: #1f2120;
-  --white-color:white;
+  --white-color: white;
 }
-
-
 
 /* this is batn bac and col */
 
@@ -53,11 +46,9 @@ body {
   color: var(--text-color);
 }
 
-
 .batn {
   background-color: var(--color-two);
   color: var(--text-color);
-
 }
 
 .button:hover {
@@ -89,7 +80,6 @@ body {
 
 .button:hover:before {
   width: 100%;
-
 }
 
 .container {
@@ -100,37 +90,26 @@ body {
 
 /* =======this is navlink css part ===========*/
 
-
-
-.navbar{
+.navbar {
   z-index: 1000;
 }
 
-
-
-.nav-item , a:active{
- color: red;
- 
-
-
+.nav-item,
+a:active {
+  color: red;
 }
 
-.nav-item , a:visited {
-
-
-color: var(--main-color);
+.nav-item,
+a:visited {
+  color: var(--main-color);
 }
-
-
-
-
 
 .link {
   text-transform: capitalize;
   color: var(--color-two);
   padding: 20px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   position: relative;
 }
 
@@ -152,16 +131,12 @@ color: var(--main-color);
   width: 80%;
 }
 
-
-
-
-
 .link:hover {
   text-decoration: none;
   color: var(--main-color);
 }
 
-.link:focus{
+.link:focus {
   color: red;
 }
 
@@ -182,74 +157,14 @@ color: var(--main-color);
 
 /*=====thsi is for text transform====  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------home page css wprking from here --------*/
-
 
 .home-rectangle {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081452/web-images/img/mainrec_nhvsix.svg");
-background-repeat: no-repeat;
-background-size: 40rem;
-background-position: 100% 2rem;
-height: 60rem;
-
+  background-repeat: no-repeat;
+  background-size: 40rem;
+  background-position: 100% 2rem;
+  height: 60rem;
 }
 
 .color-text {
@@ -269,13 +184,12 @@ height: 60rem;
   width: 35rem;
   margin-right: 10px;
 }
-.container-img,   .girl-img {
-
-position: absolute;
-height: 33rem;
-top: 10px;
-margin-left: 23rem;
-
+.container-img,
+.girl-img {
+  position: absolute;
+  height: 33rem;
+  top: 10px;
+  margin-left: 23rem;
 }
 
 .arrow-img {
@@ -284,9 +198,8 @@ margin-left: 23rem;
   background-repeat: no-repeat;
   position: relative;
   background-size: 12rem;
-top: 240px;
-margin-left: 20rem;
-
+  top: 240px;
+  margin-left: 20rem;
 }
 
 .text {
@@ -312,6 +225,7 @@ margin-left: 20rem;
   left: 70%;
   background-color: var(--color-two);
   color: var(--text-color);
+  text-transform: capitalize;
 }
 
 .contain-color {
@@ -391,7 +305,6 @@ input:focus {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
 .text-home-img {
   font-size: 50px;
   word-wrap: break-word;
@@ -460,19 +373,18 @@ input:focus {
   margin-top: 60px;
 }
 
-.slick-image{
-     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silkmain_qfd6pw.svg");
-background-repeat: no-repeat;
-padding-bottom: 100px;
-position: relative;
-bottom: 15rem;
-padding-top: 10rem;
-padding-left: 20px;
-padding-right: 20px;
-
+.slick-image {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silkmain_qfd6pw.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  position: relative;
+  bottom: 15rem;
+  padding-top: 10rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.text-client-slick{
+.text-client-slick {
   text-transform: capitalize;
 
   color: var(--text-color);
@@ -481,112 +393,103 @@ padding-right: 20px;
   bottom: 6rem;
 }
 
-.blue-img-slick{
-     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081493/web-images/img/slid3_hv752d.svg");
-     background-repeat: no-repeat;
-   height: 30rem;
-   background-position: 2rem 1rem;
-   background-size: 20rem;
-margin-left: 20px;
+.blue-img-slick {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081493/web-images/img/slid3_hv752d.svg");
+  background-repeat: no-repeat;
+  height: 30rem;
+  background-position: 2rem 1rem;
+  background-size: 20rem;
+  margin-left: 20px;
 }
 
 .blue-img-slick-2 {
-     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/slid2_fqpm4z.svg");
-     background-repeat: no-repeat;
-background-position: 1rem 0;
-background-size: 20rem;
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/slid2_fqpm4z.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem 0;
+  background-size: 20rem;
 }
 
-
-.blue-img-slick-3{
-     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silk2_ynuukg.svg");
-          background-repeat: no-repeat;
-          height: 30rem;
-          background-position: 2.2rem -1rem;
-          /* background-size: 20rem;
+.blue-img-slick-3 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silk2_ynuukg.svg");
+  background-repeat: no-repeat;
+  height: 30rem;
+  background-position: 2.2rem -1rem;
+  /* background-size: 20rem;
           margin-left: 20px; */
 }
 
-.white-slick-img{
-     margin-left: 50px;
+.white-slick-img {
+  margin-left: 50px;
 }
 
-.white-slick-img-2{
-     height: 25rem;
-
+.white-slick-img-2 {
+  height: 25rem;
 }
 
-.circl-slik-img{
-background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081496/web-images/img/ellipse-17_2x_wmpffx.svg");
-background-size: contain;
-background-repeat: no-repeat;
-position: absolute;
-margin-left:13rem;
-margin-top: 15px;
-height: 20rem;
-width: 50px;
+.circl-slik-img {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081496/web-images/img/ellipse-17_2x_wmpffx.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 13rem;
+  margin-top: 15px;
+  height: 20rem;
+  width: 50px;
 }
 
-.circl-slik-img-3{
-background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081505/web-images/img/ellipse-18_2x_vceaof.svg");
-     background-size: contain;
-     background-repeat: no-repeat;
-     position: absolute;
-     margin-left: 11rem;
-     margin-top: 15px;
-     height: 20rem;
-     width: 50px;
-    
+.circl-slik-img-3 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081505/web-images/img/ellipse-18_2x_vceaof.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 11rem;
+  margin-top: 15px;
+  height: 20rem;
+  width: 50px;
 }
-.circl-slik-img-2{
-background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081489/web-images/img/ellipse-16-1_2x_orm2zy.svg");
-     background-size: contain;
-     background-repeat: no-repeat;
-     position: absolute;
-     margin-left: 11rem;
-   background-size: 5rem;
-     height: 15rem;
-     width: 80px;
-     top: 1px;
-
+.circl-slik-img-2 {
+  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081489/web-images/img/ellipse-16-1_2x_orm2zy.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 11rem;
+  background-size: 5rem;
+  height: 15rem;
+  width: 80px;
+  top: 1px;
 }
-.slick-3{
-     padding-right: 30px;
-     padding-top: 20px;
+.slick-3 {
+  padding-right: 30px;
+  padding-top: 20px;
 }
-.margin-to-slick-2{
-     position: relative;
-     top: -20rem;
-     
+.margin-to-slick-2 {
+  position: relative;
+  top: -20rem;
 }
 
-.text-2-slick{
-     font-size: 15px;
-    margin-right: 25px;
-     
+.text-2-slick {
+  font-size: 15px;
+  margin-right: 25px;
 }
-.heading-slick{
-     text-transform: capitalize;
-     position: relative;
-     top: -57%;
-     left: -20px;
-}
-
-
-.icon-qotes{
-     color: var(--color-two);
-}
-.text-slick{
-     text-transform: capitalize;
-     width: 60%;
-     text-align: justify;
-     font-size: 10px;
-     position: relative;
-bottom: 55%;
-left: 17%;
+.heading-slick {
+  text-transform: capitalize;
+  position: relative;
+  top: -57%;
+  left: -20px;
 }
 
-
+.icon-qotes {
+  color: var(--color-two);
+}
+.text-slick {
+  text-transform: capitalize;
+  width: 60%;
+  text-align: justify;
+  font-size: 10px;
+  position: relative;
+  bottom: 55%;
+  left: 17%;
+}
 
 .slick-dots {
   position: absolute;
@@ -652,19 +555,19 @@ left: 17%;
 }
 
 .slick-next:before {
-  content: '>';
+  content: ">";
 }
 
 .slick-prev:before {
-  content: '<';
-
+  content: "<";
 }
-.slick-prev:before, .slick-next:before {
-  font-family: 'slick';
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
   font-size: 40px;
   font-weight: bolder;
- background-color: var(--text-color);
- padding:  1px 10px 1px 10px;
+  background-color: var(--text-color);
+  padding: 1px 10px 1px 10px;
   color: var(--color-two);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -672,420 +575,545 @@ left: 17%;
   left: 20rem;
   bottom: 12rem;
 }
-.slick-prev{
+.slick-prev {
   position: absolute;
   top: 40px;
 }
 
-.slick-next{
+.slick-next {
   position: absolute;
   top: 40px;
   left: 50%;
 }
 
-@media (min-width:1700px) and (max-width:2000px) {
- 
- .link{
-z-index: 50;
- }
- 
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .link {
+    z-index: 50;
+  }
+
   .home-rectangle {
-  background-position: 100% 4rem;
-  background-size: 80rem;
-  height: 90rem;
-  
+    background-position: 100% 4rem;
+    background-size: 60rem;
+    height: 90rem;
+    margin-bottom: -20rem;
   }
 
-  .grow {
-    font-weight: bolder;
-    font-size: 90px;
-    width: 55rem;
-  }
-  
-  .grow-para {
-    
-    font-size: 48px;
-    text-align: center;
-    width: 55rem;
-    
-  }
-  .girl-img {
- 
-    height: 50vh;
-   
-  }
-  
-  .arrow-img {
-opacity: 0;
+.container-img img{
 
-   
-
-  }
-
-.home-btn{
-  left: 65%;
-  width: 10vw;
- padding-bottom: 10px;
-}
-  
-  .text {
-    margin-left: 60px;
-    /* margin-top: 12%; */
-    position: relative;
-    top: 180px;
-  }
- 
-
-
-
-.big-blue-home-img {
-
-  background-position: 0% -20rem;
-  background-size: 90rem;
-  height: 120rem;
-}
-
-
-.text-home-img {
-  font-size: 60px;
-  word-wrap: break-word;
-  width: 50rem;
-  margin-top: 200px;
-  font-weight: bolder;
-}
-
-.margin-bottom {
-  position: relative;
-  bottom: 15rem;
-}
-
-.text-of-clients {
-  font-weight: bold;
-  text-align: justify;
-  width: 52rem;
-  margin-top: 50px;
-}
-
-.image-table {
-  margin-top: 25%;
-  height: 80%;
-  width: 45vw;
-  margin-right: 990px;
-}
-
-.circle-img {
-  
-width: 50%;
-}
-
-.color-redish-col {
-
-}
-
-.circle-text {
-position: relative;
-bottom: 21rem;
-
-}
-
-
-.circle-inside-div {
- position: absolute;
- left: 23rem;
- top: 26rem;
-}
-
-
-.join-us-btn {
-position: relative;
-bottom: 15rem;
-}
-
-.slick-image{
-background-size: cover;
-padding-left: 90px;
-padding-right: 10px;
-
-
-}
-.slick-1{
-  padding-right: 160px;
-  width: 300px;
-}
-.slick-2{
-  padding-right: 30px;
-  padding-top: 20px;
-  width: 300px;
-}
-
-.slick-3{
-  padding-right: 190px;
-}
-
-.heading-slick-2{
-
-}
-.margin-to-slick-2{
-     position: relative;
-     top: -20rem;
-     left: -55px;
-     
-}
-
-
-.text-2-slick{
-     font-size: 15px;
-   margin-right: 20px;
-    width: 300px;
-     
-}
-.heading-slick{
-     text-transform: capitalize;
-     position: relative;
-     top: -57%;
-     left: -20px;
-}
-
-
-
-.text-slick{
-     text-transform: capitalize;
-     width: 60%;
-     text-align: justify;
-     font-size: 10px;
-     position: relative;
-bottom: 55%;
-left: 17%;
-} 
-
-.slick-prev:before, .slick-next:before {
-left:450px;
-}
- 
-}
-
-
-
-
-@media (min-width:1281px) and (max-width:1700px) {
- 
-  .link{
- z-index: 50;
-  }
-  
-   .home-rectangle {
-   background-position: 100% 4rem;
-   background-size: 50rem;
-   height: 90rem;
-   margin-bottom: -30rem;
-   }
- 
-   .grow {
-     font-weight: bolder;
-     font-size: 90px;
-     width: 55rem;
-   }
-   
-   .grow-para {
-     
-     font-size: 45px;
-     text-align: center;
-     width: 55vw;
-     
-   }
-   .girl-img {
-  position:absolute;
-     height: 40vh;
-     width: 60vw;
-     left: -200px;
-     position: absolute;
-    
-   }
-   
-   .arrow-img {
- opacity: 0;
- 
-    
- 
-   }
- 
- .home-btn{
-   left: 65%;
-   width: 10vw;
-  padding-bottom: 10px;
- }
-   
-   .text {
-     margin-left: 60px;
-     /* margin-top: 12%; */
-     position: relative;
-     top: 180px;
-   }
-  
- 
- 
- 
- .big-blue-home-img {
- 
-   background-position: 0% -20rem;
-   background-size: 90rem;
-   height: 120rem;
- }
- 
- 
- .text-home-img {
-   font-size: 60px;
-   word-wrap: break-word;
-   width: 50rem;
-   margin-top: 200px;
-   font-weight: bolder;
- }
- 
- .margin-bottom {
-   position: relative;
-   bottom: 15rem;
- }
- 
- .text-of-clients {
-   font-weight: bold;
-   text-align: justify;
-   width: 52rem;
-   margin-top: 50px;
- }
- 
- .image-table {
-   margin-top: 25%;
-   height: 80%;
-   width: 45vw;
-   margin-right: 990px;
- }
- 
- .circle-img {
-   
- width: 50%;
- }
- 
- .color-redish-col {
- 
- }
- 
- .circle-text {
- position: relative;
- bottom: 21rem;
- 
- }
- 
- 
- .circle-inside-div {
-  position: absolute;
-  left: 23rem;
-  top: 26rem;
- }
- 
- 
- .join-us-btn {
- position: relative;
- bottom: 15rem;
- }
- 
- .slick-image{
- background-size: cover;
- padding-left: 90px;
- padding-right: 10px;
- 
- 
- }
- .slick-1{
-   padding-right: 160px;
-   width: 300px;
- }
- .slick-2{
-   padding-right: 30px;
-   padding-top: 20px;
-   width: 300px;
- }
- 
- .slick-3{
-   padding-right: 190px;
- }
- 
- .heading-slick-2{
- 
- }
- .margin-to-slick-2{
-      position: relative;
-      top: -20rem;
-      left: -55px;
-      
- }
- 
- 
- .text-2-slick{
-      font-size: 15px;
-    margin-right: 20px;
-     width: 300px;
-      
- }
- .heading-slick{
-      text-transform: capitalize;
-      position: relative;
-      top: -57%;
-      left: -20px;
- }
- 
- 
- 
- .text-slick{
-      text-transform: capitalize;
-      width: 60%;
-      text-align: justify;
-      font-size: 10px;
-      position: relative;
- bottom: 55%;
- left: 17%;
- } 
- 
- .slick-prev:before, .slick-next:before {
- left:450px;
- }
-  
- }
- 
-
- @media (min-width:992px) and (max-width:1281px) {
-.slick-image{
-  padding-left: 0;
-  padding-right: 0;
- 
-  width: 100%;
-}
-
-  .home-input{
-  width: 90vw;
-}
-.girl-img{
-  width: 50vw;
-  left: -40%;
+  width: 90%;
+  left: 20%;
+  top: 5rem;
 }
 
 .arrow-img{
-  left: -30%;
+ background-size: cover;
+position: relative;
+margin-left:31vw;
+margin-top: 1rem;
+width: 200px;
+height: 500px;
+
 }
-.grow-para{
-  width: 45vw;
+
+.text:first-child{
+  left: 20px;
+  top: 12rem;
 }
-.circle-img{
-  width: 80%;
-  margin-bottom: -40rem;
+.home-input-btn  button{
+left: 65%;
+width: 10%;
+
+}
+
+.image-table {
+width: 40vw;
+padding-right: 100px;
+}
+.color-redish-col img{
+  width: 70%;
+  margin-bottom: -10rem;
+}
+.color-redish-col .circle-inside-div{
+padding-top: 25%;
+padding-left: 20px;
+}
+
+.slick-image{
+  background-size: cover;
+  padding-left: 90px;
+ 
+}
+.slick-1  .text-slick-one{
+
+position: relative;
+bottom: 17rem;
+ margin-right: 150px;
+}
+.slick-1 .text-slick-1{
+
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width: 250px;
+
+}
+
+.slick-1 .circl-slik-img{
+margin-left: 0px;
+
+}
+
+.slick-2  .text-slick-two{
+
+  margin-left: -50px;
+}
+
+.slick-3  .text-slick-three{
+
+  margin-left: -50px;
   position: relative;
-  bottom: 20rem;
+ bottom: 16rem;
 }
-.slick-prev:before, .slick-next:before {
-  left:250px;
+
+}
+@media (min-width: 1281px) and (max-width: 1700px) {
+  .link {
+    z-index: 50;
   }
 
+  
+.home-rectangle{
+  background-size: 50%;
+  margin-bottom: 60px;
+}
 
- }
+.container-img img{
+
+ left: 20%;
+}
+
+.arrow-img{
+left: 10%;
+top: 60%;
+}
+
+.input-home-page  button{
+
+  left: 67%;
+}
+
+.text:first-child{
+  top: 10rem;
+}
+
+.image-table img{
+  width: 200px;
+
+margin-right: 90%;
+
+}
+
+.color-redish-col img{
+  margin-bottom: -10rem;
+  padding-bottom: 15rem;
+}
+.color-redish-col .circle-inside-div{
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-right: auto;
+  padding-right: 20px;
+}
+  .slick-image {
+    background-size: cover;
+    padding-left: 90px;
+    padding-right: 10px;
+  }
+  .slick-1 {
+    padding-right: 160px;
+    width: 300px;
+  }
+  .slick-2 {
+    padding-right: 30px;
+    padding-top: 20px;
+    width: 300px;
+  }
+
+  .slick-3 {
+    padding-right: 190px;
+  }
+
+  .heading-slick-2 {
+  }
+  .margin-to-slick-2 {
+    position: relative;
+    top: -20rem;
+    left: -55px;
+  }
+
+  .text-2-slick {
+    font-size: 15px;
+    margin-right: 20px;
+    width: 300px;
+  }
+  .heading-slick {
+    text-transform: capitalize;
+    position: relative;
+    top: -57%;
+    left: -20px;
+  }
+
+  .text-slick {
+    text-transform: capitalize;
+    width: 60%;
+    text-align: justify;
+    font-size: 10px;
+    position: relative;
+    bottom: 55%;
+    left: 17%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    left: 450px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+
+.arrow-img{
+
+}
+.container-img img{
+  left: 1%;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1281px) {
+  .slick-image {
+    padding-left: 0;
+    padding-right: 0;
+
+    width: 100%;
+  }
+
+  .home-input {
+    width: 90vw;
+  }
+  .girl-img {
+  
+  }
+
+  .arrow-img {
+    left: -30%;
+  }
+  .grow-para {
+    width: 45vw;
+  }
+  .circle-img {
+    width: 80%;
+    margin-bottom: -40rem;
+    position: relative;
+    bottom: 20rem;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    left: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .home-rectangle {
+    background-size: 65%;
+  }
+  .container-img img {
+    margin-left: 10vw;
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .arrow-img img {
+    background-color: #0388fc;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    z-index: 2000;
+    width: 2000px;
+  }
+
+  .text h1 {
+    font-size: 40px;
+    width: 350px;
+  }
+
+  .text p {
+    font-size: 20px;
+    width: 300px;
+    margin-left: -1px;
+  }
+  .text:first-child {
+    margin-left: 50px;
+  }
+
+  .input-home-page form input {
+    width: 70vw;
+  }
+  .input-home-page form input,
+  button {
+    margin-right: -30px;
+  }
+
+  .image-table img {
+    width: 200px;
+    background-color: #0388fc;
+  }
+
+  .color-redish-col img {
+    width: 350px;
+    min-height: 95%;
+    padding-bottom: 45rem;
+    margin-bottom: -45rem;
+  }
+
+  .circle-inside-div {
+    left: 200px;
+    top: 80px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .home-rectangle {
+    background-size: 55%;
+  }
+  .container-img img {
+    margin-left: 10vw;
+    margin-top: 80px;
+    min-width: 90%;
+    height: 55%;
+    display: flex;
+  
+    z-index: 200px;
+  
+  }
+  .contain-color {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+  }
+  .margin-bottom {
+    margin-bottom: -10rem;
+  }
+  .arrow-img img {
+    background-color: #0388fc;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    z-index: 2000;
+    width: 2000px;
+  }
+
+  .text h1 {
+    font-size: 40px;
+    width: 350px;
+  }
+
+  .text p {
+    font-size: 20px;
+    width: 300px;
+    margin-left: -1px;
+  }
+  .text:first-child {
+    margin-left: 30px;
+  }
+  .input-home-page form  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .input-home-page form input {
+
+width:60vw;
+
+  }
+.home-input-btn button {
+  position: relative;
+  margin: auto;
+width: 200px;
+margin-top: 20px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+padding: 10px;
+}
+
+ .box-home-contain .contain-img {
+width: 45%;
+
+}
+.box-home-contain{
+  width: 50%;
+  margin-left: auto;
+margin-right: auto;
+
+}
+
+  .input-home-page{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-over-300 h1 {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 600px;
+  }
+
+  .text-client-div p {
+
+    width: 80vw;
+    text-align: justify;
+  }
+
+  .image-table  {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+    
+  }
+
+  .color-redish-col ,img {
+    width: 350px;
+    min-height: 95%;
+    padding-bottom: 45rem;
+    margin-bottom: -45rem;
+   
+  }
+
+  .circle-inside-div {
+    left: 230px;
+    top: 80px;
+  }
+
+.slick-image{
+background-size: 100vw;
+position: relative;
+top: 10px;
+
+
+}
+
+
+.text-client-slick  p{
+  color: var(--color-two);
+
+ 
+}
+.text-client-slick{
+position: relative;
+bottom: 190px;
+ 
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1094,90 +1122,8 @@ left:450px;
 
 /* done home all with media query */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==================this is service page styling============= */
 /* this is the main div of service page  */
-
 
 .service-box {
   background-color: white;
@@ -1188,18 +1134,13 @@ left:450px;
   /* padding: 20px; */
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .service-box,
 para {
   font-size: 13px;
   margin-top: 10px;
-
-
 }
-
-
 
 /* this is image of svg of service page */
 
@@ -1213,8 +1154,6 @@ para {
 
   z-index: 10;
   margin-top: 10vh;
-
-
 }
 
 /* this is  sec image of service page background */
@@ -1224,10 +1163,7 @@ para {
   background-position: -15% -90%;
   position: relative;
   padding-bottom: 15vh;
-
-
 }
-
 
 /* 
 this is box-img of service pager  */
@@ -1253,9 +1189,6 @@ this is box-img of service pager  */
   margin-bottom: 10vh;
 }
 
-
-
-
 .btn:focus {
   outline: none;
   box-shadow: none;
@@ -1278,398 +1211,57 @@ this is box-img of service pager  */
   border-radius: 14px;
 }
 
-
-
-
-@media (min-width:1200px)  {
-
-
-
-  .service-section{
-
-
-}
-.service-box {
-  background-color: white;
-  height: 8rem;
-  width: 75%;
-  display: flex;
-  justify-content: center;
-margin-top: 80px;
-position: relative;
-left: 20%;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
-}
-
-
-.para {
-  font-size: 16px;
-  font-weight: bolder;
-text-align: center;
-padding-top: 30px;
-padding-bottom: 20px;
-width:60rem;
-
-
-position: relative;
-left: 4rem;
-
-}
-
-
-
-/* this is image of svg of service page */
-
-.service-bg {
-  background-position: 100% 2rem;
-  z-index: 10;
-  background-size: 70rem ;
-
-background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-1_1x_ciwaux.svg");
-
-height: 80rem;
- 
-
-
-}
-
-/* this is  sec image of service page background */
-.service-bg-2 {
-  background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
-    background-repeat: no-repeat;
-    background-position: -1% 9%;
- background-size: 35%;
-
-
-}
-
-
-/* 
-this is box-img of service pager  */
-
-.box-img {
-  background-color: white;
-  background-repeat: no-repeat;
-  border-radius: 100%;
-  height: 8rem;
-  position: relative;
-  bottom: 3.5rem;
-  width: 20rem;
-  padding-top: 20px;
-  padding-left: 10px;
-  margin-top: 45px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: relative;
-  right: 90%;
-  bottom: 3rem;
-}
-
-/* this the page of pricig some space from bottom */
-
-.pricing-main {
-  margin-bottom: 1vh;
- 
-}
-
-
-
-
-.btn:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.display-mobile{
-  position: relative;
-  bottom: 16rem;
-  z-index: 10;
-}
-.margin-btn {
-
-position: absolute;
-right: 60px;
-top: -45px;
-
-}
-
-.input {
-height: 7rem;
-border: 7px solid var(--color-two);
-border-radius: 20px;
-}
-
-
-.left-spacing{
-/* position: relative;
-left: 20%; */
-
-}
-.left-spacing-2 {
-  position: relative;
-  left: -3%;
-}
-   
-.service-col-spacing {
-      position: relative;
-      top: 4rem;
-  
-    }
-  
-    .service-box {
-      position: relative;
-      top: -2rem;
-    }
-  
-    .padding-top {
-      margin-top: 3px;
-    }
-
-    .why-us{
-      color: var(--text-color);
-    }
-
-
-}
-
-
-@media (min-width:1500px) and (max-width:1700px) {
-  .service-section{
-    position: relative;
-    bottom: 5rem;
-    
-    }
-    .service-box {
-      background-color: white;
-      height: 8rem;
-      width: 75%;
-      display: flex;
-      justify-content: center;
-    margin-top: 80px;
-    
-      border-radius: 15px;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: relative;
-    bottom: -60rem;
-    
-    }
-    
-    
-
-    .why-us{
-      color: var(--text-color);
-    }
-    .para {
-      font-size: 16px;
-      font-weight: bolder;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    width:60rem;
-    
-    
-    position: relative;
-    left: 4rem;
-    
-    }
-    
-    
-    
-    /* this is image of svg of service page */
-    
-    .service-bg {
-
-      background-position: 100% 1rem;
-      z-index: 10;
-      background-size: 60%  ;
-    
-    
-    
-    
-     
-    
-    
-    }
-    
-    /* this is  sec image of service page background */
-    .service-bg-2 {
-  
-      background-position: -2px 5rem;
-    background-size: 35%;
-    
-    
-    }
-    
-    
-    /* 
-    this is box-img of service pager  */
-    
-    .box-img {
-      background-color: white;
-      background-repeat: no-repeat;
-      border-radius: 100%;
-      height: 8rem;
-      position: relative;
-      bottom: 3.5rem;
-      width: 20rem;
-      padding-top: 20px;
-      padding-left: 10px;
-      margin-top: 45px;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      position: relative;
-      right: 90%;
-      bottom: 3rem;
-    }
-    
-    /* this the page of pricig some space from bottom */
-    
-    .pricing-main {
-      margin-bottom: 1vh;
-     
-    }
-    
-    
-    
-    
-    .btn:focus {
-      outline: none;
-      box-shadow: none;
-    }
-    
-
-.display-mobile{
-  position: relative;
-  bottom: 15rem;
-}
-
-    .margin-btn {
-    
-    width: 10vw;
-    height: 3rem;
-    position: relative;
-    top: -14.5rem;
-    left: 75%;
-    z-index: 30;
-    }
-    
-    .input {
-      width: 70rem;
-      height: 8rem;
-      border: 5px solid var(--color-two);
-      position: relative;
-      bottom: 9rem;
-      left: 1rem;
-      border-radius: 25px;
-      padding-left: 20px;
-      z-index: 20;
-    }
-    
-    
-    .left-spacing{
-    /* position: relative;
-    left: 20%; */
-    
-    }
-    .left-spacing-2 {
-      position: relative;
-      left: -3%;
-    }
-       
-    .service-col-spacing {
-          position: relative;
-          top: 4rem;
-          left: -20%;
-      
-        }
-      
-        .service-box {
-          position: relative;
-          top: -2rem;
-        }
-      
-        .padding-top {
-          margin-top: 3px;
-        }
-
-
-}
-
-
-
-@media (min-width:1200px) and (max-width:1500px) {
-  .service-section{
-    position: relative;
-    bottom: 5rem;
-
-    
+@media (min-width: 1200px) {
+  .service-section {
   }
-
   .service-box {
     background-color: white;
     height: 8rem;
     width: 75%;
     display: flex;
     justify-content: center;
-  margin-top: 80px;
-  
+    margin-top: 80px;
+    position: relative;
+    left: 20%;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: relative;
-  bottom: -60rem;
-  
   }
-  
-  
 
-  .why-us{
-    color: var(--text-color);
-  }
   .para {
     font-size: 16px;
     font-weight: bolder;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  width:60rem;
-  
-  
-  position: relative;
-  left: 4rem;
-  
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 60rem;
+
+    position: relative;
+    left: 4rem;
   }
-  
-  
-  
+
   /* this is image of svg of service page */
-  
+
   .service-bg {
-  
-    background-position: 100% 5rem;
+    background-position: 100% 2rem;
     z-index: 10;
-    background-size: 60% ;
-  
-  
-  
-  
-   
-  
-  
+    background-size: 70rem;
+
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-1_1x_ciwaux.svg");
+
+    height: 80rem;
   }
-  
+
   /* this is  sec image of service page background */
   .service-bg-2 {
-    background-position: -2px 15rem;
-  background-size: 35%;
-  
-  
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924606/web-images/img/mainimg-2_fidzuh.svg");
+    background-repeat: no-repeat;
+    background-position: -1% 9%;
+    background-size: 35%;
   }
-  
-  
+
   /* 
-  this is box-img of service pager  */
-  
+this is box-img of service pager  */
+
   .box-img {
     background-color: white;
     background-repeat: no-repeat;
@@ -1686,74 +1278,311 @@ left: 20%; */
     right: 90%;
     bottom: 3rem;
   }
-  
+
   /* this the page of pricig some space from bottom */
-  
+
   .pricing-main {
     margin-bottom: 1vh;
-   
   }
-  
-  
-  
-  
+
   .btn:focus {
     outline: none;
     box-shadow: none;
   }
-  
 
-  .display-mobile{
+  .display-mobile {
     position: relative;
-    bottom: 25rem;
+    bottom: 16rem;
+    z-index: 10;
   }
   .margin-btn {
-  
+    position: absolute;
+    right: 60px;
+    top: -45px;
+  }
 
-  }
-  
   .input {
-  border: 5px solid var(--color-two);
-  
+    height: 7rem;
+    border: 7px solid var(--color-two);
+    border-radius: 20px;
   }
-  
-  
-  .left-spacing{
-  /* position: relative;
-  left: 20%; */
-  
+
+  .left-spacing {
+    /* position: relative;
+left: 20%; */
   }
   .left-spacing-2 {
     position: relative;
     left: -3%;
   }
-     
+
   .service-col-spacing {
-        position: relative;
-        top: 4rem;
-        left: -20%;
-    
-      }
-    
-      .service-box {
-        position: relative;
-        top: -2rem;
-      }
-    
-      .padding-top {
-        margin-top: 3px;
-      }
+    position: relative;
+    top: 4rem;
+  }
 
+  .service-box {
+    position: relative;
+    top: -2rem;
+  }
 
+  .padding-top {
+    margin-top: 3px;
+  }
 
+  .why-us {
+    color: var(--text-color);
+  }
+}
 
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .service-section {
+    position: relative;
+    bottom: 5rem;
+  }
+  .service-box {
+    background-color: white;
+    height: 8rem;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    bottom: -60rem;
+  }
+
+  .why-us {
+    color: var(--text-color);
+  }
+  .para {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 60rem;
+
+    position: relative;
+    left: 4rem;
+  }
+
+  /* this is image of svg of service page */
+
+  .service-bg {
+    background-position: 100% 1rem;
+    z-index: 10;
+    background-size: 60%;
+  }
+
+  /* this is  sec image of service page background */
+  .service-bg-2 {
+    background-position: -2px 5rem;
+    background-size: 35%;
+  }
+
+  /* 
+    this is box-img of service pager  */
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 8rem;
+    position: relative;
+    bottom: 3.5rem;
+    width: 20rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    right: 90%;
+    bottom: 3rem;
+  }
+
+  /* this the page of pricig some space from bottom */
+
+  .pricing-main {
+    margin-bottom: 1vh;
+  }
+
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .display-mobile {
+    position: relative;
+    bottom: 15rem;
+  }
+
+  .margin-btn {
+    width: 10vw;
+    height: 3rem;
+    position: relative;
+    top: -14.5rem;
+    left: 75%;
+    z-index: 30;
+  }
+
+  .input {
+    width: 70rem;
+    height: 8rem;
+    border: 5px solid var(--color-two);
+    position: relative;
+    bottom: 9rem;
+    left: 1rem;
+    border-radius: 25px;
+    padding-left: 20px;
+    z-index: 20;
+  }
+
+  .left-spacing {
+    /* position: relative;
+    left: 20%; */
+  }
+  .left-spacing-2 {
+    position: relative;
+    left: -3%;
+  }
+
+  .service-col-spacing {
+    position: relative;
+    top: 4rem;
+    left: -20%;
+  }
+
+  .service-box {
+    position: relative;
+    top: -2rem;
+  }
+
+  .padding-top {
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .service-section {
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .service-box {
+    background-color: white;
+    height: 8rem;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    bottom: -60rem;
+  }
+
+  .why-us {
+    color: var(--text-color);
+  }
+  .para {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 60rem;
+
+    position: relative;
+    left: 4rem;
+  }
+
+  /* this is image of svg of service page */
+
+  .service-bg {
+    background-position: 100% 5rem;
+    z-index: 10;
+    background-size: 60%;
+  }
+
+  /* this is  sec image of service page background */
+  .service-bg-2 {
+    background-position: -2px 15rem;
+    background-size: 35%;
+  }
+
+  /* 
+  this is box-img of service pager  */
+
+  .box-img {
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 8rem;
+    position: relative;
+    bottom: 3.5rem;
+    width: 20rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    right: 90%;
+    bottom: 3rem;
+  }
+
+  /* this the page of pricig some space from bottom */
+
+  .pricing-main {
+    margin-bottom: 1vh;
+  }
+
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .display-mobile {
+    position: relative;
+    bottom: 25rem;
+  }
+  .margin-btn {
+  }
+
+  .input {
+    border: 5px solid var(--color-two);
+  }
+
+  .left-spacing {
+    /* position: relative;
+  left: 20%; */
+  }
+  .left-spacing-2 {
+    position: relative;
+    left: -3%;
+  }
+
+  .service-col-spacing {
+    position: relative;
+    top: 4rem;
+    left: -20%;
+  }
+
+  .service-box {
+    position: relative;
+    top: -2rem;
+  }
+
+  .padding-top {
+    margin-top: 3px;
+  }
 }
 /* service responsive all thing for 992px  */
 
-@media (min-width:992px) and (max-width:1199px) {
-
-
+@media (min-width: 992px) and (max-width: 1199px) {
   .service-box {
     background-color: white;
     height: 6rem;
@@ -1768,16 +1597,11 @@ left: 20%; */
     margin-top: 25px;
   }
 
-
   .para {
     font-size: 12px;
 
-position: relative;
-left: 60px;
-
-
-
-
+    position: relative;
+    left: 60px;
   }
 
   .why-us {
@@ -1788,22 +1612,16 @@ left: 60px;
   }
 
   .service-bg {
-
     background-position: 100% 1vh;
     background-size: 60%;
 
     z-index: 10;
-  
-    
-
-
   }
 
   /* this is  sec image of service page background */
   .service-bg-2 {
-
     background-position: 1% 70%;
-background-size: 30%;
+    background-size: 30%;
   }
 
   .box-img {
@@ -1823,17 +1641,11 @@ background-size: 30%;
     left: -18rem;
   }
 
-
-
-
-
-
   /* this the page of pricig some space from bottom */
 
   .pricing-main {
     margin-bottom: 10vh;
   }
-
 
   .btn {
     outline: none;
@@ -1846,14 +1658,14 @@ background-size: 30%;
     box-shadow: none;
   }
 
-.display-mobile{
-  position: relative;
-top: -1rem;
-}
+  .display-mobile {
+    position: relative;
+    top: -1rem;
+  }
   .margin-btn {
     position: relative;
     left: -8rem;
-top: -5.5rem;
+    top: -5.5rem;
     z-index: 20;
   }
 
@@ -1868,27 +1680,22 @@ top: -5.5rem;
     z-index: 20;
   }
 
-  .service-col-spacing{
-margin-right: 40%;
+  .service-col-spacing {
+    margin-right: 40%;
   }
-.service-box{
-
-}
-
-  .padding-top{
-margin-top: 30px;
+  .service-box {
   }
 
-
-
+  .padding-top {
+    margin-top: 30px;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 992px) {
   .service-box {
-margin-left: auto;
-margin-right: auto;
-   margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
   }
 
   .box-img {
@@ -1897,10 +1704,10 @@ margin-right: auto;
     border-radius: 50%;
     height: 10rem;
     position: relative;
-bottom: 15px;
+    bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-right: 85%;
+    right: 85%;
     width: 10rem;
 
     padding-left: 10px;
@@ -1912,55 +1719,49 @@ right: 85%;
     position: relative;
     left: 90px;
     font-size: 20px;
-width: 70%;
+    width: 70%;
   }
-.service-col-set{
-
-}
+  .service-col-set {
+  }
   .why-us {
     color: var(--color-two);
   }
 
-  .service-col-spacing{
+  .service-col-spacing {
     position: relative;
-left: 40%;
+    left: 40%;
   }
   /* thuis is setting image side by side */
   .service-bg {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
-    background-position: 1%  0vh;
-background-repeat: no-repeat;
-background-size: 60%;
-
+    background-position: 1% 0vh;
+    background-repeat: no-repeat;
+    background-size: 60%;
   }
 
-    .service-bg-2 {
-      background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
-      background-repeat: no-repeat;
-      background-position: 100% 35vh;
-      background-size: 30rem;
-  
-    }
+  .service-bg-2 {
+    background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 35vh;
+    background-size: 30rem;
+  }
 
   .input {
     position: relative;
     bottom: 7vh;
     width: 40rem;
-height: 6rem;
-border: 4px solid var(--color-two);
-z-index: 20;
-border-radius: 20px;
+    height: 6rem;
+    border: 4px solid var(--color-two);
+    z-index: 20;
+    border-radius: 20px;
   }
 
-    .margin-btn {
-      position: relative;
- left: 65%;
-top: -10rem;
-      z-index: 20;
-    }
-
-
-
+  .margin-btn {
+    position: relative;
+    left: 65%;
+    top: -10rem;
+    z-index: 20;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1969,29 +1770,27 @@ top: -10rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-      width: 30rem;
+    width: 30rem;
   }
 
   .box-img {
-background: none;
-  border-radius: none;
-  outline: none;
-  box-shadow: none;
-background-color: none;
-position: relative;
-width: 20rem;
-left: -27rem;
-top: 1px;
-padding-top: 20px;
-
+    background: none;
+    border-radius: none;
+    outline: none;
+    box-shadow: none;
+    background-color: none;
+    position: relative;
+    width: 20rem;
+    left: -27rem;
+    top: 1px;
+    padding-top: 20px;
   }
 
-  .para{
+  .para {
     position: relative;
     left: 50px;
     font-size: 20px;
     padding-top: 20px;
- 
   }
 
   /* thuis is setting image side by side */
@@ -2000,8 +1799,6 @@ padding-top: 20px;
     background-repeat: no-repeat;
     background-position: -1rem 2px;
     background-size: 30rem;
-
-
   }
 
   .service-bg-2 {
@@ -2009,54 +1806,43 @@ padding-top: 20px;
     background-repeat: no-repeat;
     background-position: 100% 70%;
     background-size: 60%;
-    
-
   }
 
   .why-us {
-    color:var(--color-two);
+    color: var(--color-two);
   }
 
   /* this is input button */
 
   .margin-btn {
-display: none;
+    display: none;
   }
 
   .input {
- display: none;
+    display: none;
   }
-
-
-
 }
 
 @media (max-width: 576px) {
- 
- .main-service{
-  position: relative;
-  bottom: 10rem;
- }
- 
- 
+  .main-service {
+    position: relative;
+    bottom: 10rem;
+  }
+
   .service-box {
-margin-left: auto;
-margin-right: auto;
-/* margin-top: 50px; */
-margin-top: 40px;
-
-
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+    margin-top: 40px;
   }
 
   .service-col-set {
-
     height: 15rem;
     position: relative;
     top: 7rem;
   }
 
-
-  .service-col-spacing{
+  .service-col-spacing {
     position: relative;
     top: 7rem;
   }
@@ -2064,31 +1850,28 @@ margin-top: 40px;
 
   .para {
     z-index: 1;
-font-size: 15px;
-position: relative;
-left: 4rem;
-padding-top: 25px;
-
-
+    font-size: 15px;
+    position: relative;
+    left: 4rem;
+    padding-top: 25px;
   }
 
+  .service-col-img {
+    height: 5rem;
+    width: 10rem;
 
-  .service-col-img{
-height: 5rem;
-width: 10rem;
-
-font-size: 90px;
-position: relative;
-left: -2rem;
+    font-size: 90px;
+    position: relative;
+    left: -2rem;
   }
-   .box-img {
-background: none;
-border-radius: none;
-outline: none;
-box-shadow: none;
-position: relative;
-left: -75%;
-top: 2rem;
+  .box-img {
+    background: none;
+    border-radius: none;
+    outline: none;
+    box-shadow: none;
+    position: relative;
+    left: -75%;
+    top: 2rem;
   }
 
   /* thuis is setting image side by side */
@@ -2097,48 +1880,38 @@ top: 2rem;
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
     background-repeat: no-repeat;
     background-position: -1rem 10rem;
-    
-
   }
 
   .service-bg-2 {
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-2_1x_oscran.svg");
     background-repeat: no-repeat;
     background-position: 100% 40rem;
-  background-size: 20rem;
-
+    background-size: 20rem;
   }
 
-
   .why-us {
-      color: var(--color-two);
+    color: var(--color-two);
   }
 
   .display-mobile {
     display: none;
   }
-
-
 }
 
 /* this is some extra setting of servive page responsive issues */
 
 @media (max-width: 490px) {
-.main-service {
+  .main-service {
     position: relative;
     bottom: 8rem;
   }
 
-  .service-box{
+  .service-box {
     width: 60%;
   }
 
-
   .service-col-set {
-
-
   }
-
 
   .service-col-spacing {
     position: relative;
@@ -2147,24 +1920,21 @@ top: 2rem;
 
   /* this is paragraph setting */
 
-    .para {
-      z-index: 1;
-      font-size: 12px;
-      position: relative;
-      font-weight: bold;
-      left: 4rem;
-      text-align: center;
-      padding-top: 35px;
-  width: 35rem;
-
-  
-    }
+  .para {
+    z-index: 1;
+    font-size: 12px;
+    position: relative;
+    font-weight: bold;
+    left: 4rem;
+    text-align: center;
+    padding-top: 35px;
+    width: 35rem;
+  }
 
   .service-col-img {
     height: 5rem;
     width: 10rem;
 
-    
     position: relative;
     left: -2rem;
   }
@@ -2174,8 +1944,8 @@ top: 2rem;
     border-radius: none;
     outline: none;
     box-shadow: none;
-left: -75%;
-width: 70%;
+    left: -75%;
+    width: 70%;
   }
 
   /* thuis is setting image side by side */
@@ -2184,17 +1954,12 @@ width: 70%;
     background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924621/web-images/img/rectangle-64-3_1x_ydjbsr.svg");
     background-repeat: no-repeat;
     background-position: -1rem 10rem;
-
-
   }
 
   .service-bg-2 {
-
     background-position: 10em 70%;
     background-size: 25em;
-
   }
-
 
   .why-us {
     color: var(--main-color);
@@ -2203,58 +1968,44 @@ width: 70%;
   .display-mobile {
     display: none;
   }
-
-
 }
 
-@media (max-width: 430px){
- 
+@media (max-width: 430px) {
   .service-box {
-      width: 40%;
+    width: 40%;
+  }
 
-    }
-  
-  
-.service-bg{
-background-position: -1rem 10rem;
-}
-        .service-bg-2 {
+  .service-bg {
+    background-position: -1rem 10rem;
+  }
+  .service-bg-2 {
+    background-position: 100% 80%;
+    background-size: 85vw;
+  }
+  /* this is paragraph setting */
 
-          background-position: 100% 80%;
-          background-size: 85vw;
-    
-        }
-    /* this is paragraph setting */
-  
-    .para {
-      z-index: 1;
-      font-size: 10px;
-      position: relative;
-      font-weight: bold;
-      left: 3rem;
-      text-align: center;
-      padding-top: 35px;
-      width: 45rem;
-     
-  
-    }
- 
- 
+  .para {
+    z-index: 1;
+    font-size: 10px;
+    position: relative;
+    font-weight: bold;
+    left: 3rem;
+    text-align: center;
+    padding-top: 35px;
+    width: 45rem;
+  }
+
   .box-img {
-      background: none;
-      border-radius: none;
-      outline: none;
-      box-shadow: none;
-      left: -75%;
-      width: 70%;
-    }
-
+    background: none;
+    border-radius: none;
+    outline: none;
+    box-shadow: none;
+    left: -75%;
+    width: 70%;
+  }
 }
-
-
 
 @media (max-width: 992px) {
-
   /* this is for reverse the column */
   .revert-col {
     display: flex;
@@ -2268,78 +2019,18 @@ background-position: -1rem 10rem;
 /* this setting second col lefting spacing */
 
 @media (min-width: 992px) {
-
-
   .why-us {
     color: white;
   }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------ this is styling of  of pricing page ----- */
-
 
 .pricing-tea-box {
   background-color: #a6cce0;
   display: flex;
 
-margin-top: 20vh;
-
+  margin-top: 20vh;
 }
 
 .pricing-col-top {
@@ -2352,7 +2043,6 @@ margin-top: 20vh;
   border-radius: 15px;
   outline: none;
   box-shadow: none;
-
 }
 
 .input-pricing:focus {
@@ -2360,10 +2050,7 @@ margin-top: 20vh;
   box-shadow: none;
 }
 
-
-
 /* teax box */
-
 
 .tea-img {
   /* padding-top: 20px;
@@ -2381,9 +2068,7 @@ margin-top: 20vh;
   border-radius: 10px;
 }
 
-
-
-.pricing-btn{
+.pricing-btn {
   margin-top: 20px;
   background-color: var(--color-two);
   color: var(--text-color);
@@ -2392,19 +2077,19 @@ margin-top: 20vh;
   border-radius: 10px;
 }
 
-table td tr{
+table td tr {
   border: none;
   outline: none;
 }
 
-.pricing-url{
+.pricing-url {
   background-color: var(--text-color);
-padding-left: 15px;
-padding-right: 15px;
-margin-left: -10%;
-border-radius: 10px;
-font-size: 15px;
-text-transform: capitalize;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: -10%;
+  border-radius: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
 .pricing-url-2 {
@@ -2417,21 +2102,19 @@ text-transform: capitalize;
   text-transform: capitalize;
 }
 
-
 .pricing-text {
   font-weight: bolder;
   text-transform: uppercase;
   text-align: justify;
   font-size: 12px;
 }
-.pricing-text-2{
+.pricing-text-2 {
   font-weight: bolder;
-    text-transform: uppercase;
-    text-align: justify;
+  text-transform: uppercase;
+  text-align: justify;
   position: relative;
   top: 10px;
   font-size: 12px;
-
 }
 .start-pricing {
   border: 4px solid var(--color-two);
@@ -2442,27 +2125,23 @@ text-transform: capitalize;
   border-radius: 25px;
 }
 
-
-
 /* 
 this is the pricing page responsive layoputs ==============*/
-@media (min-width:1200px) {
-.main-text-width{
+@media (min-width: 1200px) {
+  .main-text-width {
+  }
 
-}
-
-.pricing-col-top {
-  margin-top: 30%;
-}
+  .pricing-col-top {
+    margin-top: 30%;
+  }
   .tea-img {
     width: 20rem;
   }
-.table-col
-{
-  margin-top: 30px;
-}
+  .table-col {
+    margin-top: 30px;
+  }
 
-.pricing-url {
+  .pricing-url {
     background-color: var(--text-color);
     padding-left: 15px;
     padding-right: 15px;
@@ -2482,6 +2161,64 @@ this is the pricing page responsive layoputs ==============*/
     text-transform: capitalize;
   }
 
+  .pricing-text {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .pricing-text-2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    padding-right: 50px;
+  }
+
+  .btn-price {
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    right: 6rem;
+    top: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  /* this is the priicing page setting all  */
+  .main-text-width {
+  }
+
+  .pricing-col-top {
+    margin-top: 30%;
+  }
+  .pricing-main {
+    position: relative;
+    left: 25vw;
+    margin-bottom: 20vh;
+  }
+
+  .pricing-url {
+    background-color: var(--text-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -10%;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+  .pricing-url-2 {
+    background-color: var(--text-color);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10%;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
 
   .pricing-text {
     font-weight: bolder;
@@ -2498,84 +2235,15 @@ this is the pricing page responsive layoputs ==============*/
     top: 10px;
     font-size: 14px;
     padding-right: 50px;
-
   }
 
-.btn-price {
-  width: 10rem;
-  height: 3rem;
-  position: relative;
-  right: 6rem;
-  top: 4rem;
-
-}
-
-
-
-
-}
-@media (max-width: 992px) {
-  /* this is the priicing page setting all  */
-.main-text-width {}
-
-  .pricing-col-top {
-    margin-top: 30%;
-  }
-  .pricing-main {
+  .btn-price {
+    width: 10rem;
+    height: 3rem;
     position: relative;
-    left: 25vw;
-    margin-bottom: 20vh;
+    right: 1rem;
+    top: 1rem;
   }
-
-    .pricing-url {
-      background-color: var(--text-color);
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-left: -10%;
-      border-radius: 10px;
-      font-size: 15px;
-      text-transform: capitalize;
-    }
-  
-    .pricing-url-2 {
-      background-color: var(--text-color);
-      padding-left: 10px;
-      padding-right: 10px;
-      margin-left: -10%;
-      border-radius: 10px;
-      font-size: 15px;
-      text-transform: capitalize;
-    }
-  
-  
-    .pricing-text {
-      font-weight: bolder;
-      text-transform: uppercase;
-      text-align: justify;
-      font-size: 15px;
-    }
-  
-    .pricing-text-2 {
-      font-weight: bolder;
-      text-transform: uppercase;
-      text-align: justify;
-      position: relative;
-      top: 10px;
-      font-size: 14px;
-      padding-right: 50px;
-  
-    }
-  
-    .btn-price {
-      width: 10rem;
-      height: 3rem;
-      position: relative;
-      right: 1rem;
-      top: 1rem;
-  
-    }
-
-
 }
 
 @media (max-width: 450px) {
@@ -2584,30 +2252,21 @@ this is the pricing page responsive layoputs ==============*/
     left: 5vw;
   }
 
-
   .tea-img {
-
   }
 
-  .table-col{
-  padding-bottom: 20px;
-   
+  .table-col {
+    padding-bottom: 20px;
   }
-.btn-price{
- 
-
-}
+  .btn-price {
+  }
   .text-pricing {
     font-size: 18px;
   }
-.pricing-col-top{
-  margin-top: 30%;
-
+  .pricing-col-top {
+    margin-top: 30%;
+  }
 }
-
-
-}
-
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .btn-pricing {
@@ -2628,7 +2287,6 @@ this is the pricing page responsive layoputs ==============*/
     position: relative;
     right: 5rem;
     top: 4rem;
-
   }
 
   .btn-pricing {
@@ -2639,22 +2297,13 @@ this is the pricing page responsive layoputs ==============*/
     width: 12rem;
     height: 3.5rem;
     left: 4rem;
-
   }
-
-
-
 }
 
-
 @media (min-width: 768px) and (max-width: 992px) {
-
-
   .main-text-width {
-
     font-size: 20px;
     width: 100%;
-
   }
 
   .img-pricing {
@@ -2667,9 +2316,7 @@ this is the pricing page responsive layoputs ==============*/
 
   .pricing-btn {
     height: 3rem;
-
   }
-
 
   .tea-img {
     width: 30vw;
@@ -2685,27 +2332,19 @@ this is the pricing page responsive layoputs ==============*/
     margin-right: auto;
     position: relative;
     top: -10px;
-
   }
-.btn-price{
-  margin-bottom: 20px;
+  .btn-price {
+    margin-bottom: 20px;
+  }
 }
-
-}
-
-
 
 @media (min-width: 576px) and (max-width: 768px) {
-
-
   .main-text-width {
-
     font-size: 20px;
     width: 100%;
-
   }
 
-  .table-col{
+  .table-col {
     position: relative;
     top: -2rem;
   }
@@ -2718,7 +2357,6 @@ this is the pricing page responsive layoputs ==============*/
     padding-top: 30%;
   }
 
-
   .bg-pricng-url {
     background-color: var(--text-color);
     width: 40px;
@@ -2726,10 +2364,7 @@ this is the pricing page responsive layoputs ==============*/
 
   .tea-img {
     width: 40vw;
-
   }
-
-
 
   .btn-pricing {
     margin-left: auto;
@@ -2737,7 +2372,6 @@ this is the pricing page responsive layoputs ==============*/
     position: relative;
     top: -10px;
     left: -10px;
-
   }
 
   .btn-price {
@@ -2747,46 +2381,35 @@ this is the pricing page responsive layoputs ==============*/
     position: relative;
     top: -1rem;
   }
-
 }
 
-
-@media (min-width:0px) and (max-width: 576px) {
-
-.pricing-tea-box{
-width: 90%;
-position: relative;
-bottom: 6rem;
-}
-
-
-.table-col
-{
-position: relative;
-margin-top: -40px;
-}
-.pricing-text{
-
-font-size: 10px;
-}
-
-.pricing-text-2{
-
-  font-size: 10px;
+@media (min-width: 0px) and (max-width: 576px) {
+  .pricing-tea-box {
+    width: 90%;
+    position: relative;
+    bottom: 6rem;
   }
 
+  .table-col {
+    position: relative;
+    margin-top: -40px;
+  }
+  .pricing-text {
+    font-size: 10px;
+  }
+
+  .pricing-text-2 {
+    font-size: 10px;
+  }
 
   .main-text-width {
-
     font-size: 15px;
     width: 100%;
     font-weight: bold;
-
   }
 
   .input-pricing {
     height: 3rem;
-
   }
 
   .pricing-col-top {
@@ -2794,9 +2417,7 @@ font-size: 10px;
   }
 
   .img-pricing {
-   
   }
-
 
   .bg-pricng-url {
     background-color: var(--text-color);
@@ -2805,8 +2426,6 @@ font-size: 10px;
 
   .tea-img {
     width: 15rem;
-
-
   }
 
   .btn-pricing {
@@ -2815,81 +2434,31 @@ font-size: 10px;
     position: relative;
     top: -10px;
     left: -10px;
-
   }
 
   .btn-price {
     width: 6rem;
     height: 40px;
-position: relative;
-top: 10px;
-font-size: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 10px;
   }
-
 }
 
-
-
-@media (max-width:440px) {
+@media (max-width: 440px) {
   .main-text-width {
-
     font-size: 12px;
     width: 100%;
-
   }
 }
 
-
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .tea-img {
     width: 15rem;
-
   }
 }
 
-
 /* ----------done with pricing page----------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* this is how its work page csss */
 /* =========this is the how its work page styling============= */
@@ -2899,7 +2468,6 @@ this is how its work heading line hr */
 .line {
   position: relative;
   width: 100%;
-
 }
 
 .line::before {
@@ -2910,17 +2478,13 @@ this is how its work heading line hr */
   height: 2px;
   left: 25%;
   top: 100%;
-
 }
-
-
 
 .work-image {
   background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1656924610/web-images/img/rectangle-1-1_1x_lddovm.svg");
   background-repeat: no-repeat;
   background-position: 120% 10vh;
   background-size: 60rem;
-
 }
 
 /* this is for image ellipse 37 mouth */
@@ -2933,12 +2497,9 @@ this is how its work heading line hr */
   z-index: -2;
   padding-top: 10rem;
   padding-bottom: 10rem;
-
 }
 
 .work-input {
-
-
   width: 80vw;
   padding-left: 2vw;
   border: 5px solid var(--color-two);
@@ -2967,44 +2528,33 @@ this is how its work heading line hr */
   .line {
     position: relative;
     width: 100%;
-  
   }
-  
-  .work-col-spacing{
- position: relative;
- bottom: 5rem;
+
+  .work-col-spacing {
+    position: relative;
+    bottom: 5rem;
   }
-  
 
-.marging-5{
+  .marging-5 {
+    position: relative;
+    left: -5rem;
+    top: -4rem;
+  }
 
-position: relative;
-left: -5rem;
-top: -4rem;
-}
-  
-  
   .work-image {
-
     background-position: 100% 7vh;
     background-size: 75rem;
-  
   }
-  
-  /* this is for image ellipse 37 mouth */
-  
-  .work-image-2 {
 
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
     background-position: 1% 5vh;
     background-size: 55rem;
     z-index: -2;
- 
-  
   }
-  
+
   .work-input {
-  
-  
     width: 80vw;
     padding-left: 2vw;
     border: 4px solid var(--color-two);
@@ -3013,7 +2563,7 @@ top: -4rem;
     position: relative;
     bottom: 20vh;
   }
-  
+
   .work-batn {
     width: 10%;
     position: relative;
@@ -3023,11 +2573,8 @@ top: -4rem;
   }
 }
 
-
 @media (min-width: 1800px) and (max-width: 2200px) {
   .work-input {
-  
-  
     width: 80vw;
     padding-left: 2vw;
     border: 4px solid var(--color-two);
@@ -3036,7 +2583,7 @@ top: -4rem;
     position: relative;
     bottom: 13rem;
   }
-  
+
   .work-batn {
     width: 10%;
     position: relative;
@@ -3048,162 +2595,125 @@ top: -4rem;
     background-position: 1% 5vh;
     background-size: 40rem;
     z-index: -2;
- 
-  
   }
-  
-
 }
 
-
 @media (min-width: 1500px) and (max-width: 1800px) {
-  .work-col-spacing{
+  .work-col-spacing {
     position: relative;
     bottom: 5rem;
-     }
-     
-   
-   .marging-5{
-   
-   position: relative;
-   left: -5rem;
-   top: -4rem;
-   }
-     
-     
-     .work-image {
+  }
 
-       background-position: 120% 7vh;
-       background-size: 65rem;
-     
-     }
-     
-     /* this is for image ellipse 37 mouth */
-     
-     .work-image-2 {
-       background-position: 1% 5vh;
-       background-size: 40rem;
-       z-index: -2;
-    
-     
-     }
-     
-     .work-input {
-position: absolute;
-top: -19rem;
-     
+  .marging-5 {
+    position: relative;
+    left: -5rem;
+    top: -4rem;
+  }
 
-     }
-     
-     .work-batn {
+  .work-image {
+    background-position: 120% 7vh;
+    background-size: 65rem;
+  }
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-position: 1% 5vh;
+    background-size: 40rem;
+    z-index: -2;
+  }
+
+  .work-input {
+    position: absolute;
+    top: -19rem;
+  }
+
+  .work-batn {
     margin-right: 20vw;
- position: relative;
- top: -27rem;
-     }
-
+    position: relative;
+    top: -27rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  .work-col-spacing{
+  .work-col-spacing {
     position: relative;
     bottom: 5rem;
-     }
-     
-   
-   .marging-5{
-   
-   position: relative;
-   left: -5rem;
-   top: -4rem;
-   }
-     
-     
-     .work-image {
+  }
 
-       background-position: 120% 7vh;
-       background-size: 58rem;
-     
-     }
-     
-     /* this is for image ellipse 37 mouth */
-     
-     .work-image-2 {
-       background-position: 1% 15vh;
-       background-size: 30rem;
-       z-index: -2;
-    
-     
-     }
-     
-     .work-input {
-bottom: 20rem;
-     
+  .marging-5 {
+    position: relative;
+    left: -5rem;
+    top: -4rem;
+  }
 
-     }
-     
-     .work-batn {
+  .work-image {
+    background-position: 120% 7vh;
+    background-size: 58rem;
+  }
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-position: 1% 15vh;
+    background-size: 30rem;
+    z-index: -2;
+  }
+
+  .work-input {
+    bottom: 20rem;
+  }
+
+  .work-batn {
     margin-right: 35vw;
- position: relative;
- top: -28rem;
-     }
-
+    position: relative;
+    top: -28rem;
+  }
 }
 
 @media (min-width: 1500px) and (max-width: 1800px) {
-  .work-col-spacing{
+  .work-col-spacing {
     position: relative;
     bottom: 5rem;
-     }
-     
-   
-   .marging-5{
-   
-   position: relative;
-   left: -5rem;
-   top: -4rem;
-   }
-     
-     
-     .work-image {
+  }
 
-       background-position: 120% 7vh;
-       background-size: 60rem;
-     
-     }
-     
-     /* this is for image ellipse 37 mouth */
-     
-     .work-image-2 {
-       background-position: 1% 5vh;
-       background-size: 35rem;
-       z-index: -2;
-    
-     
-     }
-     
-     .work-input {
-     
-     
-       width: 80vw;
-       padding-left: 2vw;
-       border: 4px solid var(--color-two);
-       border-radius: 20px;
-       height: 8rem;
-       position: relative;
-       bottom: 20vh;
-     }
-     
-     .work-batn {
-       width: 10%;
-       position: relative;
-       bottom: 23rem;
-       height: 3rem;
-       margin-left: 70rem;
-     }
+  .marging-5 {
+    position: relative;
+    left: -5rem;
+    top: -4rem;
+  }
 
+  .work-image {
+    background-position: 120% 7vh;
+    background-size: 60rem;
+  }
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-position: 1% 5vh;
+    background-size: 35rem;
+    z-index: -2;
+  }
+
+  .work-input {
+    width: 80vw;
+    padding-left: 2vw;
+    border: 4px solid var(--color-two);
+    border-radius: 20px;
+    height: 8rem;
+    position: relative;
+    bottom: 20vh;
+  }
+
+  .work-batn {
+    width: 10%;
+    position: relative;
+    bottom: 23rem;
+    height: 3rem;
+    margin-left: 70rem;
+  }
 }
-
-
 
 @media (max-width: 768px) {
   .work-image {
@@ -3228,8 +2738,6 @@ bottom: 20rem;
   }
 
   .work-input {
-
-
     width: 80vw;
     padding-left: 2vw;
     border: 4px solid var(--color-two);
@@ -3246,152 +2754,122 @@ bottom: 20rem;
     margin-right: auto;
     top: -90px;
   }
-
 }
-
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .work-col-spacing{
+  .work-col-spacing {
     position: relative;
     bottom: 5rem;
-     }
-     
-   
-.arrow-workimg-2{
-position: relative;
-left: -27px;
-}
-
-.arrow-img-work{
-  position: relative;
-  left: -87px;
-width: 17rem;
-}
-
-   .marging-5{
-   
-   position: relative;
-   left: 2rem;
-   top: -1rem;
-   }
-     
-     
-     .work-image {
-
-       background-position: 150% 7vh;
-       background-size: 50rem;
-     
-     }
-     
-     /* this is for image ellipse 37 mouth */
-     
-     .work-image-2 {
-       background-position: -10% 15vh;
-       background-size: 30rem;
-       z-index: -2;
-    
-     
-     }
-     
-     .work-input {
-bottom: 10rem;
-height: 6rem;
-     
-
-     }
-     
-     .work-batn {
-    margin-right: 12vw;
- position: relative;
- top: -17.5rem;
-     }
-
-}
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-.work-col-spacing{
-  position: relative;
-  bottom: 12rem;
-}
-  
-  .arrow-workimg-2{
-    position: relative;
-    left: -70px;
-    width: 13rem;
-
-    }
-    
-    .arrow-img-work{
-      position: relative;
-      left: -87px;
-    width: 12rem;
-    }
-    
-       .marging-5{
-       
-       position: relative;
-       left: 2rem;
-       top: -1rem;
-       }
-         
-         
-         .work-image {
-    
-           background-position: 150% 7vh;
-           background-size: 42rem;
-         
-         }
-         
-         /* this is for image ellipse 37 mouth */
-         
-         .work-image-2 {
-           background-position: -4% 15vh;
-           background-size: 25rem;
-           z-index: -2;
-        
-         
-         }
-         
-         .work-input {
-    bottom: 19rem;
-         height: 6rem;
-    
-         }
-         
-         .work-batn {
-        margin-right: 20vw;
-     position: relative;
-     top: -26.5rem;
-         }
-
-
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .work-col-spacing{
-    position: relative;
-    top: -6rem;
   }
- 
-   
+
+  .arrow-workimg-2 {
+    position: relative;
+    left: -27px;
+  }
+
+  .arrow-img-work {
+    position: relative;
+    left: -87px;
+    width: 17rem;
+  }
+
+  .marging-5 {
+    position: relative;
+    left: 2rem;
+    top: -1rem;
+  }
+
+  .work-image {
+    background-position: 150% 7vh;
+    background-size: 50rem;
+  }
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-position: -10% 15vh;
+    background-size: 30rem;
+    z-index: -2;
+  }
+
   .work-input {
     bottom: 10rem;
     height: 6rem;
-border-radius: 35px;
-padding-left: 25%;
-         
-    
-         }
-         
-         .work-batn {
- top: -10rem;
-         }  
-  
+  }
+
+  .work-batn {
+    margin-right: 12vw;
+    position: relative;
+    top: -17.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .work-col-spacing {
+    position: relative;
+    bottom: 12rem;
+  }
+
+  .arrow-workimg-2 {
+    position: relative;
+    left: -70px;
+    width: 13rem;
+  }
+
+  .arrow-img-work {
+    position: relative;
+    left: -87px;
+    width: 12rem;
+  }
+
+  .marging-5 {
+    position: relative;
+    left: 2rem;
+    top: -1rem;
+  }
+
+  .work-image {
+    background-position: 150% 7vh;
+    background-size: 42rem;
+  }
+
+  /* this is for image ellipse 37 mouth */
+
+  .work-image-2 {
+    background-position: -4% 15vh;
+    background-size: 25rem;
+    z-index: -2;
+  }
+
+  .work-input {
+    bottom: 19rem;
+    height: 6rem;
+  }
+
+  .work-batn {
+    margin-right: 20vw;
+    position: relative;
+    top: -26.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .work-col-spacing {
+    position: relative;
+    top: -6rem;
+  }
+
+  .work-input {
+    bottom: 10rem;
+    height: 6rem;
+    border-radius: 35px;
+    padding-left: 25%;
+  }
+
+  .work-batn {
+    top: -10rem;
+  }
+
   .marging-4 {
     padding-top: 10%;
   }
@@ -3406,7 +2884,6 @@ padding-left: 25%;
   .marging-5 {
     position: relative;
     top: 100px;
-
   }
 
   .line::before {
@@ -3417,24 +2894,19 @@ padding-left: 25%;
     height: 2px;
     left: 15%;
     top: 100%;
-
   }
-
 }
 
 @media (max-width: 768px) {
-.img-hide{
- display: none;
+  .img-hide {
+    display: none;
+  }
 }
-}
-
 
 @media (max-width: 576px) {
-  
-  .work-col-spacing{
+  .work-col-spacing {
     position: relative;
-top: -5rem;
-
+    top: -5rem;
   }
 
   .marging-1 {
@@ -3444,7 +2916,6 @@ top: -5rem;
     bottom: 25px;
 
     width: 20rem;
-
   }
 
   .line::before {
@@ -3455,11 +2926,9 @@ top: -5rem;
     height: 2px;
     left: 19%;
     top: 100%;
-
   }
 
   .marging-5 {
-
     margin-top: 80px;
   }
 
@@ -3469,50 +2938,36 @@ top: -5rem;
 
   .font-work {
     font-size: 12px;
-
   }
 
   .work-input {
     bottom: 10rem;
     height: 6rem;
-border-radius: 35px;
-padding-left: 15%;
-         
-    
-         }
-         
-         .work-batn {
- top: -10rem;
-         }  
-  
- 
-.enter-details{
-  padding-left: 60px;
-}
-
-
-
-.text-work{
-padding-top: 20px;
-  width: 80vw;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-
-
-
-}
-
-
-
-@media (max-width:480px) {
-  
-  .work-col-spacing{
-    position: relative;
-top: -8rem;
+    border-radius: 35px;
+    padding-left: 15%;
   }
 
+  .work-batn {
+    top: -10rem;
+  }
+
+  .enter-details {
+    padding-left: 60px;
+  }
+
+  .text-work {
+    padding-top: 20px;
+    width: 80vw;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-col-spacing {
+    position: relative;
+    top: -8rem;
+  }
 
   .marging-1 {
     display: flex;
@@ -3521,7 +2976,6 @@ top: -8rem;
     bottom: 25px;
 
     width: 20rem;
-
   }
 
   .line::before {
@@ -3532,12 +2986,9 @@ top: -8rem;
     height: 2px;
     left: 5%;
     top: 100%;
-
   }
 
-
   .marging-5 {
-
     margin-top: 80px;
     position: absolute;
     left: -25px;
@@ -3549,12 +3000,9 @@ top: -8rem;
   }
 
   .font-work {
-   
-
   }
 
-  .text-heading{
- 
+  .text-heading {
     width: 100%;
     font-size: 15px;
   }
@@ -3562,96 +3010,31 @@ top: -8rem;
   .work-input {
     bottom: 20rem;
     height: 4rem;
-border-radius: 22px;
-padding-left: 15%;
-         
-    
-         }
-         
-         .work-batn {
- top: -22rem;
-         }  
-  
- 
-.enter-details{
-  padding-left: 60px;
+    border-radius: 22px;
+    padding-left: 15%;
+  }
+
+  .work-batn {
+    top: -22rem;
+  }
+
+  .enter-details {
+    padding-left: 60px;
+  }
+
+  .text-work {
+    padding-top: 20px;
+    width: 80vw;
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
-
-
-
-.text-work{
-padding-top: 20px;
-  width: 80vw;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-
-
-
-}
-
 
 /* this is for work page colum reverse  */
-
-
-
-
 
 /* ALL RESPONSIVE LAYOUTAS OF SER VISE PAGE TOP */
 
 /* this is done service page */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* =======this is the page of member page box design box-design-members======= */
 
@@ -3664,9 +3047,7 @@ padding-top: 20px;
   margin-top: 15px;
   color: var(--text-color);
   text-transform: capitalize;
-
 }
-
 
 /* button css + */
 
@@ -3679,7 +3060,6 @@ padding-top: 20px;
   position: relative;
   bottom: 30px;
   position: relative;
-
 }
 
 .card-body {
@@ -3708,19 +3088,15 @@ padding-top: 20px;
 
 /* responsive layouts of members page  */
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .box-design-members {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-
-
   .postion-btn {
     position: relative;
     top: -11rem;
-
   }
 
   .width-para {
@@ -3740,40 +3116,29 @@ padding-top: 20px;
     position: relative;
     bottom: 35px;
     transition: all 1s ease-in-out;
-
   }
 
   .butan-member {
-
     font-size: 12px;
     border-radius: 90%;
     height: 35px;
     margin-top: 5px;
     position: relative;
     right: 3%;
-
-
   }
 
-  .fa-solid {}
-
+  .fa-solid {
+  }
 
   .read-batn {
-
     width: 10rem;
     height: 3rem;
-
   }
-
-
 }
 
 /* done member page  */
 
-
-
-
-@media (max-width:430px) {
+@media (max-width: 430px) {
   .box-design-members {
     font-size: 12px;
   }
@@ -3795,94 +3160,16 @@ padding-top: 20px;
     position: relative;
     right: 8%;
   }
-
-
 }
 
 /* =======this is the page of member page box design box-design-members======= */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* this is login page css  */
-
-
 
 .main-div {
   position: relative;
   width: 100vw;
   height: 100vh;
-
 }
 
 .box-login {
@@ -3895,13 +3182,10 @@ padding-top: 20px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 500px;
-
 }
-
 
 .box .inputbox {
   position: relative;
-
 }
 
 .box-login h1 {
@@ -3911,7 +3195,6 @@ padding-top: 20px;
 }
 
 .box-login .inputbox input {
-
   width: 100%;
   border: none;
   margin-top: 40px;
@@ -3925,8 +3208,6 @@ padding-top: 20px;
   padding-bottom: 10px;
 }
 
-
-
 .box-login .inputbox label {
   position: relative;
   bottom: 110px;
@@ -3936,7 +3217,6 @@ padding-top: 20px;
   line-height: 4px;
   text-transform: capitalize;
 }
-
 
 /* .box-login .inputbox input:focus~label {
   position: relative;
@@ -3963,69 +3243,19 @@ padding-top: 20px;
   letter-spacing: 2px;
 }
 
-
 /* responsive layouts of login page */
 
-@media (max-width:576px) {
-
-
-  .box-login{
-   width: 100%;
-padding-left: 20px;
-padding-right: 20px;
-
+@media (max-width: 576px) {
+  .box-login {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 /* thid id done login page */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============this is footer css for page========== */
-
-
 
 .site-footer {
   font-size: 15px;
@@ -4043,13 +3273,11 @@ padding-right: 20px;
 
 .footer-link {
   color: var(--foter-color);
-
 }
 
 .footer-link:hover {
   color: var(--main-color);
   text-decoration: none;
-
 }
 
 .footer-link:active {
@@ -4068,7 +3296,6 @@ padding-right: 20px;
   padding-top: 20px;
   font-size: 20px;
   text-transform: uppercase;
-
 }
 
 .footer-fag:active {
@@ -4078,7 +3305,6 @@ padding-right: 20px;
 .footer-fag:hover {
   color: var(--main-color);
   text-decoration: none;
-
 }
 
 .footer-input {
@@ -4097,14 +3323,13 @@ padding-right: 20px;
   background-color: var(--color-two);
   color: var(--text-color);
   width: 3rem;
-  border: 2px solid  red;
+  border: 2px solid red;
   height: 2.7rem;
   left: 68%;
   border-radius: 6px;
   bottom: 56%;
   position: absolute;
 }
-
 
 .hr-footer {
   position: relative;
@@ -4145,22 +3370,15 @@ padding-right: 20px;
 
 /* footer done */
 
-
-
-
-
 @media (min-width: 1200px) {
-.footer-logo{
-  width: 80%;
+  .footer-logo {
+    width: 80%;
+  }
+
+  .btn-footer {
+    margin-left: 12px;
+  }
 }
-
-.btn-footer{
-  margin-left: 12px;
-}
-
-}
-
-
 
 /* fottre social icons responsive */
 
@@ -4196,7 +3414,6 @@ padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 20vw;
-
   }
 
   .social-icon {
@@ -4208,7 +3425,6 @@ padding-right: 20px;
     border-radius: 50%;
     padding-top: 11px;
     padding-left: 6%;
-
   }
 
   .hr-footer {
@@ -4229,12 +3445,7 @@ padding-right: 20px;
     top: 48px;
     left: 11rem;
   }
-
-
 }
-
-
-
 
 @media (min-width: 576px) and (max-width: 768px) {
   .footer-logo {
@@ -4242,7 +3453,6 @@ padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 20vw;
-
   }
 
   .social-icon {
@@ -4255,7 +3465,6 @@ padding-right: 20px;
     border-radius: 50%;
     padding-top: 15px;
     padding-left: 7%;
-
   }
 
   .hr-footer {
@@ -4278,29 +3487,24 @@ padding-right: 20px;
     left: 96px;
   }
 
-
   .footer-input {
     height: 2.8rem;
   }
-
 }
 
-
 @media (max-width: 576px) {
-  
-  .col-reverse{
-position: absolute;
-left: 50%;
-margin-top: 14%;
+  .col-reverse {
+    position: absolute;
+    left: 50%;
+    margin-top: 14%;
   }
-  
+
   .footer-logo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 30vw;
     margin-bottom: 50px;
-
   }
 
   .social-icon {
@@ -4313,7 +3517,6 @@ margin-top: 14%;
     border-radius: 50%;
     padding-top: 15px;
     padding-left: 7%;
-
   }
   .hr-footer {
     position: relative;
@@ -4325,54 +3528,48 @@ margin-top: 14%;
   }
 
   .copyright {
-   text-align: justify;
-   width: 100%;
-
+    text-align: justify;
+    width: 100%;
   }
 
   .btn-footer {
     position: relative;
     top: -2.4rem;
-  left: 75%;
+    left: 75%;
     width: 11vw;
     border: 1px solid red;
   }
-.text-footer-input{
-  font-size: 19px;
-  font-weight: bold;
-}
+  .text-footer-input {
+    font-size: 19px;
+    font-weight: bold;
+  }
 
   .footer-input {
     height: 2.8rem;
   }
 }
 
-
-@media (max-width:490px) {
-
+@media (max-width: 490px) {
   .footer-logo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 30vw;
     margin-bottom: 50px;
-
   }
 
-
   .social-icon {
-  font-size: 10px;
-  width: 5rem;
-  height: 2rem;
-  padding: 10px 10px 2px 10px;
+    font-size: 10px;
+    width: 5rem;
+    height: 2rem;
+    padding: 10px 10px 2px 10px;
   }
 
   .copyright {
     text-align: justify;
-  
- font-size: 10px;
-   }
 
+    font-size: 10px;
+  }
 }
 /*---------- footer done ------*/
 @media (max-width: 992px) {
@@ -4393,8 +3590,7 @@ margin-top: 14%;
   }
 }
 @media (max-width: 410px) {
-  .navbar-toggler{
-  
+  .navbar-toggler {
     position: relative;
     left: 80%;
     bottom: 3rem;

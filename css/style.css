@@ -161,6 +161,16 @@ a:visited {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* --------home page css wprking from here --------*/
 
 .home-rectangle {
@@ -336,16 +346,17 @@ input:focus {
 .image-table {
   margin-top: 15%;
   height: 80%;
-  width: 45vw;
+  width: 20rem;
 }
 
 .circle-img {
   margin-left: 20%;
-  margin-bottom: 20%;
-  height: 50vh;
+margin-top: 8rem;
+
 }
 
 .color-redish-col {
+
 }
 
 .circle-text {
@@ -361,8 +372,8 @@ input:focus {
 
 .circle-inside-div {
   position: absolute;
-  top: 105px;
-  left: 14rem;
+  top: 14rem;
+  left: 14.8rem;
 }
 .nine-plus {
   font-weight: bolder;
@@ -749,10 +760,10 @@ top: 1rem;
 }
 .image-table{
   padding-right: 10rem;
-
+  width: 42rem;
 }
 .image-table img{
-  width: 500px;
+
 
 
 
@@ -760,15 +771,17 @@ top: 1rem;
 
 
 .color-redish-col img{
-  margin-bottom: -10rem;
- width: 60%;
+  margin-bottom: -4rem;
+ width: 20rem;
  
 }
 .color-redish-col .circle-inside-div{
-  margin-left: 10px;
-  margin-top: 20%;
-  margin-right: auto;
+
+
   padding-right: 20px;
+}
+.circle-inside-div{
+left: 13rem;
 }
 .slick-image{
   background-size: 100%;
@@ -936,7 +949,7 @@ width: 80vw;
 
 }
 .color-redish-col .circle-inside-div{
-  margin-left: 0px;
+ 
   margin-top: 5rem;
 }
 .circle-text{
@@ -1121,10 +1134,10 @@ right: 100px;
      }
   .color-redish-col .circle-img {
 
-width: 90%;
+width: 20rem;
 padding-top: 20px;
-  margin-top: -20rem;
-    margin-bottom: -14rem;
+  margin-top: -2rem;
+    margin-bottom: -2rem;
   }
 .circle-text{
   width: 100%;
@@ -1380,7 +1393,7 @@ padding-left: 50px; */
 padding: 0 20px;
    margin-left: auto;
    margin-right: auto;
-   margin-bottom: -10rem;
+   margin-bottom: -2rem;
   }
 
   .circle-inside-div {
@@ -1400,22 +1413,31 @@ margin-right: auto;
 padding-left: 50px;
 }
 .slick-image{
-background-size: 100vw;
-position: relative;
-top: 10px;
+background-size: contain;
+
+padding-top: 2px;
 
 
 }
 
-
+.slick-class{
+/* background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silkmain_qfd6pw.svg");
+background-size: 100%;
+background-clip: border-box;
+background-repeat: no-repeat; */
+position: relative;
+bottom: 4%;
+}
 .text-client-slick  p{
   color: var(--color-two);
+  padding-top: 40px;
+  padding-bottom: 60px;
 
  
 }
 .text-client-slick{
 position: relative;
-bottom: 190px;
+
  
 }
 
@@ -1423,6 +1445,129 @@ bottom: 190px;
 .slick-prev:before,
 .slick-next:before {
 
+}
+
+.slick-1 .blue-img-slick {
+  background-size: 12rem;
+}
+
+.slick-1 .blue-img-slick .white-slick-img {
+  width: 12rem;
+}
+
+.slick-2 .blue-img-slick-2 {
+  background-size: 15rem;
+}
+
+.slick-2 .white-slick-img-2 {
+  width: 20rem;
+  position: relative;
+  bottom: 30px;
+}
+
+.slick-2 {
+
+  margin-left: 40px;
+}
+
+.slick-3 .blue-img-slick-3 {
+  background-size: 70%;
+
+}
+
+.slick-3 .white-slick-img-3 {
+  width: 60%;
+}
+
+.slick-1 .text-slick-one {
+  position: relative;
+  bottom: 10rem;
+  left: -5rem;
+
+  text-align: center;
+ 
+
+}
+
+.text-slick-1 {
+  width: 15rem;
+
+  position: relative;
+  left: 8rem;
+
+}
+.slick-heading-1{
+position: relative;
+
+width: 600px;
+}
+.heading-slick{
+  position: relative;
+left: -6rem;
+left: -4rem;
+
+}
+.slick-1 .circl-slik-img {
+  margin-left: 150px;
+  top: -14px;
+}
+.text-slick-two{
+margin-right: 100px;
+
+padding-right: 10px;
+
+}
+.text-slick-three{
+position: relative;
+left: -25px;
+}
+
+.slick-2 .circl-slik-img-2 {
+  z-index: 10;
+  margin-left: 7.5rem;
+  top: -1px;
+  width: 70%;
+  height: 90%;
+
+
+
+}
+.slick-1{
+  font-size: 1px;
+}
+.slick-2 {
+  margin-left: 2px;
+}
+
+.circl-slik-img-3 {
+  margin-left: 165px;
+  margin-top: 2px;
+}
+
+.slick-3 .text-slick-three {
+  position: relative;
+  bottom: 14rem;
+  margin-left: 50px;
+}
+
+.text-2-slick {
+  width: 250px;
+font-size: 12px;
+margin-left:-20px ;
+}
+.text-3-slick{
+  width: 200px;
+
+} 
+
+.slick-dots {
+  position: absolute;
+  bottom: -125px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
 }
 
 
@@ -1575,7 +1720,7 @@ padding-right: 90px;
   .image-table {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -9rem;
+    margin-bottom: -7rem;
     width: 70vw;
     min-width: 80%;
     max-width: 80%;
@@ -1586,15 +1731,15 @@ padding-right: 90px;
   .color-redish-col img {
 
   padding-right: 30px;
-    margin-bottom: -5rem;
+    
   width: 20rem;
-margin-bottom: -12rem;
+margin-bottom: -2rem;
 
   }
 
   .circle-inside-div {
-    top: 270px;
-    left: 190px;
+    top: 200px;
+    left: 200px;
       width: 100vw;
 
   }
@@ -1614,8 +1759,178 @@ right: 30px;
   }
  
 .slick-image {
-  background-size: 100%;
+background-image: none;
+margin-bottom: -26rem;
 }
+.slick-class{
+background-image: url("https://res.cloudinary.com/the-super-soul/image/upload/v1658081491/web-images/img/silkback_hlivqc.svg");
+background-repeat: no-repeat;
+background-size: contain;
+padding-top: 50px;
+}
+
+
+  .text-client-slick  p{
+    color: var(--color-two);
+  
+   
+  }
+  .text-client-slick{
+  position: relative;
+  
+   
+  }
+  
+  .slick-prev:before{
+
+left: 10rem;
+  }
+  .slick-next:before{
+  
+    left: 4rem;
+      }
+  .slick-prev:before,
+  .slick-next:before {
+
+opacity: 0;
+
+  }
+  
+  .slick-1 .blue-img-slick {
+    background-size: 15rem;
+  }
+  
+  .slick-1 .blue-img-slick .white-slick-img {
+    width: 15rem;
+  }
+  
+  .slick-2 .blue-img-slick-2 {
+    background-size: 15rem;
+    background-position-y: 2.8rem;
+  }
+  
+  .slick-2 .white-slick-img-2 {
+    width: 15rem;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .slick-2 {
+  
+   
+  }
+  
+  .slick-3 .blue-img-slick-3 {
+    background-size: 17rem;
+  
+  }
+  
+  .slick-3 .white-slick-img-3 {
+    width: 15rem;
+  }
+  
+  .slick-1 .text-slick-one {
+    position: relative;
+    bottom: 13.5rem;
+    left: -5rem;
+    text-align: center;
+    font-size: 6px;
+  }
+  
+  .text-slick-1 {
+    width: 15rem;
+  
+    position: relative;
+    left: 8rem;
+  
+  }
+  .slick-heading-1{
+  position: relative;
+  
+  width: 600px;
+  }
+  .heading-slick{
+    position: relative;
+  left: -6rem;
+  left: -4rem;
+  }
+  .slick-1 .circl-slik-img {
+    margin-left: 250px;
+    top: -14px;
+background-size: 35px;
+  }
+  .text-slick-two{
+  margin-right: 100px;
+  font-size: 2px;
+  padding-right: 10px;
+  
+  }
+ 
+  
+  .slick-2 .circl-slik-img-2 {
+    z-index: 30;
+    margin-left: 10rem;
+background-position: 20px 3rem;
+    background-size: 35px;
+    
+  
+  
+  }
+  
+  .slick-2 {
+    margin-left: 60px;
+  }
+  
+  .circl-slik-img-3 {
+    margin-left: 145px;
+    margin-top: 2px;
+    background-size: 35px;
+  }
+  .slick-heading-3{
+width: 200px;
+margin-left: 140px;
+  }
+  .slick-3 .text-slick-three {
+    position: relative;
+    bottom: 13rem;
+   margin-right: 1rem;
+   font-size: 2px;
+
+  }
+  
+  .text-2-slick {
+    width: 10rem;
+  font-size: 8px;
+  margin-left:-20px ;
+  }
+.text-slick-two{
+
+  top: 20px;
+}
+
+
+  .slick-heading-2{
+width: 200px;
+margin-left: 90px;
+  }
+
+  .text-3-slick{
+    width: 12rem;
+    position: relative;
+    left: 10px;
+
+  }
+  
+  .slick-dots {
+    position: absolute;
+top: 72rem;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
 
 
 }
@@ -1680,7 +1995,7 @@ min-width: 90%;
   padding: 0 10px;
 }
 .image-table {
-  margin-bottom: -12rem;
+  margin-bottom: -6rem;
 }
 .color-redish-col {
 margin-left: auto;
@@ -1690,10 +2005,10 @@ margin-right: auto;
 
 .color-redish-col img{
 width: 15rem;
-  margin-bottom: -14rem;
+  margin-bottom: -1rem;
   }
 .circle-inside-div{
-top: 20rem;
+top: 12rem;
 font-size: 10px;
 left: 40%;
 
@@ -1718,6 +2033,156 @@ font-size: 20px;
 margin-left: 40px;
 width: 100%;
 font-size: 10px;
+}
+
+
+
+.slick-1 .blue-img-slick {
+  background-size: 12rem;
+}
+
+.slick-1 .blue-img-slick .white-slick-img {
+  width: 12rem;
+}
+
+.slick-2 .blue-img-slick-2 {
+  background-size: 13rem;
+  background-position-y: 4rem;
+}
+
+.slick-2 .white-slick-img-2 {
+  width: 13rem;
+  position: relative;
+  bottom: 30px;
+}
+
+.slick-1{
+  
+}
+.slick-2 {
+
+ 
+}
+
+.slick-3 .blue-img-slick-3 {
+  background-size: 14rem;
+
+}
+
+.slick-3 .white-slick-img-3 {
+  width: 12rem;
+}
+
+.slick-1 .text-slick-one {
+  position: relative;
+  bottom: 10rem;
+  left: -6rem;
+  text-align: center;
+  font-size: 2px;
+}
+.text-slick{
+  font-size: 5px;
+}
+.heading-slick{
+  font-size: 6px;
+}
+.text-slick-1 {
+  width: 15rem;
+
+  position: relative;
+  left: 8rem;
+
+}
+.slick-heading-1{
+position: relative;
+
+width: 600px;
+}
+.heading-slick{
+  position: relative;
+left: -6rem;
+left: -4rem;
+}
+.slick-1 .circl-slik-img {
+  margin-left: 130px;
+  top: -14px;
+}
+.text-slick-two{
+
+
+}
+
+
+.slick-2 .circl-slik-img-2 {
+  z-index: 10;
+  margin-left: 5rem;
+  top: -1px;
+min-width: 20px;
+height: 5rem;
+
+
+
+}
+
+.slick-2 {
+  margin-left: 60px;
+}
+
+.circl-slik-img-3 {
+  margin-left: 125px;
+  margin-top: 2px;
+}
+.slick-heading-3{
+width: 200px;
+margin-left: 110px;
+}
+
+.slick-3 .text-slick-three {
+  position: relative;
+  bottom: 10rem;
+  padding: 0 4px;
+ margin-right: 1rem;
+ font-size: 2px;
+
+}
+
+.text-2-slick {
+  width: 10rem;
+font-size: 8px;
+margin-left:-10px ;
+}
+.text-slick-two{
+
+top: 20px;
+}
+
+
+.slick-heading-2{
+width: 200px;
+margin-left: 90px;
+}
+
+.text-3-slick{
+  width: 10rem;
+  position: relative;
+  left: 20px;
+
+}
+
+.slick-dots {
+  position: absolute;
+top: 66rem;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  font-size: 10px;
+}
+.slick-dots li button:before {
+
+font-size: 12px;
+font-weight: bolder;
 }
 
 
@@ -2718,7 +3183,7 @@ left: 20%; */
   }
 }
 
-/*------------ this is styling of  of pricing page ----- */
+/*------------ this is styling of  of promote your-vedio page ----- */
 
 .pricing-tea-box {
   background-color: #a6cce0;
@@ -3064,6 +3529,13 @@ this is the pricing page responsive layoputs ==============*/
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+ .card-box{
+  margin: 40px;
+ }
+ .box-margin{
+margin-top: 20px;
+ }
+ 
   .main-text-width {
     font-size: 20px;
     width: 100%;
@@ -3109,6 +3581,13 @@ this is the pricing page responsive layoputs ==============*/
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
+  .card-box{
+    margin: 40px;
+   }
+   .box-margin{
+  margin-top: 20px;
+   }
+  
   .pricing-tea-box {
     width: 90%;
     position: relative;

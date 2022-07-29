@@ -33,7 +33,7 @@ body {
 /* to declare a color in variable */
 :root {
   --main-color: #0388fc;
-  --color-two: #1b46ba;
+  --color-two: #5800ac;
   --text-color: white;
   --foter-color: #1f2120;
   --white-color: white;
@@ -92,6 +92,9 @@ body {
 
 .navbar {
   z-index: 1000;
+  /* background: linear-gradient(360deg, #5600a9 0%, #7a00cf 47.87%, #4c00ab 100%); */
+  background-color: var(--color-two);
+
 }
 
 /* nav ul li{
@@ -111,7 +114,7 @@ nav ul li a:active{
 } */
 
 
- .link:focus {
+ /* .link:focus {
   background: var(--color-two);
 border-radius: 10px;
 color:var(--text-color);
@@ -125,27 +128,49 @@ color: var(--color-two);
 padding:10px  20px;
 }
 
-.link:active {
+.link.active {
 background: var(--color-two)  !important;
 border-radius: 10px;
 color:var(--text-color);
 padding:10px  20px;
+} */
+
+
+
+link:focus {
+  background: var(--color-two);
+border-radius: 10px;
+color:var(--text-color);
+padding:10px  20px;
+
 }
+
+
+.active{
+  background-color: var(--text-color);
+  color: black !important;
+  border-radius: 5px;
+  
+
+
+}
+
+
 
 
 .link {
   text-transform: capitalize;
-  color: var(--color-two);
-  padding: 20px;
+  color: #ffffff;
+  padding: 5px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
 }
 
 .link:before {
   content: "";
   position: absolute;
-  background-color: var(--main-color);
+  background-color: var(--text-color);
   width: 0;
   left: 10%;
   right: 0;
@@ -162,12 +187,12 @@ padding:10px  20px;
 
 .link:hover {
   text-decoration: none;
- 
+ color: var(--text-color);
 }
 
 
 
-#home {
+/* #home {
   background-color: var(--color-two);
   color: var(--text-color);
   border-radius: 5px;
@@ -175,7 +200,7 @@ padding:10px  20px;
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 7px;
-} 
+}  */
 
 #home:hover {
   /* background-color: rgb(179, 179, 179);
@@ -359,7 +384,10 @@ input:focus {
   width: 50rem;
   margin-top: 70px;
 }
+.text-home-img  .text-prime{
+  color: var(--color-two);
 
+}
 .margin-bottom {
   position: relative;
   bottom: 30rem;
@@ -3489,6 +3517,7 @@ table td tr {
   background-color: var(--text-color);
   padding: 10px;
   cursor: pointer;
+  border: 2px solid var(--foter-color);
 
 }
 
@@ -3773,6 +3802,9 @@ this is the pricing page responsive layoputs ==============*/
 @media (min-width: 0px) and (max-width: 576px) {
   .card-box {
     margin: 40px;
+  }
+  .batns{
+    width: 100%;
   }
 
   .box-margin {
@@ -4368,7 +4400,7 @@ this is how its work heading line hr */
   .marging-1 {
     display: flex;
     position: relative;
-    left: 8px;
+    left: -50px;
     bottom: 25px;
 
     width: 20rem;
@@ -4404,13 +4436,15 @@ this is how its work heading line hr */
 
   .work-input {
     bottom: 20rem;
-    height: 4rem;
+    height: 3.5rem;
     border-radius: 22px;
-    padding-left: 15%;
+   
   }
 
   .work-batn {
     top: -22rem;
+height: 20%;
+    width: 50%;
   }
 
   .enter-details {
@@ -4969,6 +5003,12 @@ this is how its work heading line hr */
 }
 
 /*---------- footer done ------*/
+@media (min-width: 768px) {
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+
+}
 @media (max-width: 992px) {
   /* this is navbar */
 
@@ -4979,12 +5019,33 @@ this is how its work heading line hr */
   }
 
   /* toggler this is hide */
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: var(--text-color);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
 
   .navbar-toggler.collapsed {
     border: none;
     outline: none;
     box-shadow: none;
+    background-color: var(--text-color);
+ 
+
   }
+  .navbar-toggler.collapsed:focus{
+ 
+  }
+  .navbar-toggler:focus{
+
+    border: none;
+    outline: none;
+ 
+  }
+
 }
 
 @media (max-width: 410px) {

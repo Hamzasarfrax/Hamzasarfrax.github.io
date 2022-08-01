@@ -16,9 +16,12 @@
   border-radius: 10px;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+overflow-x: hidden;
+
+
 }
 
 /* Handle on hover */
@@ -998,6 +1001,11 @@ input:focus {
 
   }
 
+  .arrow-img{
+ position: absolute;
+ left: 18rem;
+ top: 30%;
+  }
   .container-img .girl-img {
     position: relative;
     left: -10rem;
@@ -1148,7 +1156,7 @@ input:focus {
     text-align: center;
     padding: 0;
     width: 100%;
-    background: #000;
+
   }
 
 
@@ -1170,8 +1178,8 @@ input:focus {
 
   .arrow-img {
     width: 300px;
-    top: -16rem;
-    left: 2rem;
+  top: -35%;
+    left: 2%;
   }
 
   .text h1 {
@@ -1734,6 +1742,7 @@ background-repeat: no-repeat; */
     margin-bottom: 15rem;
     margin-top: 2rem;
     margin-bottom: 18%;
+    
 
   }
 
@@ -1918,7 +1927,7 @@ background-repeat: no-repeat; */
 
   .slick-image {
     background-image: none;
-    margin-bottom: -26rem;
+    margin-bottom: -10rem;
   }
 
   .slick-class {

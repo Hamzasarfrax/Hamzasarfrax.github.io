@@ -462,6 +462,7 @@ input:focus {
   padding-top: 10rem;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom:-20rem;
 }
 
 .text-client-slick {
@@ -4751,6 +4752,13 @@ height: 20%;
   box-shadow: none;
 }
 
+.footer-input:focus{
+  outline: none;
+  box-shadow: none;
+  border:none;
+  
+} 
+
 .footer-fag:focus {
   outline: none;
   box-shadow: none;
@@ -4760,7 +4768,7 @@ height: 20%;
   background-color: var(--color-two);
   color: var(--text-color);
   width: 3rem;
-  border: 2px solid red;
+  border: 2px solid var(--color-two);
   height: 2.7rem;
   left: 68%;
   border-radius: 6px;

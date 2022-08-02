@@ -2540,7 +2540,9 @@ margin-left: 6rem;
     font-size: 10px;
   }
 
-
+.slick-class{
+  margin-bottom: -40rem;
+}
 
   .slick-1 .blue-img-slick {
     background-size: 12rem;
@@ -5326,11 +5328,13 @@ height: 20%;
   .btn-footer {
     position: relative;
     top: -40px;
-    left: 96px;
+    left: 80%;
   }
 
   .footer-input {
     height: 2.8rem;
+    max-width: 150px;
+    background: #000;
   }
 }
 
@@ -5377,8 +5381,8 @@ height: 20%;
 
   .btn-footer {
     position: relative;
-    top: -2.6rem;
-    left: 74.5%;
+    top: -2.5rem;
+    left: 68%;
   
     border: 1px solid var(--color-two);
   }
@@ -5390,6 +5394,7 @@ height: 20%;
 
   .footer-input {
     height: 2.8rem;
+   max-width: 65%;
   }
 }
 
@@ -5415,7 +5420,18 @@ height: 20%;
     font-size: 10px;
   }
 }
+@media (min-width: 450px) {
+.footer-input{
+width: 35vw;
+}
 
+.btn-footer
+{
+
+
+}
+
+}
 /*---------- footer done ------*/
 @media (min-width: 768px) {
   .navbar-toggler {

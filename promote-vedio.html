@@ -84,11 +84,12 @@
               Just add your link below and follow steps:
             </h5>
             <div class="text-center">
-              <input type="text" class="form-control input-pricing" placeholder="Input link to start promotion" />
+              <input type="text" class="form-control input-pricing" placeholder="Input link to start promotion"   id="path"  />
               <div class="">
-                <button class="btn btn-primary pricing-btn">
+                <button class="btn btn-primary pricing-btn" onclick="play()" value="Play on">
                   Make Me Famous
                 </button>
+                <div id="show"></div>
               </div>
             </div>
           </div>
@@ -231,7 +232,7 @@ this is cup of tea container and some urls -->
                     <input type="radio" name="options" id="option1" autocomplete="off" checked />
                     Regular
                   </label>
-                  <label class="btn btn-target-1">
+                  <label class="btn btn-target-1 text-dark">
                     <input type="radio" name="options" id="option2" autocomplete="off" />
                     Music
                   </label>
@@ -348,6 +349,32 @@ this is cup of tea container and some urls -->
       </div>
     </div>
   </footer>
+
+
+  <!-- vedio functinality -->
+
+
+
+  <script>
+    function showVideo() {
+        var videoUrl = document.getElementById("videoUrl").value
+        document.getElementById("myFrame").src = videoUrl
+    }
+</script>
+
+<script type="text/javascript">
+  window.onload=function(){
+       alert('Your video player is Here');
+  }
+      function play(){
+      var url = document.getElementById("path").value;
+      document.getElementById('show').innerHTML='<video  id="movie" src="'+url+'" height="600px" width="1300px" controls autoplay > </video>';
+      var player =document.getElementById('movie');
+      player.load();
+      alert(''+player.duration);
+
+      }
+  </script> 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Bootstrap JS -->

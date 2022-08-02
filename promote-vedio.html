@@ -89,7 +89,7 @@
                 <button class="btn btn-primary pricing-btn" onclick="play()" value="Play on">
                   Make Me Famous
                 </button>
-                <div id="show"></div>
+                <div id="show" class="w-50 h-25 vedio-url"></div>
               </div>
             </div>
           </div>
@@ -362,13 +362,15 @@ this is cup of tea container and some urls -->
     }
 </script>
 
+
+
 <script type="text/javascript">
   window.onload=function(){
-       alert('Your video player is Here');
+       alert('Your video player is here put link');
   }
       function play(){
       var url = document.getElementById("path").value;
-      document.getElementById('show').innerHTML='<video  id="movie" src="'+url+'" height="600px" width="1300px" controls autoplay > </video>';
+      document.getElementById('show').innerHTML='<video  id="movie" src="'+url+'" height="" width="" controls autoplay > </video>';
       var player =document.getElementById('movie');
       player.load();
       alert(''+player.duration);

@@ -1683,6 +1683,11 @@ left: 12rem;
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  
+  .home-main{
+    margin-bottom: -30rem;
+  }
+  
   .home-rectangle {
     background-size: 55%;
     margin-bottom: -5rem;
@@ -2056,6 +2061,10 @@ margin-left: 6rem;
 
 
 @media (min-width: 0px) and (max-width: 576px) {
+  .home-main{
+    margin-bottom: -25rem;
+  }
+  
   .home-rectangle {
     background-size: contain;
     margin-bottom: 15rem;
@@ -2592,7 +2601,7 @@ margin-left: 6rem;
   }
 
   .text-slick {
-    font-size: 5px;
+    font-size: 7px;
   }
 
   .heading-slick {
@@ -2711,7 +2720,25 @@ margin-left: 6rem;
 
 
 
+@media (max-width:380px) {
 
+  .grow{
+    margin-right: 35px;
+ 
+  }
+  .slick-dots {
+    position: absolute;
+    top: 66rem;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    font-size: 10px;
+  }
+
+
+}
 
 
 
@@ -2877,6 +2904,7 @@ this is box-img of service pager  */
   border: none;
   outline: none;
   border-radius: 8px;
+
 }
 
 .input {
@@ -2888,7 +2916,15 @@ this is box-img of service pager  */
   border-radius: 14px;
 }
 
+
+
 @media (min-width: 1200px) {
+  
+  .main-service{
+    margin-bottom: -20rem;
+  
+  }
+  
   .service-section {}
 
   .service-box {
@@ -2976,7 +3012,7 @@ this is box-img of service pager  */
   .margin-btn {
     position: absolute;
     right: 60px;
-    top: -45px;
+    top: -20px;
   }
 
   .input {
@@ -3013,7 +3049,19 @@ left: 20%; */
     color: var(--text-color);
   }
 }
+@media (min-width: 1700px) and (max-width: 3000px) {
+  .para {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 55rem;
 
+    position: relative;
+    left: 4rem;
+  }
+}
 @media (min-width: 1500px) and (max-width: 1700px) {
   .service-section {
     position: relative;
@@ -3349,7 +3397,8 @@ left: 20%; */
 
   .display-mobile {
     position: relative;
-    top: -1rem;
+    top: 1rem;
+
   }
 
   .margin-btn {
@@ -3451,8 +3500,10 @@ left: 20%; */
   .margin-btn {
     position: relative;
     left: 65%;
-    top: -10rem;
+    top: -7rem;
     z-index: 20;
+    
+   
   }
 }
 
@@ -3519,6 +3570,7 @@ left: 20%; */
   .main-service {
     position: relative;
     bottom: 10rem;
+    margin-bottom: -10rem;
   }
 
   .service-box {
@@ -4214,6 +4266,7 @@ this is the pricing page responsive layoputs ==============*/
     position: relative;
     top: 10px;
     font-size: 10px;
+ 
   }
 }
 
@@ -4228,7 +4281,33 @@ this is the pricing page responsive layoputs ==============*/
   .tea-img {
     width: 15rem;
   }
+
+  .btn-price {
+    width: 5rem;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 8px;
+ 
+  }
+
+
 }
+
+@media (max-width: 390px) {
+  .main-text-width {
+font-size: 10px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 0 20px;
+font-family: var(--font-medium);
+font-weight: 900;
+
+  }
+}
+
 
 /* ----------done with pricing page----------- */
 
@@ -4690,6 +4769,10 @@ font-weight: 700;
 }
 
 @media (max-width: 576px) {
+  .work-main{
+    margin-bottom: -20rem;
+  }
+  
   .work-col-spacing {
     position: relative;
     top: -5rem;
@@ -5138,6 +5221,7 @@ height: 20%;
   border-radius: 10px;
   outline: none;
   box-shadow: none;
+
 }
 
 .footer-input:focus{
@@ -5166,6 +5250,7 @@ height: 20%;
 .text-footer-input{
   font-family: var(--font-medium);
   font-weight: 700;
+
 }
 
 .hr-footer {
@@ -5251,7 +5336,12 @@ height: 20%;
     box-shadow: none;
   }
 }
-
+@media (min-width: 992px) and (max-width: 1200px) {
+.btn-footer{
+  position: absolute;
+  top: 48px;
+}
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .footer-logo {
     display: flex;
@@ -5334,7 +5424,7 @@ height: 20%;
   .footer-input {
     height: 2.8rem;
     max-width: 150px;
-    background: #000;
+  
   }
 }
 
@@ -5382,7 +5472,7 @@ height: 20%;
   .btn-footer {
     position: relative;
     top: -2.5rem;
-    left: 68%;
+    left: 80%;
   
     border: 1px solid var(--color-two);
   }
@@ -5394,7 +5484,7 @@ height: 20%;
 
   .footer-input {
     height: 2.8rem;
-   max-width: 65%;
+ 
   }
 }
 
@@ -5419,19 +5509,50 @@ height: 20%;
 
     font-size: 10px;
   }
+  .btn-footer {
+    position: relative;
+    top: -2.5rem;
+    left: 77%;
+  
+    border: 1px solid var(--color-two);
+  }
+
+
 }
-@media (min-width: 450px) {
+@media (max-width: 450px) {
 .footer-input{
-width: 35vw;
+
 }
 
 .btn-footer
 {
+  position: relative;
+ padding: 1px;
 
+  left: 74%;
+  border: 2px solid var(--color-two);
 
 }
 
 }
+
+@media (max-width: 390px) {
+  .btn-footer
+  {
+    position: relative;
+   padding: 1px;
+  
+    left: 69%;
+    border: 2px solid var(--color-two);
+  
+  }
+
+  .footer-fag{
+  
+  
+  }
+}
+
 /*---------- footer done ------*/
 @media (min-width: 768px) {
   .navbar-toggler {

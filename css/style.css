@@ -2062,7 +2062,8 @@ margin-left: 6rem;
 
 @media (min-width: 0px) and (max-width: 576px) {
   .home-main{
-    margin-bottom: -1rem;
+    margin-bottom: 0;
+
   }
   
   .home-rectangle {

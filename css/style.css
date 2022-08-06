@@ -1283,7 +1283,7 @@ margin-left: 8rem;
   .arrow-img{
  position: absolute;
  left: 18rem;
- top: 30%;
+ top: 38%;
   }
   .container-img .girl-img {
     position: relative;
@@ -1681,7 +1681,16 @@ left: 12rem;
   }
 
 }
+@media (min-width: 768px) and (max-width: 840px) {
 
+  .arrow-img {
+    width: 300px;
+  top: -28%;
+    left: 1%;
+   
+  }
+
+}
 @media (min-width: 576px) and (max-width: 768px) {
   
   .home-main{

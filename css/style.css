@@ -43,10 +43,10 @@ overflow-x: hidden;
 /* to declare a color in variable */
 /* background: linear-gradient(360deg, #5600a9 0%, #7a00cf 47.87%, #4c00ab 100%); */
 :root {
-  --main-color: #0388fc;
-  --color-two: #4c00ab;
+  --main-color: rgb(0, 69, 164);
+  --color-two: rgb(0, 69, 164);
   --text-color: white;
-  --foter-color: #1f2120;
+  --foter-color: #1f2120; 
   --white-color: white;
   --font-medium:montserrat,sans-serif;
 
@@ -109,7 +109,7 @@ overflow-x: hidden;
 .navbar {
   z-index: 1000;
   /* background: linear-gradient(360deg, #5600a9 0%, #7a00cf 47.87%, #4c00ab 100%); */
-  background-color: var(--color-two);
+  
 
 }
 
@@ -163,8 +163,8 @@ padding:10px  20px;
 
 
 .active{
-  background-color: var(--text-color);
-  color: black !important;
+  background-color: var(--color-two);
+  color: var(--text-color) !important;
   border-radius: 5px;
   
 
@@ -176,13 +176,13 @@ padding:10px  20px;
 
 .link {
   text-transform: capitalize;
-  color: #ffffff;
+  color: var(--color-two);
   padding: 5px 10px;
   text-decoration: none;
   font-size: 15px;
   position: relative;
   font-family: var(--font-medium);
-  font-weight: 400;
+  font-weight: 700;
 
 font-style: normal;
 }
@@ -190,7 +190,7 @@ font-style: normal;
 .link:before {
   content: "";
   position: absolute;
-  background-color: var(--text-color);
+  background-color: var(--color-two);
   width: 0;
   left: 10%;
   right: 0;
@@ -207,7 +207,7 @@ font-style: normal;
 
 .link:hover {
   text-decoration: none;
- color: var(--text-color);
+ color: var(--color-two);
 }
 
 
@@ -1385,6 +1385,7 @@ margin-left: 8rem;
 
   .slick-2 {
     margin-left: 2px;
+
   }
 
   .circl-slik-img-3 {
@@ -3934,7 +3935,16 @@ table td tr {
   padding: 10px;
 
 }
+.nav-tabs .nav-link {
+border: none;
 
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color:var(--text-color);
+  background-color: var(--color-two);
+  border-color: #dee2e6 #dee2e6 #fff;
+}
 /* 
 this is the pricing page responsive layoputs ==============*/
 @media (min-width: 1200px) {

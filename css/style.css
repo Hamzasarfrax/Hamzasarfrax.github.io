@@ -177,9 +177,9 @@ link:focus {
 .link {
   text-transform: capitalize;
   color: var(--color-two);
-  padding: 5px 10px;
+  padding: 10px 15px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   font-family: var(--font-medium);
   font-weight: 700;
@@ -1290,12 +1290,18 @@ input:focus {
   }
 
 }
-
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .link{
+    font-size: 17px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1281px) {
   .home-rectangle {
     margin-bottom: 2rem;
   }
-
+  .link{
+    font-size: 15px;
+  }
   .grow-para {
     width: 70%;
     max-width: 99%;
@@ -3958,6 +3964,10 @@ table td tr {
 }
 
 
+.box-margin{
+  margin-bottom: 100px;
+}
+
 .card-box {
   background-color: var(--text-color);
   border: 3px solid var(--color-two);
@@ -3965,6 +3975,7 @@ table td tr {
   height: 100%;
   padding: 20px;
   font-family: var(--font-segeo);
+
 }
 
 .btn-home {
@@ -3986,6 +3997,10 @@ table td tr {
 
 }
 
+.batns:focus {
+background-color: var(--color-two);
+color: var(--text-color);
+}
 .input-col-2 {
   border-radius: 10px;
   border: 3px solid var(--color-two);
@@ -5043,6 +5058,16 @@ margin-bottom: 2px;
   font-weight: bolder;
 }
 
+
+.card-body{
+  background: var(--color-two);
+  color: var(--text-color);
+  border: none;
+  outline: none;
+
+
+}
+
 .width-para {
   font-family: var(--font-medium);
   font-weight: 10;
@@ -5056,7 +5081,7 @@ margin-bottom: 2px;
   padding-right: 20px;
   padding-top: 20px;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 65px;
   color: var(--text-color);
   text-transform: capitalize;
 
@@ -5073,12 +5098,12 @@ margin-bottom: 2px;
   position: relative;
   bottom: 30px;
   position: relative;
+  transition: all 1s ease-in;
 }
 
 .card-body {
-  position: relative;
-  bottom: 30px;
-  transition: all 1s ease-in-out;
+
+
 }
 
 .butan-member:focus {
@@ -5291,6 +5316,8 @@ padding-left: 20px;
 
 .footer-link {
   color: var(--foter-color);
+  font-size: 15px;
+
 }
 
 .footer-link:hover {
@@ -5311,9 +5338,11 @@ padding-left: 20px;
   flex-direction: column;
   color: var(--foter-color);
   font-family: var(--font-medium);
-  font-weight: 700;
-  padding-top: 5px;
-  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+
+  font-size: px;
   text-transform: uppercase;
 }
 
@@ -5331,6 +5360,7 @@ padding-left: 20px;
   border-radius: 10px;
   outline: none;
   box-shadow: none;
+
 
 }
 
@@ -5352,9 +5382,9 @@ padding-left: 20px;
   width: 3rem;
   border: 2px solid var(--color-two);
   height: 2.7rem;
-  left: 70%;
-  border-radius: 6px;
-  bottom: 52.5%;
+  left: 75%;
+  border-radius: 9px;
+  bottom: 49%;
   position: absolute;
 }
 
@@ -5457,7 +5487,9 @@ padding-left: 20px;
 
 @media (min-width: 768px) and (max-width: 992px) {
 
+.footer-fag{
 
+}
   .footer-logo {
     display: flex;
     margin-left: auto;
